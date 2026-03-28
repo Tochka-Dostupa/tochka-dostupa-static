@@ -3,7 +3,7 @@
     {
       "title": "Приоритетные",
       "searchTerms": ["Аптеки", "Больницы", "Клиники", "Продукты"],
-      "icon": "priority",
+      "icon": "star",
       "default": true
     }
   ]
