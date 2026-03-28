@@ -5,6 +5,91 @@
       "searchTerms": ["Аптеки", "Больницы", "Клиники", "Продукты"],
       "icon": "star",
       "default": true
+    },
+    {
+      "title": "Где поесть",
+      "searchTerms": ["Где поесть"],
+      "icon": "food"
+    },
+    {
+      "title": "Продукты",
+      "searchTerms": ["Продукты"],
+      "icon": "grocery"
+    },
+    {
+      "title": "Аптеки",
+      "searchTerms": ["Аптеки"],
+      "icon": "pharmacy"
+    },
+    {
+      "title": "Красота",
+      "searchTerms": ["Красота"],
+      "icon": "beauty"
+    },
+    {
+      "title": "Банкоматы",
+      "searchTerms": ["Банкоматы"],
+      "icon": "atm"
+    },
+    {
+      "title": "АЗС",
+      "searchTerms": ["АЗС"],
+      "icon": "gas"
+    },
+    {
+      "title": "Больницы",
+      "searchTerms": ["Больницы"],
+      "icon": "hospital"
+    },
+    {
+      "title": "Гостиницы",
+      "searchTerms": ["Гостиницы"],
+      "icon": "hotel"
+    },
+    {
+      "title": "Бары и пабы",
+      "searchTerms": ["Бары и пабы"],
+      "icon": "bar"
+    },
+    {
+      "title": "Торговый центр",
+      "searchTerms": ["Торговый центр"],
+      "icon": "mall"
+    },
+    {
+      "title": "Кинотеатры",
+      "searchTerms": ["Кинотеатры"],
+      "icon": "cinema"
+    },
+    {
+      "title": "Доставка еды",
+      "searchTerms": ["Доставка еды"],
+      "icon": "delivery"
+    },
+    {
+      "title": "Автомойки",
+      "searchTerms": ["Автомойки"],
+      "icon": "carWash"
+    },
+    {
+      "title": "Автосервисы",
+      "searchTerms": ["Автосервисы"],
+      "icon": "carService"
+    },
+    {
+      "title": "Фитнес",
+      "searchTerms": ["Фитнес"],
+      "icon": "fitness"
+    },
+    {
+      "title": "Что посетить",
+      "searchTerms": ["Что посетить"],
+      "icon": "visit"
+    },
+    {
+      "title": "Еда на вынос",
+      "searchTerms": ["Еда на вынос"],
+      "icon": "mall"
     }
   ]
 }
