@@ -2,7 +2,7 @@
   "categories": [
     {
       "title": "Приоритетные",
-      "searchTerms": ["МФЦ", "полилиника"],
+      "searchTerms": ["МФЦ", "поликлиника"],
       "icon": "star",
       "default": true
     },
