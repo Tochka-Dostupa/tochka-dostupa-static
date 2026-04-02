@@ -24,7 +24,7 @@
     {
       "title": "Транспорт",
       "searchTerms": ["Станция"],
-      "icon": "bus"
+      "icon": "0xE800"
     },
     {
       "title": "Банки",
@@ -39,7 +39,7 @@
     {
       "title": "Культура",
       "searchTerms": ["Музей", "Выставка", "Театры"],
-      "icon": "museum"
+      "icon": "0xE82C"
     },
     {
       "title": "Спорт",
