@@ -1,0 +1,122 @@
+{
+  "_comment": "Категории мест для режима Проверенные. Поле searchTerms — список поисковых запросов из CategoryRegistry/priority_config, которые автоматически присваивают эту категорию при сохранении места в БД.",
+  "version": 1,
+  "categories": [
+    {
+      "internalName": "food",
+      "title": "Еда и напитки",
+      "icon": "food",
+      "searchTerms": [
+        "Где поесть",
+        "Бары и пабы",
+        "Доставка еды",
+        "Еда на вынос"
+      ]
+    },
+    {
+      "internalName": "grocery",
+      "title": "Продукты",
+      "icon": "grocery",
+      "searchTerms": [
+        "Продукты"
+      ]
+    },
+    {
+      "internalName": "pharmacy",
+      "title": "Аптеки",
+      "icon": "pharmacy",
+      "searchTerms": [
+        "Аптеки"
+      ]
+    },
+    {
+      "internalName": "health",
+      "title": "Медицина",
+      "icon": "hospital",
+      "searchTerms": [
+        "Больницы",
+        "поликлиника"
+      ]
+    },
+    {
+      "internalName": "beauty",
+      "title": "Красота",
+      "icon": "beauty",
+      "searchTerms": [
+        "Красота"
+      ]
+    },
+    {
+      "internalName": "finance",
+      "title": "Финансы",
+      "icon": "atm",
+      "searchTerms": [
+        "Банкоматы",
+        "МФЦ"
+      ]
+    },
+    {
+      "internalName": "gas",
+      "title": "АЗС",
+      "icon": "gas",
+      "searchTerms": [
+        "АЗС"
+      ]
+    },
+    {
+      "internalName": "hotel",
+      "title": "Гостиницы",
+      "icon": "hotel",
+      "searchTerms": [
+        "Гостиницы"
+      ]
+    },
+    {
+      "internalName": "mall",
+      "title": "Торговля",
+      "icon": "mall",
+      "searchTerms": [
+        "Торговый центр"
+      ]
+    },
+    {
+      "internalName": "entertainment",
+      "title": "Развлечения",
+      "icon": "cinema",
+      "searchTerms": [
+        "Кинотеатры"
+      ]
+    },
+    {
+      "internalName": "auto",
+      "title": "Авто",
+      "icon": "gas",
+      "searchTerms": [
+        "Автомойки",
+        "Автосервисы"
+      ]
+    },
+    {
+      "internalName": "fitness",
+      "title": "Спорт",
+      "icon": "fitness",
+      "searchTerms": [
+        "Фитнес"
+      ]
+    },
+    {
+      "internalName": "culture",
+      "title": "Культура",
+      "icon": "visit",
+      "searchTerms": [
+        "Что посетить"
+      ]
+    },
+    {
+      "internalName": "other",
+      "title": "Прочее",
+      "icon": null,
+      "searchTerms": []
+    }
+  ]
+}
