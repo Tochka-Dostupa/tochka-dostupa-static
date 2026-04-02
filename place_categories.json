@@ -47,11 +47,10 @@
       ]
     },
     {
-      "internalName": "finance",
-      "title": "Финансы",
-      "icon": "atm",
+      "internalName": "МФЦ",
+      "title": "МФЦ",
+      "icon": "visit",
       "searchTerms": [
-        "Банкоматы",
         "МФЦ"
       ]
     },
@@ -84,32 +83,19 @@
       "title": "Развлечения",
       "icon": "cinema",
       "searchTerms": [
+        "Театры",
+        "Цирк",
         "Кинотеатры"
       ]
     },
     {
-      "internalName": "auto",
-      "title": "Авто",
-      "icon": "gas",
-      "searchTerms": [
-        "Автомойки",
-        "Автосервисы"
-      ]
-    },
-    {
-      "internalName": "fitness",
+      "internalName": "sport",
       "title": "Спорт",
       "icon": "fitness",
       "searchTerms": [
+        "Бассейн",
+        "Спорт",
         "Фитнес"
-      ]
-    },
-    {
-      "internalName": "culture",
-      "title": "Культура",
-      "icon": "visit",
-      "searchTerms": [
-        "Что посетить"
       ]
     },
     {
