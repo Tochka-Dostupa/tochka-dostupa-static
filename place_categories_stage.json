@@ -1,6 +1,6 @@
 {
   "_comment": "Категории мест для режима Проверенные. Поле searchTerms — список поисковых запросов из CategoryRegistry/priority_config, которые автоматически присваивают эту категорию при сохранении места в БД.",
-  "version": 1,
+  "version": 1.1,
   "categories": [
     {
       "internalName": "food",
@@ -30,72 +30,11 @@
       ]
     },
     {
-      "internalName": "health",
-      "title": "Медицина",
-      "icon": "hospital",
-      "searchTerms": [
-        "Больницы",
-        "поликлиника"
-      ]
-    },
-    {
-      "internalName": "beauty",
-      "title": "Красота",
-      "icon": "beauty",
-      "searchTerms": [
-        "Красота"
-      ]
-    },
-    {
-      "internalName": "МФЦ",
-      "title": "МФЦ",
-      "icon": "visit",
-      "searchTerms": [
-        "МФЦ"
-      ]
-    },
-    {
-      "internalName": "gas",
-      "title": "АЗС",
-      "icon": "gas",
-      "searchTerms": [
-        "АЗС"
-      ]
-    },
-    {
-      "internalName": "hotel",
-      "title": "Гостиницы",
-      "icon": "hotel",
-      "searchTerms": [
-        "Гостиницы"
-      ]
-    },
-    {
       "internalName": "mall",
-      "title": "Торговля",
+      "title": "ТЦ",
       "icon": "mall",
       "searchTerms": [
         "Торговый центр"
-      ]
-    },
-    {
-      "internalName": "entertainment",
-      "title": "Развлечения",
-      "icon": "cinema",
-      "searchTerms": [
-        "Театры",
-        "Цирк",
-        "Кинотеатры"
-      ]
-    },
-    {
-      "internalName": "sport",
-      "title": "Спорт",
-      "icon": "fitness",
-      "searchTerms": [
-        "Бассейн",
-        "Спорт",
-        "Фитнес"
       ]
     },
     {
