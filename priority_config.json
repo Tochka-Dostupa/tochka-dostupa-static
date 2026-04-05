@@ -22,24 +22,34 @@
       "icon": "pharmacy"
     },
     {
-      "title": "Красота",
-      "searchTerms": ["Красота"],
-      "icon": "beauty"
+      "title": "Транспорт",
+      "searchTerms": ["Станция"],
+      "icon": "0xE800"
     },
     {
-      "title": "Банкоматы",
-      "searchTerms": ["Банкоматы"],
+      "title": "Банки",
+      "searchTerms": ["Банки"],
       "icon": "atm"
-    },
-    {
-      "title": "АЗС",
-      "searchTerms": ["АЗС"],
-      "icon": "gas"
     },
     {
       "title": "Больницы",
       "searchTerms": ["Больницы"],
       "icon": "hospital"
+    },
+    {
+      "title": "Культура",
+      "searchTerms": ["Музей", "Выставка", "Театры"],
+      "icon": "0xE82C"
+    },
+    {
+      "title": "Спорт",
+      "searchTerms": ["Фитнес", "Спорт", "Бассейн"],
+      "icon": "fitness"
+    },
+    {
+      "title": "Красота",
+      "searchTerms": ["Красота"],
+      "icon": "beauty"
     },
     {
       "title": "Гостиницы",
@@ -57,39 +67,9 @@
       "icon": "mall"
     },
     {
-      "title": "Кинотеатры",
-      "searchTerms": ["Кинотеатры"],
+      "title": "Развлечения",
+      "searchTerms": ["Кинотеатры", "Цирк"],
       "icon": "cinema"
-    },
-    {
-      "title": "Доставка еды",
-      "searchTerms": ["Доставка еды"],
-      "icon": "delivery"
-    },
-    {
-      "title": "Автомойки",
-      "searchTerms": ["Автомойки"],
-      "icon": "carWash"
-    },
-    {
-      "title": "Автосервисы",
-      "searchTerms": ["Автосервисы"],
-      "icon": "carService"
-    },
-    {
-      "title": "Фитнес",
-      "searchTerms": ["Фитнес"],
-      "icon": "fitness"
-    },
-    {
-      "title": "Что посетить",
-      "searchTerms": ["Что посетить"],
-      "icon": "visit"
-    },
-    {
-      "title": "Еда на вынос",
-      "searchTerms": ["Еда на вынос"],
-      "icon": "mall"
     }
   ]
 }
