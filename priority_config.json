@@ -1,6 +1,12 @@
 {
   "categories": [
     {
+      "title": "Приоритетные",
+      "searchTerms": ["МФЦ", "поликлиника"],
+      "icon": "star",
+      "default": true
+    },
+    {
       "title": "Где поесть",
       "searchTerms": ["Где поесть"],
       "icon": "food"
