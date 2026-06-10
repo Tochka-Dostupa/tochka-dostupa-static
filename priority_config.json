@@ -1,15 +1,10 @@
 {
   "categories": [
     {
-      "title": "Приоритетные",
-      "searchTerms": ["МФЦ", "поликлиника"],
-      "icon": "star",
-      "default": true
-    },
-    {
       "title": "Где поесть",
       "searchTerms": ["Где поесть"],
       "icon": "food"
+      "default": true
     },
     {
       "title": "Продукты",
@@ -22,6 +17,11 @@
       "icon": "pharmacy"
     },
     {
+      "title": "Медицина",
+      "searchTerms": ["Больницы", "Медицинский центр", "Поликлиника" , "реабилитационный центр"],
+      "icon": "hospital"
+    },
+    {
       "title": "Транспорт",
       "searchTerms": ["Станция", "ржд"],
       "icon": "0xE800"
@@ -30,11 +30,6 @@
       "title": "Банки",
       "searchTerms": ["Банки"],
       "icon": "atm"
-    },
-    {
-      "title": "Больницы",
-      "searchTerms": ["Больницы", "Медицинский центр"],
-      "icon": "hospital"
     },
     {
       "title": "Культура",
