@@ -40,12 +40,12 @@
       "title": "Пункты выдачи",
       "icon": "delivery",
       "searchTerms": ["Пункты выдачи интернет-заказов", "Пункт выдачи интернет-заказов", "Экспресс-доставка"]
-    }
-    { "internalName": "bank", 
+    },
+    { "internalName": "bank",
       "title": "Банки", 
       "icon": "atm",
       "searchTerms": ["Банки", "Банкоматы", "Микрофинансовая организация"]
-    }
+    },
     {
       "internalName": "other",
       "title": "Прочее",
