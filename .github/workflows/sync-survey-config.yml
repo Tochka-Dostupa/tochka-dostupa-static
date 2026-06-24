@@ -1,0 +1,48 @@
+name: Sync survey config mirror
+
+# Снимает актуальный конфиг анкеты с прод/staging-бэка в этот репозиторий.
+# Файлы — фолбэк мобилы (читает бэк первым, GitHub-raw — если бэк недоступен).
+# Эндпоинт /user/survey/config публичный → секреты не нужны.
+
+on:
+  schedule:
+    - cron: '0 3 * * *' # каждый день в 03:00 UTC
+  workflow_dispatch: {} # ручной запуск из вкладки Actions
+
+permissions:
+  contents: write
+
+concurrency:
+  group: sync-survey-config
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Fetch prod + staging survey config
+        run: |
+          set -euo pipefail
+          fetch() {
+            # $1 = URL, $2 = выходной файл. Пишем только валидный JSON в том же
+            # формате, что ручной снимок (2 пробела + перевод строки) — без ложных диффов.
+            curl -sf --max-time 30 "$1" \
+              | node -e 'let s="";process.stdin.on("data",d=>s+=d).on("end",()=>{const c=JSON.parse(s);if(!c.sections||!c.surveyVersion)throw new Error("bad config");require("fs").writeFileSync(process.argv[1],JSON.stringify(c,null,2)+"\n")})' "$2"
+          }
+          fetch https://api.tochka-dostupa.app/user/survey/config survey_config.json
+          fetch https://staging-api.tochka-dostupa.app/user/survey/config survey_config_stage.json
+
+      - name: Commit if changed
+        run: |
+          set -euo pipefail
+          if [ -z "$(git status --porcelain survey_config.json survey_config_stage.json)" ]; then
+            echo "Конфиг не менялся — коммит не нужен."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add survey_config.json survey_config_stage.json
+          git commit -m "chore(survey): auto-sync config mirror (prod+stage)"
+          git push
