@@ -1,5 +1,5 @@
 {
-  "surveyVersion": "324b6c830156",
+  "surveyVersion": "9bd28b8fc15b",
   "aggregation": {
     "baseScope": "entrance",
     "loweringScopes": [
@@ -20,6 +20,7 @@
       "photoRequired": true,
       "createdAt": "2026-06-17T14:06:14.165Z",
       "updatedAt": "2026-06-17T14:06:14.165Z",
+      "photoRequiredIf": null,
       "questions": [
         {
           "id": "b56545c8-6303-4db4-b8d2-2319ee9440e9",
@@ -42,7 +43,8 @@
               "meta": null,
               "defaultVerdict": null,
               "createdAt": "2026-06-17T14:06:14.165Z",
-              "updatedAt": "2026-06-17T14:06:14.165Z"
+              "updatedAt": "2026-06-17T14:06:14.165Z",
+              "visibleIf": null
             },
             {
               "id": "faca9e93-b989-4814-bbad-c7a93c93df20",
@@ -53,7 +55,8 @@
               "meta": null,
               "defaultVerdict": null,
               "createdAt": "2026-06-17T14:06:14.165Z",
-              "updatedAt": "2026-06-17T14:06:14.165Z"
+              "updatedAt": "2026-06-17T14:06:14.165Z",
+              "visibleIf": null
             },
             {
               "id": "0009b9a4-6e02-4b90-b192-f319c94f70af",
@@ -64,7 +67,8 @@
               "meta": null,
               "defaultVerdict": null,
               "createdAt": "2026-06-17T14:06:14.165Z",
-              "updatedAt": "2026-06-17T14:06:14.165Z"
+              "updatedAt": "2026-06-17T14:06:14.165Z",
+              "visibleIf": null
             }
           ]
         },
@@ -89,7 +93,8 @@
               "meta": null,
               "defaultVerdict": null,
               "createdAt": "2026-06-17T14:06:14.165Z",
-              "updatedAt": "2026-06-17T14:06:14.165Z"
+              "updatedAt": "2026-06-17T14:06:14.165Z",
+              "visibleIf": null
             },
             {
               "id": "5c080c12-76aa-47d2-b5dd-ea8bbbd44e2e",
@@ -100,7 +105,8 @@
               "meta": null,
               "defaultVerdict": null,
               "createdAt": "2026-06-17T14:06:14.165Z",
-              "updatedAt": "2026-06-17T14:06:14.165Z"
+              "updatedAt": "2026-06-17T14:06:14.165Z",
+              "visibleIf": null
             },
             {
               "id": "ff5093ec-ec96-49f9-9a5b-457019b00227",
@@ -111,7 +117,8 @@
               "meta": null,
               "defaultVerdict": null,
               "createdAt": "2026-06-17T14:06:14.165Z",
-              "updatedAt": "2026-06-17T14:06:14.165Z"
+              "updatedAt": "2026-06-17T14:06:14.165Z",
+              "visibleIf": null
             },
             {
               "id": "284b0afb-a993-437c-8d8a-4cdd1dba25cc",
@@ -122,7 +129,8 @@
               "meta": null,
               "defaultVerdict": null,
               "createdAt": "2026-06-17T14:06:14.165Z",
-              "updatedAt": "2026-06-17T14:06:14.165Z"
+              "updatedAt": "2026-06-17T14:06:14.165Z",
+              "visibleIf": null
             }
           ]
         },
@@ -147,7 +155,8 @@
               "meta": null,
               "defaultVerdict": null,
               "createdAt": "2026-06-17T14:06:14.165Z",
-              "updatedAt": "2026-06-17T14:06:14.165Z"
+              "updatedAt": "2026-06-17T14:06:14.165Z",
+              "visibleIf": null
             },
             {
               "id": "e4c6f310-8d02-4d51-a683-f8fff28f718a",
@@ -158,7 +167,8 @@
               "meta": null,
               "defaultVerdict": null,
               "createdAt": "2026-06-17T14:06:14.165Z",
-              "updatedAt": "2026-06-17T14:06:14.165Z"
+              "updatedAt": "2026-06-17T14:06:14.165Z",
+              "visibleIf": null
             },
             {
               "id": "104e27a2-f078-4dfd-9792-65721f2386c8",
@@ -169,7 +179,8 @@
               "meta": null,
               "defaultVerdict": null,
               "createdAt": "2026-06-17T14:06:14.165Z",
-              "updatedAt": "2026-06-17T14:06:14.165Z"
+              "updatedAt": "2026-06-17T14:06:14.165Z",
+              "visibleIf": null
             },
             {
               "id": "56f061c6-6006-4903-ac48-8822b9fbc7c4",
@@ -180,7 +191,13 @@
               "meta": null,
               "defaultVerdict": null,
               "createdAt": "2026-06-17T14:06:14.165Z",
-              "updatedAt": "2026-06-17T14:06:14.165Z"
+              "updatedAt": "2026-06-17T14:06:14.165Z",
+              "visibleIf": {
+                "selected": {
+                  "option": "call_button",
+                  "question": "entrance_elements"
+                }
+              }
             },
             {
               "id": "0fba47f1-e0cc-455f-bb2b-ac5c3dbbbae1",
@@ -191,7 +208,13 @@
               "meta": null,
               "defaultVerdict": null,
               "createdAt": "2026-06-17T14:06:14.165Z",
-              "updatedAt": "2026-06-17T14:06:14.165Z"
+              "updatedAt": "2026-06-17T14:06:14.165Z",
+              "visibleIf": {
+                "selected": {
+                  "option": "ramp",
+                  "question": "entrance_elements"
+                }
+              }
             },
             {
               "id": "6e115926-47da-47d1-b625-3f3ac0dadbcb",
@@ -202,7 +225,13 @@
               "meta": null,
               "defaultVerdict": null,
               "createdAt": "2026-06-17T14:06:14.165Z",
-              "updatedAt": "2026-06-17T14:06:14.165Z"
+              "updatedAt": "2026-06-17T14:06:14.165Z",
+              "visibleIf": {
+                "selected": {
+                  "option": "ramp",
+                  "question": "entrance_elements"
+                }
+              }
             },
             {
               "id": "b7c21659-89a3-412a-afbb-36495d7f61d9",
@@ -213,7 +242,13 @@
               "meta": null,
               "defaultVerdict": null,
               "createdAt": "2026-06-17T14:06:14.165Z",
-              "updatedAt": "2026-06-17T14:06:14.165Z"
+              "updatedAt": "2026-06-17T14:06:14.165Z",
+              "visibleIf": {
+                "selected": {
+                  "option": "ramp",
+                  "question": "entrance_elements"
+                }
+              }
             },
             {
               "id": "b8e15f25-8aca-48c2-a7b3-77654866e9f9",
@@ -224,7 +259,13 @@
               "meta": null,
               "defaultVerdict": null,
               "createdAt": "2026-06-17T14:06:14.165Z",
-              "updatedAt": "2026-06-17T14:06:14.165Z"
+              "updatedAt": "2026-06-17T14:06:14.165Z",
+              "visibleIf": {
+                "selected": {
+                  "option": "ramp",
+                  "question": "entrance_elements"
+                }
+              }
             },
             {
               "id": "2f15b330-b07b-4da0-9915-a79de0b51190",
@@ -235,7 +276,13 @@
               "meta": null,
               "defaultVerdict": null,
               "createdAt": "2026-06-17T14:06:14.165Z",
-              "updatedAt": "2026-06-17T14:06:14.165Z"
+              "updatedAt": "2026-06-17T14:06:14.165Z",
+              "visibleIf": {
+                "selected": {
+                  "option": "lift_platform",
+                  "question": "entrance_elements"
+                }
+              }
             }
           ]
         }
@@ -250,6 +297,7 @@
       "photoRequired": true,
       "createdAt": "2026-06-17T14:06:14.165Z",
       "updatedAt": "2026-06-17T14:06:14.165Z",
+      "photoRequiredIf": null,
       "questions": [
         {
           "id": "a84807e6-3897-4ee5-aaaf-2c66df2bdcbc",
@@ -272,7 +320,8 @@
               "meta": null,
               "defaultVerdict": null,
               "createdAt": "2026-06-17T14:06:14.165Z",
-              "updatedAt": "2026-06-17T14:06:14.165Z"
+              "updatedAt": "2026-06-17T14:06:14.165Z",
+              "visibleIf": null
             },
             {
               "id": "1c1f41d6-2350-4146-b0cb-d1de91975385",
@@ -283,7 +332,8 @@
               "meta": null,
               "defaultVerdict": null,
               "createdAt": "2026-06-17T14:06:14.165Z",
-              "updatedAt": "2026-06-17T14:06:14.165Z"
+              "updatedAt": "2026-06-17T14:06:14.165Z",
+              "visibleIf": null
             },
             {
               "id": "9e45ed2a-0bd4-4bc0-bf00-211ffa805e02",
@@ -294,7 +344,8 @@
               "meta": null,
               "defaultVerdict": null,
               "createdAt": "2026-06-17T14:06:14.165Z",
-              "updatedAt": "2026-06-17T14:06:14.165Z"
+              "updatedAt": "2026-06-17T14:06:14.165Z",
+              "visibleIf": null
             }
           ]
         },
@@ -306,7 +357,12 @@
           "controlType": "single",
           "required": false,
           "sortOrder": 2,
-          "visibleIf": null,
+          "visibleIf": {
+            "selected": {
+              "option": "lift",
+              "question": "movement_access"
+            }
+          },
           "createdAt": "2026-06-17T14:06:14.165Z",
           "updatedAt": "2026-06-17T14:06:14.165Z",
           "options": [
@@ -319,7 +375,8 @@
               "meta": null,
               "defaultVerdict": null,
               "createdAt": "2026-06-17T14:06:14.165Z",
-              "updatedAt": "2026-06-17T14:06:14.165Z"
+              "updatedAt": "2026-06-17T14:06:14.165Z",
+              "visibleIf": null
             },
             {
               "id": "c4c833c2-e939-4d8f-87ea-2cf955477858",
@@ -330,7 +387,8 @@
               "meta": null,
               "defaultVerdict": null,
               "createdAt": "2026-06-17T14:06:14.165Z",
-              "updatedAt": "2026-06-17T14:06:14.165Z"
+              "updatedAt": "2026-06-17T14:06:14.165Z",
+              "visibleIf": null
             },
             {
               "id": "7956f860-f16c-4e01-bf5c-1931237811de",
@@ -341,7 +399,8 @@
               "meta": null,
               "defaultVerdict": null,
               "createdAt": "2026-06-17T14:06:14.165Z",
-              "updatedAt": "2026-06-17T14:06:14.165Z"
+              "updatedAt": "2026-06-17T14:06:14.165Z",
+              "visibleIf": null
             }
           ]
         },
@@ -366,7 +425,8 @@
               "meta": null,
               "defaultVerdict": null,
               "createdAt": "2026-06-17T14:06:14.165Z",
-              "updatedAt": "2026-06-17T14:06:14.165Z"
+              "updatedAt": "2026-06-17T14:06:14.165Z",
+              "visibleIf": null
             },
             {
               "id": "43bb9573-7af5-49bb-89d4-cb8c5ebcfa01",
@@ -377,7 +437,8 @@
               "meta": null,
               "defaultVerdict": null,
               "createdAt": "2026-06-17T14:06:14.165Z",
-              "updatedAt": "2026-06-17T14:06:14.165Z"
+              "updatedAt": "2026-06-17T14:06:14.165Z",
+              "visibleIf": null
             },
             {
               "id": "f7548800-c42a-468b-82ed-b3f2d6e04328",
@@ -388,18 +449,25 @@
               "meta": null,
               "defaultVerdict": null,
               "createdAt": "2026-06-17T14:06:14.165Z",
-              "updatedAt": "2026-06-17T14:06:14.165Z"
+              "updatedAt": "2026-06-17T14:06:14.165Z",
+              "visibleIf": null
             },
             {
               "id": "a37f190c-48b9-4c3b-bdbf-4400e4e2abab",
               "questionId": "26efc81e-3f2a-4827-abd3-02daf5429013",
               "key": "compact_lift",
-              "label": "Компактный лифт",
+              "label": "Лифт для 1 коляски",
               "sortOrder": 4,
               "meta": null,
               "defaultVerdict": null,
               "createdAt": "2026-06-17T14:06:14.165Z",
-              "updatedAt": "2026-06-17T14:06:14.165Z"
+              "updatedAt": "2026-06-17T14:06:14.165Z",
+              "visibleIf": {
+                "selected": {
+                  "option": "lift",
+                  "question": "movement_access"
+                }
+              }
             }
           ]
         }
@@ -414,6 +482,22 @@
       "photoRequired": true,
       "createdAt": "2026-06-17T14:06:14.165Z",
       "updatedAt": "2026-06-17T14:06:14.165Z",
+      "photoRequiredIf": {
+        "any": [
+          {
+            "selected": {
+              "option": "equipped",
+              "question": "toilet_availability"
+            }
+          },
+          {
+            "selected": {
+              "option": "regular",
+              "question": "toilet_availability"
+            }
+          }
+        ]
+      },
       "questions": [
         {
           "id": "73ae16fb-4011-4780-b885-14df5c6ae84c",
@@ -436,7 +520,8 @@
               "meta": null,
               "defaultVerdict": null,
               "createdAt": "2026-06-17T14:06:14.165Z",
-              "updatedAt": "2026-06-17T14:06:14.165Z"
+              "updatedAt": "2026-06-17T14:06:14.165Z",
+              "visibleIf": null
             },
             {
               "id": "29bb0a1b-2530-4e03-9ea6-28b1dedcc892",
@@ -447,7 +532,8 @@
               "meta": null,
               "defaultVerdict": null,
               "createdAt": "2026-06-17T14:06:14.165Z",
-              "updatedAt": "2026-06-17T14:06:14.165Z"
+              "updatedAt": "2026-06-17T14:06:14.165Z",
+              "visibleIf": null
             },
             {
               "id": "dbd31b1b-c323-488a-a6e1-0b297817461d",
@@ -458,7 +544,8 @@
               "meta": null,
               "defaultVerdict": null,
               "createdAt": "2026-06-17T14:06:14.165Z",
-              "updatedAt": "2026-06-17T14:06:14.165Z"
+              "updatedAt": "2026-06-17T14:06:14.165Z",
+              "visibleIf": null
             }
           ]
         },
@@ -470,7 +557,22 @@
           "controlType": "single",
           "required": false,
           "sortOrder": 2,
-          "visibleIf": null,
+          "visibleIf": {
+            "any": [
+              {
+                "selected": {
+                  "option": "equipped",
+                  "question": "toilet_availability"
+                }
+              },
+              {
+                "selected": {
+                  "option": "regular",
+                  "question": "toilet_availability"
+                }
+              }
+            ]
+          },
           "createdAt": "2026-06-17T14:06:14.165Z",
           "updatedAt": "2026-06-17T14:06:14.165Z",
           "options": [
@@ -483,7 +585,8 @@
               "meta": null,
               "defaultVerdict": null,
               "createdAt": "2026-06-17T14:06:14.165Z",
-              "updatedAt": "2026-06-17T14:06:14.165Z"
+              "updatedAt": "2026-06-17T14:06:14.165Z",
+              "visibleIf": null
             },
             {
               "id": "c496dace-bb28-4dad-b2b6-8cced3024b9f",
@@ -494,7 +597,8 @@
               "meta": null,
               "defaultVerdict": null,
               "createdAt": "2026-06-17T14:06:14.165Z",
-              "updatedAt": "2026-06-17T14:06:14.165Z"
+              "updatedAt": "2026-06-17T14:06:14.165Z",
+              "visibleIf": null
             },
             {
               "id": "559feacc-b171-4595-a9eb-af6f587ca2b8",
@@ -505,7 +609,8 @@
               "meta": null,
               "defaultVerdict": null,
               "createdAt": "2026-06-17T14:06:14.165Z",
-              "updatedAt": "2026-06-17T14:06:14.165Z"
+              "updatedAt": "2026-06-17T14:06:14.165Z",
+              "visibleIf": null
             }
           ]
         },
@@ -517,7 +622,12 @@
           "controlType": "multi",
           "required": false,
           "sortOrder": 3,
-          "visibleIf": null,
+          "visibleIf": {
+            "selected": {
+              "option": "equipped",
+              "question": "toilet_availability"
+            }
+          },
           "createdAt": "2026-06-17T14:06:14.165Z",
           "updatedAt": "2026-06-17T14:06:14.165Z",
           "options": [
@@ -530,7 +640,8 @@
               "meta": null,
               "defaultVerdict": null,
               "createdAt": "2026-06-17T14:06:14.165Z",
-              "updatedAt": "2026-06-17T14:06:14.165Z"
+              "updatedAt": "2026-06-17T14:06:14.165Z",
+              "visibleIf": null
             },
             {
               "id": "c364fffb-e7b6-425e-b634-2ea2b022a99b",
@@ -541,7 +652,8 @@
               "meta": null,
               "defaultVerdict": null,
               "createdAt": "2026-06-17T14:06:14.165Z",
-              "updatedAt": "2026-06-17T14:06:14.165Z"
+              "updatedAt": "2026-06-17T14:06:14.165Z",
+              "visibleIf": null
             },
             {
               "id": "8fb98279-e940-4209-b584-1d4eb42aa584",
@@ -552,7 +664,20 @@
               "meta": null,
               "defaultVerdict": null,
               "createdAt": "2026-06-17T14:06:14.165Z",
-              "updatedAt": "2026-06-17T14:06:14.165Z"
+              "updatedAt": "2026-06-17T14:06:14.165Z",
+              "visibleIf": null
+            },
+            {
+              "id": "33b2c733-c90b-457d-b185-f100d7fc5992",
+              "questionId": "1a137c88-4725-4288-b9c6-4690cf59fb04",
+              "key": "hard_reach",
+              "label": "Тяжело добраться до туалета",
+              "sortOrder": 90,
+              "meta": null,
+              "defaultVerdict": null,
+              "createdAt": "2026-06-24T08:45:22.123Z",
+              "updatedAt": "2026-06-24T08:45:22.123Z",
+              "visibleIf": null
             }
           ]
         },
@@ -564,7 +689,12 @@
           "controlType": "multi",
           "required": false,
           "sortOrder": 4,
-          "visibleIf": null,
+          "visibleIf": {
+            "selected": {
+              "option": "regular",
+              "question": "toilet_availability"
+            }
+          },
           "createdAt": "2026-06-17T14:06:14.165Z",
           "updatedAt": "2026-06-17T14:06:14.165Z",
           "options": [
@@ -577,7 +707,8 @@
               "meta": null,
               "defaultVerdict": null,
               "createdAt": "2026-06-17T14:06:14.165Z",
-              "updatedAt": "2026-06-17T14:06:14.165Z"
+              "updatedAt": "2026-06-17T14:06:14.165Z",
+              "visibleIf": null
             },
             {
               "id": "5e3736b7-454e-4336-bb3e-386bc5fa19a3",
@@ -588,18 +719,32 @@
               "meta": null,
               "defaultVerdict": null,
               "createdAt": "2026-06-17T14:06:14.165Z",
-              "updatedAt": "2026-06-17T14:06:14.165Z"
+              "updatedAt": "2026-06-17T14:06:14.165Z",
+              "visibleIf": null
             },
             {
               "id": "cb94c429-c550-4b72-b5f6-12ca527ece99",
               "questionId": "c671723b-10db-482d-a208-5955c49bcf53",
               "key": "high",
-              "label": "Предметы расположены высоко",
+              "label": "Элементы расположены высоко",
               "sortOrder": 3,
               "meta": null,
               "defaultVerdict": null,
               "createdAt": "2026-06-17T14:06:14.165Z",
-              "updatedAt": "2026-06-17T14:06:14.165Z"
+              "updatedAt": "2026-06-17T14:06:14.165Z",
+              "visibleIf": null
+            },
+            {
+              "id": "6c372681-0e44-4cdb-abe9-6e71fa21f780",
+              "questionId": "c671723b-10db-482d-a208-5955c49bcf53",
+              "key": "hard_reach",
+              "label": "Тяжело добраться до туалета",
+              "sortOrder": 90,
+              "meta": null,
+              "defaultVerdict": null,
+              "createdAt": "2026-06-24T08:45:22.123Z",
+              "updatedAt": "2026-06-24T08:45:22.123Z",
+              "visibleIf": null
             }
           ]
         }
@@ -614,6 +759,7 @@
       "photoRequired": false,
       "createdAt": "2026-06-17T14:06:14.165Z",
       "updatedAt": "2026-06-17T14:06:14.165Z",
+      "photoRequiredIf": null,
       "questions": [
         {
           "id": "95ce76f1-6154-466e-82d2-5d0fcda68642",
@@ -636,7 +782,8 @@
               "meta": null,
               "defaultVerdict": null,
               "createdAt": "2026-06-17T14:06:14.165Z",
-              "updatedAt": "2026-06-17T14:06:14.165Z"
+              "updatedAt": "2026-06-17T14:06:14.165Z",
+              "visibleIf": null
             },
             {
               "id": "2fe52eb6-dce8-44c9-9a34-5ec7e0106a7d",
@@ -647,7 +794,8 @@
               "meta": null,
               "defaultVerdict": null,
               "createdAt": "2026-06-17T14:06:14.165Z",
-              "updatedAt": "2026-06-17T14:06:14.165Z"
+              "updatedAt": "2026-06-17T14:06:14.165Z",
+              "visibleIf": null
             },
             {
               "id": "8e91b0f6-78f2-412c-94b6-650a15edf472",
@@ -658,7 +806,20 @@
               "meta": null,
               "defaultVerdict": null,
               "createdAt": "2026-06-17T14:06:14.165Z",
-              "updatedAt": "2026-06-17T14:06:14.165Z"
+              "updatedAt": "2026-06-17T14:06:14.165Z",
+              "visibleIf": null
+            },
+            {
+              "id": "36c615ac-0ba8-44be-993f-53e458b071ae",
+              "questionId": "95ce76f1-6154-466e-82d2-5d0fcda68642",
+              "key": "none",
+              "label": "Нет парковки",
+              "sortOrder": 90,
+              "meta": null,
+              "defaultVerdict": null,
+              "createdAt": "2026-06-24T08:45:22.123Z",
+              "updatedAt": "2026-06-24T08:45:22.123Z",
+              "visibleIf": null
             }
           ]
         },
@@ -670,7 +831,28 @@
           "controlType": "multi",
           "required": false,
           "sortOrder": 2,
-          "visibleIf": null,
+          "visibleIf": {
+            "any": [
+              {
+                "selected": {
+                  "option": "disabled",
+                  "question": "parking_availability"
+                }
+              },
+              {
+                "selected": {
+                  "option": "dedicated",
+                  "question": "parking_availability"
+                }
+              },
+              {
+                "selected": {
+                  "option": "unorganized",
+                  "question": "parking_availability"
+                }
+              }
+            ]
+          },
           "createdAt": "2026-06-17T14:06:14.165Z",
           "updatedAt": "2026-06-17T14:06:14.165Z",
           "options": [
@@ -683,7 +865,8 @@
               "meta": null,
               "defaultVerdict": null,
               "createdAt": "2026-06-17T14:06:14.165Z",
-              "updatedAt": "2026-06-17T14:06:14.165Z"
+              "updatedAt": "2026-06-17T14:06:14.165Z",
+              "visibleIf": null
             },
             {
               "id": "98276d99-2e6f-416b-9b37-6b797b34bd0a",
@@ -694,7 +877,8 @@
               "meta": null,
               "defaultVerdict": null,
               "createdAt": "2026-06-17T14:06:14.165Z",
-              "updatedAt": "2026-06-17T14:06:14.165Z"
+              "updatedAt": "2026-06-17T14:06:14.165Z",
+              "visibleIf": null
             },
             {
               "id": "405bd07a-4096-4610-a292-51d3a8e2c4f8",
@@ -705,7 +889,8 @@
               "meta": null,
               "defaultVerdict": null,
               "createdAt": "2026-06-17T14:06:14.165Z",
-              "updatedAt": "2026-06-17T14:06:14.165Z"
+              "updatedAt": "2026-06-17T14:06:14.165Z",
+              "visibleIf": null
             }
           ]
         },
@@ -717,7 +902,28 @@
           "controlType": "multi",
           "required": false,
           "sortOrder": 3,
-          "visibleIf": null,
+          "visibleIf": {
+            "any": [
+              {
+                "selected": {
+                  "option": "disabled",
+                  "question": "parking_availability"
+                }
+              },
+              {
+                "selected": {
+                  "option": "dedicated",
+                  "question": "parking_availability"
+                }
+              },
+              {
+                "selected": {
+                  "option": "unorganized",
+                  "question": "parking_availability"
+                }
+              }
+            ]
+          },
           "createdAt": "2026-06-17T14:06:14.165Z",
           "updatedAt": "2026-06-17T14:06:14.165Z",
           "options": [
@@ -730,7 +936,8 @@
               "meta": null,
               "defaultVerdict": null,
               "createdAt": "2026-06-17T14:06:14.165Z",
-              "updatedAt": "2026-06-17T14:06:14.165Z"
+              "updatedAt": "2026-06-17T14:06:14.165Z",
+              "visibleIf": null
             },
             {
               "id": "480ffe5f-33c8-4124-a02c-04e4bfad091a",
@@ -741,7 +948,8 @@
               "meta": null,
               "defaultVerdict": null,
               "createdAt": "2026-06-17T14:06:14.165Z",
-              "updatedAt": "2026-06-17T14:06:14.165Z"
+              "updatedAt": "2026-06-17T14:06:14.165Z",
+              "visibleIf": null
             },
             {
               "id": "9839458a-bf48-44f0-aaef-36c3c18843c2",
@@ -752,7 +960,8 @@
               "meta": null,
               "defaultVerdict": null,
               "createdAt": "2026-06-17T14:06:14.165Z",
-              "updatedAt": "2026-06-17T14:06:14.165Z"
+              "updatedAt": "2026-06-17T14:06:14.165Z",
+              "visibleIf": null
             }
           ]
         }
@@ -767,6 +976,7 @@
       "photoRequired": false,
       "createdAt": "2026-06-17T14:06:14.165Z",
       "updatedAt": "2026-06-17T14:06:14.165Z",
+      "photoRequiredIf": null,
       "questions": [
         {
           "id": "11782c1b-20b9-4824-8ef3-007cec6f6b69",
@@ -789,7 +999,8 @@
               "meta": null,
               "defaultVerdict": null,
               "createdAt": "2026-06-17T14:06:14.165Z",
-              "updatedAt": "2026-06-17T14:06:14.165Z"
+              "updatedAt": "2026-06-17T14:06:14.165Z",
+              "visibleIf": null
             },
             {
               "id": "4ffcceb8-c46f-4c23-b64c-a85e950b0d34",
@@ -800,7 +1011,8 @@
               "meta": null,
               "defaultVerdict": null,
               "createdAt": "2026-06-17T14:06:14.165Z",
-              "updatedAt": "2026-06-17T14:06:14.165Z"
+              "updatedAt": "2026-06-17T14:06:14.165Z",
+              "visibleIf": null
             },
             {
               "id": "d0dc9a4d-11ef-4abf-a0dc-500e6ff2b903",
@@ -811,7 +1023,8 @@
               "meta": null,
               "defaultVerdict": null,
               "createdAt": "2026-06-18T08:41:08.746Z",
-              "updatedAt": "2026-06-18T08:41:08.746Z"
+              "updatedAt": "2026-06-18T08:41:08.746Z",
+              "visibleIf": null
             }
           ]
         }

@@ -1,5 +1,5 @@
 {
-  "surveyVersion": "324b6c830156",
+  "surveyVersion": "e9717a47c8fd",
   "aggregation": {
     "baseScope": "entrance",
     "loweringScopes": [
@@ -12,806 +12,1007 @@
   },
   "sections": [
     {
-      "id": "d415e836-fe8c-4692-a4a5-044e24046a2c",
+      "id": "89bbd5b3-e211-4017-bae7-90be622a0647",
       "key": "entrance",
       "title": "Входная группа",
       "sortOrder": 1,
       "affectsStatus": true,
       "photoRequired": true,
-      "createdAt": "2026-06-17T14:06:14.165Z",
-      "updatedAt": "2026-06-17T14:06:14.165Z",
+      "createdAt": "2026-06-24T09:37:56.749Z",
+      "updatedAt": "2026-06-24T09:37:56.749Z",
+      "photoRequiredIf": null,
       "questions": [
         {
-          "id": "b56545c8-6303-4db4-b8d2-2319ee9440e9",
-          "sectionId": "d415e836-fe8c-4692-a4a5-044e24046a2c",
+          "id": "cb4680cf-fb9f-4760-9dd8-feba9483fd13",
+          "sectionId": "89bbd5b3-e211-4017-bae7-90be622a0647",
           "key": "entrance_width",
           "title": "Ширина входа",
           "controlType": "single",
           "required": true,
           "sortOrder": 1,
           "visibleIf": null,
-          "createdAt": "2026-06-17T14:06:14.165Z",
-          "updatedAt": "2026-06-17T14:06:14.165Z",
+          "createdAt": "2026-06-24T09:37:56.749Z",
+          "updatedAt": "2026-06-24T09:37:56.749Z",
           "options": [
             {
-              "id": "048bdab8-3a47-4286-8d1e-78330cc778eb",
-              "questionId": "b56545c8-6303-4db4-b8d2-2319ee9440e9",
+              "id": "8179c584-d69f-4584-b202-4bbf0a3c6e9d",
+              "questionId": "cb4680cf-fb9f-4760-9dd8-feba9483fd13",
               "key": "narrow",
               "label": "Узкий 55–65 см",
               "sortOrder": 1,
               "meta": null,
               "defaultVerdict": null,
-              "createdAt": "2026-06-17T14:06:14.165Z",
-              "updatedAt": "2026-06-17T14:06:14.165Z"
+              "createdAt": "2026-06-24T09:37:56.749Z",
+              "updatedAt": "2026-06-24T09:37:56.749Z",
+              "visibleIf": null
             },
             {
-              "id": "faca9e93-b989-4814-bbad-c7a93c93df20",
-              "questionId": "b56545c8-6303-4db4-b8d2-2319ee9440e9",
+              "id": "a241e6e4-c072-429d-bb18-29ea1cad1829",
+              "questionId": "cb4680cf-fb9f-4760-9dd8-feba9483fd13",
               "key": "standard",
               "label": "Стандартный 70–80 см",
               "sortOrder": 2,
               "meta": null,
               "defaultVerdict": null,
-              "createdAt": "2026-06-17T14:06:14.165Z",
-              "updatedAt": "2026-06-17T14:06:14.165Z"
+              "createdAt": "2026-06-24T09:37:56.749Z",
+              "updatedAt": "2026-06-24T09:37:56.749Z",
+              "visibleIf": null
             },
             {
-              "id": "0009b9a4-6e02-4b90-b192-f319c94f70af",
-              "questionId": "b56545c8-6303-4db4-b8d2-2319ee9440e9",
+              "id": "278531f2-9d20-4790-911c-3fd95875cd6c",
+              "questionId": "cb4680cf-fb9f-4760-9dd8-feba9483fd13",
               "key": "wide",
               "label": "Широкий 85+ см",
               "sortOrder": 3,
               "meta": null,
               "defaultVerdict": null,
-              "createdAt": "2026-06-17T14:06:14.165Z",
-              "updatedAt": "2026-06-17T14:06:14.165Z"
+              "createdAt": "2026-06-24T09:37:56.749Z",
+              "updatedAt": "2026-06-24T09:37:56.749Z",
+              "visibleIf": null
             }
           ]
         },
         {
-          "id": "a48f0c2f-a6b5-49c4-83d4-bbd0142f67e6",
-          "sectionId": "d415e836-fe8c-4692-a4a5-044e24046a2c",
+          "id": "9deed3ec-fef1-42ef-b63d-9c0e798a8682",
+          "sectionId": "89bbd5b3-e211-4017-bae7-90be622a0647",
           "key": "entrance_elements",
           "title": "Элементы доступности",
           "controlType": "multi",
           "required": false,
           "sortOrder": 2,
           "visibleIf": null,
-          "createdAt": "2026-06-17T14:06:14.165Z",
-          "updatedAt": "2026-06-17T14:06:14.165Z",
+          "createdAt": "2026-06-24T09:37:56.749Z",
+          "updatedAt": "2026-06-24T09:37:56.749Z",
           "options": [
             {
-              "id": "8020682c-d223-4f2d-88b7-a586cfb1d9c1",
-              "questionId": "a48f0c2f-a6b5-49c4-83d4-bbd0142f67e6",
+              "id": "0c84f251-36e0-46ec-bb62-3635b7bec514",
+              "questionId": "9deed3ec-fef1-42ef-b63d-9c0e798a8682",
               "key": "auto_door",
               "label": "Автоматическая дверь",
               "sortOrder": 1,
               "meta": null,
               "defaultVerdict": null,
-              "createdAt": "2026-06-17T14:06:14.165Z",
-              "updatedAt": "2026-06-17T14:06:14.165Z"
+              "createdAt": "2026-06-24T09:37:56.749Z",
+              "updatedAt": "2026-06-24T09:37:56.749Z",
+              "visibleIf": null
             },
             {
-              "id": "5c080c12-76aa-47d2-b5dd-ea8bbbd44e2e",
-              "questionId": "a48f0c2f-a6b5-49c4-83d4-bbd0142f67e6",
+              "id": "f18c0c38-0a03-437e-b195-152ce03a947f",
+              "questionId": "9deed3ec-fef1-42ef-b63d-9c0e798a8682",
               "key": "call_button",
               "label": "Кнопка вызова",
               "sortOrder": 2,
               "meta": null,
               "defaultVerdict": null,
-              "createdAt": "2026-06-17T14:06:14.165Z",
-              "updatedAt": "2026-06-17T14:06:14.165Z"
+              "createdAt": "2026-06-24T09:37:56.749Z",
+              "updatedAt": "2026-06-24T09:37:56.749Z",
+              "visibleIf": null
             },
             {
-              "id": "ff5093ec-ec96-49f9-9a5b-457019b00227",
-              "questionId": "a48f0c2f-a6b5-49c4-83d4-bbd0142f67e6",
+              "id": "a7034902-849c-42d6-b087-01ba49b12d0d",
+              "questionId": "9deed3ec-fef1-42ef-b63d-9c0e798a8682",
               "key": "ramp",
               "label": "Пандус",
               "sortOrder": 3,
               "meta": null,
               "defaultVerdict": null,
-              "createdAt": "2026-06-17T14:06:14.165Z",
-              "updatedAt": "2026-06-17T14:06:14.165Z"
+              "createdAt": "2026-06-24T09:37:56.749Z",
+              "updatedAt": "2026-06-24T09:37:56.749Z",
+              "visibleIf": null
             },
             {
-              "id": "284b0afb-a993-437c-8d8a-4cdd1dba25cc",
-              "questionId": "a48f0c2f-a6b5-49c4-83d4-bbd0142f67e6",
+              "id": "5c4527c4-aa18-4f7a-b5a6-2a6eb4e753a5",
+              "questionId": "9deed3ec-fef1-42ef-b63d-9c0e798a8682",
               "key": "lift_platform",
               "label": "Подъёмник",
               "sortOrder": 4,
               "meta": null,
               "defaultVerdict": null,
-              "createdAt": "2026-06-17T14:06:14.165Z",
-              "updatedAt": "2026-06-17T14:06:14.165Z"
+              "createdAt": "2026-06-24T09:37:56.749Z",
+              "updatedAt": "2026-06-24T09:37:56.749Z",
+              "visibleIf": null
             }
           ]
         },
         {
-          "id": "0843a5a6-62ab-4f14-a1c8-f5196906dbb3",
-          "sectionId": "d415e836-fe8c-4692-a4a5-044e24046a2c",
+          "id": "d41c1b85-37e4-4960-afc6-b5d0355577ed",
+          "sectionId": "89bbd5b3-e211-4017-bae7-90be622a0647",
           "key": "entrance_barriers",
           "title": "Барьеры",
           "controlType": "multi",
           "required": false,
           "sortOrder": 3,
           "visibleIf": null,
-          "createdAt": "2026-06-17T14:06:14.165Z",
-          "updatedAt": "2026-06-17T14:06:14.165Z",
+          "createdAt": "2026-06-24T09:37:56.749Z",
+          "updatedAt": "2026-06-24T09:37:56.749Z",
           "options": [
             {
-              "id": "a360b4c3-08b9-4a28-ac38-82797f4f5587",
-              "questionId": "0843a5a6-62ab-4f14-a1c8-f5196906dbb3",
+              "id": "cf475124-334b-41ee-9ee1-f1c15412c512",
+              "questionId": "d41c1b85-37e4-4960-afc6-b5d0355577ed",
               "key": "steps",
               "label": "Ступени",
               "sortOrder": 1,
               "meta": null,
               "defaultVerdict": null,
-              "createdAt": "2026-06-17T14:06:14.165Z",
-              "updatedAt": "2026-06-17T14:06:14.165Z"
+              "createdAt": "2026-06-24T09:37:56.749Z",
+              "updatedAt": "2026-06-24T09:37:56.749Z",
+              "visibleIf": null
             },
             {
-              "id": "e4c6f310-8d02-4d51-a683-f8fff28f718a",
-              "questionId": "0843a5a6-62ab-4f14-a1c8-f5196906dbb3",
+              "id": "2e956f48-2273-4afe-9800-76ad115c7a58",
+              "questionId": "d41c1b85-37e4-4960-afc6-b5d0355577ed",
               "key": "threshold",
               "label": "Порог",
               "sortOrder": 2,
               "meta": null,
               "defaultVerdict": null,
-              "createdAt": "2026-06-17T14:06:14.165Z",
-              "updatedAt": "2026-06-17T14:06:14.165Z"
+              "createdAt": "2026-06-24T09:37:56.749Z",
+              "updatedAt": "2026-06-24T09:37:56.749Z",
+              "visibleIf": null
             },
             {
-              "id": "104e27a2-f078-4dfd-9792-65721f2386c8",
-              "questionId": "0843a5a6-62ab-4f14-a1c8-f5196906dbb3",
+              "id": "c1a183b2-44b5-479b-8ec9-3490a9d6a8bd",
+              "questionId": "d41c1b85-37e4-4960-afc6-b5d0355577ed",
               "key": "heavy_door",
               "label": "Тяжёлая дверь",
               "sortOrder": 3,
               "meta": null,
               "defaultVerdict": null,
-              "createdAt": "2026-06-17T14:06:14.165Z",
-              "updatedAt": "2026-06-17T14:06:14.165Z"
+              "createdAt": "2026-06-24T09:37:56.749Z",
+              "updatedAt": "2026-06-24T09:37:56.749Z",
+              "visibleIf": null
             },
             {
-              "id": "56f061c6-6006-4903-ac48-8822b9fbc7c4",
-              "questionId": "0843a5a6-62ab-4f14-a1c8-f5196906dbb3",
+              "id": "d0a2e102-fb86-4f6b-9d30-48c439266fc8",
+              "questionId": "d41c1b85-37e4-4960-afc6-b5d0355577ed",
               "key": "call_button_broken",
               "label": "Кнопка вызова не работает",
               "sortOrder": 4,
               "meta": null,
               "defaultVerdict": null,
-              "createdAt": "2026-06-17T14:06:14.165Z",
-              "updatedAt": "2026-06-17T14:06:14.165Z"
+              "createdAt": "2026-06-24T09:37:56.749Z",
+              "updatedAt": "2026-06-24T09:37:56.749Z",
+              "visibleIf": {
+                "selected": {
+                  "option": "call_button",
+                  "question": "entrance_elements"
+                }
+              }
             },
             {
-              "id": "0fba47f1-e0cc-455f-bb2b-ac5c3dbbbae1",
-              "questionId": "0843a5a6-62ab-4f14-a1c8-f5196906dbb3",
+              "id": "c917fdf6-9d1d-44bc-b6b7-16fd8a5358d5",
+              "questionId": "d41c1b85-37e4-4960-afc6-b5d0355577ed",
               "key": "steep_ramp",
               "label": "Крутой пандус",
               "sortOrder": 5,
               "meta": null,
               "defaultVerdict": null,
-              "createdAt": "2026-06-17T14:06:14.165Z",
-              "updatedAt": "2026-06-17T14:06:14.165Z"
+              "createdAt": "2026-06-24T09:37:56.749Z",
+              "updatedAt": "2026-06-24T09:37:56.749Z",
+              "visibleIf": {
+                "selected": {
+                  "option": "ramp",
+                  "question": "entrance_elements"
+                }
+              }
             },
             {
-              "id": "6e115926-47da-47d1-b625-3f3ac0dadbcb",
-              "questionId": "0843a5a6-62ab-4f14-a1c8-f5196906dbb3",
+              "id": "862173fb-f691-4ffb-850b-aba3edd33594",
+              "questionId": "d41c1b85-37e4-4960-afc6-b5d0355577ed",
               "key": "slippery_ramp",
               "label": "Скользкий пандус",
               "sortOrder": 6,
               "meta": null,
               "defaultVerdict": null,
-              "createdAt": "2026-06-17T14:06:14.165Z",
-              "updatedAt": "2026-06-17T14:06:14.165Z"
+              "createdAt": "2026-06-24T09:37:56.749Z",
+              "updatedAt": "2026-06-24T09:37:56.749Z",
+              "visibleIf": {
+                "selected": {
+                  "option": "ramp",
+                  "question": "entrance_elements"
+                }
+              }
             },
             {
-              "id": "b7c21659-89a3-412a-afbb-36495d7f61d9",
-              "questionId": "0843a5a6-62ab-4f14-a1c8-f5196906dbb3",
+              "id": "b35f6fd3-4ac7-4b6a-b296-2c888f0e15da",
+              "questionId": "d41c1b85-37e4-4960-afc6-b5d0355577ed",
               "key": "one_rail",
               "label": "Один поручень",
               "sortOrder": 7,
               "meta": null,
               "defaultVerdict": null,
-              "createdAt": "2026-06-17T14:06:14.165Z",
-              "updatedAt": "2026-06-17T14:06:14.165Z"
+              "createdAt": "2026-06-24T09:37:56.749Z",
+              "updatedAt": "2026-06-24T09:37:56.749Z",
+              "visibleIf": {
+                "selected": {
+                  "option": "ramp",
+                  "question": "entrance_elements"
+                }
+              }
             },
             {
-              "id": "b8e15f25-8aca-48c2-a7b3-77654866e9f9",
-              "questionId": "0843a5a6-62ab-4f14-a1c8-f5196906dbb3",
+              "id": "dbb71b51-af10-47fe-b0cf-0f91d7020bcb",
+              "questionId": "d41c1b85-37e4-4960-afc6-b5d0355577ed",
               "key": "no_rails",
               "label": "Нет поручней",
               "sortOrder": 8,
               "meta": null,
               "defaultVerdict": null,
-              "createdAt": "2026-06-17T14:06:14.165Z",
-              "updatedAt": "2026-06-17T14:06:14.165Z"
+              "createdAt": "2026-06-24T09:37:56.749Z",
+              "updatedAt": "2026-06-24T09:37:56.749Z",
+              "visibleIf": {
+                "selected": {
+                  "option": "ramp",
+                  "question": "entrance_elements"
+                }
+              }
             },
             {
-              "id": "2f15b330-b07b-4da0-9915-a79de0b51190",
-              "questionId": "0843a5a6-62ab-4f14-a1c8-f5196906dbb3",
+              "id": "0c6c560d-8f6b-4f89-8302-648ba4656af7",
+              "questionId": "d41c1b85-37e4-4960-afc6-b5d0355577ed",
               "key": "lift_broken",
               "label": "Подъёмник не работает",
               "sortOrder": 9,
               "meta": null,
               "defaultVerdict": null,
-              "createdAt": "2026-06-17T14:06:14.165Z",
-              "updatedAt": "2026-06-17T14:06:14.165Z"
+              "createdAt": "2026-06-24T09:37:56.749Z",
+              "updatedAt": "2026-06-24T09:37:56.749Z",
+              "visibleIf": {
+                "selected": {
+                  "option": "lift_platform",
+                  "question": "entrance_elements"
+                }
+              }
             }
           ]
         }
       ]
     },
     {
-      "id": "572dbb5d-3a59-4216-a09f-2d4f1b767b68",
+      "id": "350d8100-a1a8-4a5b-93e8-70ffbd2b5543",
       "key": "movement",
       "title": "Перемещение внутри",
       "sortOrder": 2,
       "affectsStatus": true,
       "photoRequired": true,
-      "createdAt": "2026-06-17T14:06:14.165Z",
-      "updatedAt": "2026-06-17T14:06:14.165Z",
+      "createdAt": "2026-06-24T09:37:56.749Z",
+      "updatedAt": "2026-06-24T09:37:56.749Z",
+      "photoRequiredIf": null,
       "questions": [
         {
-          "id": "a84807e6-3897-4ee5-aaaf-2c66df2bdcbc",
-          "sectionId": "572dbb5d-3a59-4216-a09f-2d4f1b767b68",
+          "id": "13cc1ed5-9f23-42ba-aea8-37f63641e20c",
+          "sectionId": "350d8100-a1a8-4a5b-93e8-70ffbd2b5543",
           "key": "movement_access",
           "title": "Доступ на этажи через",
           "controlType": "multi",
           "required": false,
           "sortOrder": 1,
           "visibleIf": null,
-          "createdAt": "2026-06-17T14:06:14.165Z",
-          "updatedAt": "2026-06-17T14:06:14.165Z",
+          "createdAt": "2026-06-24T09:37:56.749Z",
+          "updatedAt": "2026-06-24T09:37:56.749Z",
           "options": [
             {
-              "id": "22b785b0-bc95-42ae-b9be-da98ff254bfa",
-              "questionId": "a84807e6-3897-4ee5-aaaf-2c66df2bdcbc",
+              "id": "a5129ab8-df8f-40e9-aac4-23590ede76af",
+              "questionId": "13cc1ed5-9f23-42ba-aea8-37f63641e20c",
               "key": "lift",
               "label": "Лифт",
               "sortOrder": 1,
               "meta": null,
               "defaultVerdict": null,
-              "createdAt": "2026-06-17T14:06:14.165Z",
-              "updatedAt": "2026-06-17T14:06:14.165Z"
+              "createdAt": "2026-06-24T09:37:56.749Z",
+              "updatedAt": "2026-06-24T09:37:56.749Z",
+              "visibleIf": null
             },
             {
-              "id": "1c1f41d6-2350-4146-b0cb-d1de91975385",
-              "questionId": "a84807e6-3897-4ee5-aaaf-2c66df2bdcbc",
+              "id": "510ec2ca-4b10-4aaf-b6e9-7e4e0f0c7a12",
+              "questionId": "13cc1ed5-9f23-42ba-aea8-37f63641e20c",
               "key": "lift_platform",
               "label": "Подъёмник",
               "sortOrder": 2,
               "meta": null,
               "defaultVerdict": null,
-              "createdAt": "2026-06-17T14:06:14.165Z",
-              "updatedAt": "2026-06-17T14:06:14.165Z"
+              "createdAt": "2026-06-24T09:37:56.749Z",
+              "updatedAt": "2026-06-24T09:37:56.749Z",
+              "visibleIf": null
             },
             {
-              "id": "9e45ed2a-0bd4-4bc0-bf00-211ffa805e02",
-              "questionId": "a84807e6-3897-4ee5-aaaf-2c66df2bdcbc",
+              "id": "ca105d90-4626-4e8a-98a4-166ff93bee81",
+              "questionId": "13cc1ed5-9f23-42ba-aea8-37f63641e20c",
               "key": "travelator",
               "label": "Траволатор",
               "sortOrder": 3,
               "meta": null,
               "defaultVerdict": null,
-              "createdAt": "2026-06-17T14:06:14.165Z",
-              "updatedAt": "2026-06-17T14:06:14.165Z"
+              "createdAt": "2026-06-24T09:37:56.749Z",
+              "updatedAt": "2026-06-24T09:37:56.749Z",
+              "visibleIf": null
             }
           ]
         },
         {
-          "id": "d43cc7ae-6401-470e-949c-4fa6da488ef2",
-          "sectionId": "572dbb5d-3a59-4216-a09f-2d4f1b767b68",
+          "id": "317c03c8-9603-4197-a20e-496df876b732",
+          "sectionId": "350d8100-a1a8-4a5b-93e8-70ffbd2b5543",
           "key": "lift_width",
           "title": "Ширина двери лифта",
           "controlType": "single",
           "required": false,
           "sortOrder": 2,
-          "visibleIf": null,
-          "createdAt": "2026-06-17T14:06:14.165Z",
-          "updatedAt": "2026-06-17T14:06:14.165Z",
+          "visibleIf": {
+            "selected": {
+              "option": "lift",
+              "question": "movement_access"
+            }
+          },
+          "createdAt": "2026-06-24T09:37:56.749Z",
+          "updatedAt": "2026-06-24T09:37:56.749Z",
           "options": [
             {
-              "id": "eceecd12-7cf1-4b0f-b6cc-3840e9aa4258",
-              "questionId": "d43cc7ae-6401-470e-949c-4fa6da488ef2",
+              "id": "a342b390-cd9d-4c2f-971a-cedbb90b60c6",
+              "questionId": "317c03c8-9603-4197-a20e-496df876b732",
               "key": "narrow",
               "label": "Узкая 55–65 см",
               "sortOrder": 1,
               "meta": null,
               "defaultVerdict": null,
-              "createdAt": "2026-06-17T14:06:14.165Z",
-              "updatedAt": "2026-06-17T14:06:14.165Z"
+              "createdAt": "2026-06-24T09:37:56.749Z",
+              "updatedAt": "2026-06-24T09:37:56.749Z",
+              "visibleIf": null
             },
             {
-              "id": "c4c833c2-e939-4d8f-87ea-2cf955477858",
-              "questionId": "d43cc7ae-6401-470e-949c-4fa6da488ef2",
+              "id": "c7abcb78-7a20-4751-80cb-8bca9712f175",
+              "questionId": "317c03c8-9603-4197-a20e-496df876b732",
               "key": "standard",
               "label": "Стандартная 70–80 см",
               "sortOrder": 2,
               "meta": null,
               "defaultVerdict": null,
-              "createdAt": "2026-06-17T14:06:14.165Z",
-              "updatedAt": "2026-06-17T14:06:14.165Z"
+              "createdAt": "2026-06-24T09:37:56.749Z",
+              "updatedAt": "2026-06-24T09:37:56.749Z",
+              "visibleIf": null
             },
             {
-              "id": "7956f860-f16c-4e01-bf5c-1931237811de",
-              "questionId": "d43cc7ae-6401-470e-949c-4fa6da488ef2",
+              "id": "01e88bf6-a460-4959-a8f5-ad2a4493b540",
+              "questionId": "317c03c8-9603-4197-a20e-496df876b732",
               "key": "wide",
               "label": "Широкая 85+ см",
               "sortOrder": 3,
               "meta": null,
               "defaultVerdict": null,
-              "createdAt": "2026-06-17T14:06:14.165Z",
-              "updatedAt": "2026-06-17T14:06:14.165Z"
+              "createdAt": "2026-06-24T09:37:56.749Z",
+              "updatedAt": "2026-06-24T09:37:56.749Z",
+              "visibleIf": null
             }
           ]
         },
         {
-          "id": "26efc81e-3f2a-4827-abd3-02daf5429013",
-          "sectionId": "572dbb5d-3a59-4216-a09f-2d4f1b767b68",
+          "id": "9ba76a7c-0bc5-4fcc-9cee-24bcd51c736d",
+          "sectionId": "350d8100-a1a8-4a5b-93e8-70ffbd2b5543",
           "key": "movement_barriers",
           "title": "Барьеры внутри",
           "controlType": "multi",
           "required": false,
           "sortOrder": 3,
           "visibleIf": null,
-          "createdAt": "2026-06-17T14:06:14.165Z",
-          "updatedAt": "2026-06-17T14:06:14.165Z",
+          "createdAt": "2026-06-24T09:37:56.749Z",
+          "updatedAt": "2026-06-24T09:37:56.749Z",
           "options": [
             {
-              "id": "48d66f0e-7816-4ea2-a49f-9dc0c41c348c",
-              "questionId": "26efc81e-3f2a-4827-abd3-02daf5429013",
+              "id": "2ed3dab0-6acf-45dc-adf4-6ca79eba9815",
+              "questionId": "9ba76a7c-0bc5-4fcc-9cee-24bcd51c736d",
               "key": "steps",
               "label": "Ступени",
               "sortOrder": 1,
               "meta": null,
               "defaultVerdict": null,
-              "createdAt": "2026-06-17T14:06:14.165Z",
-              "updatedAt": "2026-06-17T14:06:14.165Z"
+              "createdAt": "2026-06-24T09:37:56.749Z",
+              "updatedAt": "2026-06-24T09:37:56.749Z",
+              "visibleIf": null
             },
             {
-              "id": "43bb9573-7af5-49bb-89d4-cb8c5ebcfa01",
-              "questionId": "26efc81e-3f2a-4827-abd3-02daf5429013",
+              "id": "eff39739-294a-40e2-830c-0b4cf31c4e49",
+              "questionId": "9ba76a7c-0bc5-4fcc-9cee-24bcd51c736d",
               "key": "threshold",
               "label": "Порог",
               "sortOrder": 2,
               "meta": null,
               "defaultVerdict": null,
-              "createdAt": "2026-06-17T14:06:14.165Z",
-              "updatedAt": "2026-06-17T14:06:14.165Z"
+              "createdAt": "2026-06-24T09:37:56.749Z",
+              "updatedAt": "2026-06-24T09:37:56.749Z",
+              "visibleIf": null
             },
             {
-              "id": "f7548800-c42a-468b-82ed-b3f2d6e04328",
-              "questionId": "26efc81e-3f2a-4827-abd3-02daf5429013",
+              "id": "3f55a392-463d-49e6-abae-a033cd49de94",
+              "questionId": "9ba76a7c-0bc5-4fcc-9cee-24bcd51c736d",
               "key": "restricted",
               "label": "Ограничен проезд",
               "sortOrder": 3,
               "meta": null,
               "defaultVerdict": null,
-              "createdAt": "2026-06-17T14:06:14.165Z",
-              "updatedAt": "2026-06-17T14:06:14.165Z"
+              "createdAt": "2026-06-24T09:37:56.749Z",
+              "updatedAt": "2026-06-24T09:37:56.749Z",
+              "visibleIf": null
             },
             {
-              "id": "a37f190c-48b9-4c3b-bdbf-4400e4e2abab",
-              "questionId": "26efc81e-3f2a-4827-abd3-02daf5429013",
+              "id": "819c8e25-e2db-41bb-b181-a4e7569fa19f",
+              "questionId": "9ba76a7c-0bc5-4fcc-9cee-24bcd51c736d",
               "key": "compact_lift",
-              "label": "Компактный лифт",
+              "label": "Лифт для 1 коляски",
               "sortOrder": 4,
               "meta": null,
               "defaultVerdict": null,
-              "createdAt": "2026-06-17T14:06:14.165Z",
-              "updatedAt": "2026-06-17T14:06:14.165Z"
+              "createdAt": "2026-06-24T09:37:56.749Z",
+              "updatedAt": "2026-06-24T09:37:56.749Z",
+              "visibleIf": {
+                "selected": {
+                  "option": "lift",
+                  "question": "movement_access"
+                }
+              }
             }
           ]
         }
       ]
     },
     {
-      "id": "84a64f56-af3e-4bc7-a84b-ed0d3a9b6143",
+      "id": "4e8f2091-bc5b-4aca-a265-f9eedb5d8ad3",
       "key": "toilet",
       "title": "Туалет",
       "sortOrder": 3,
       "affectsStatus": false,
       "photoRequired": true,
-      "createdAt": "2026-06-17T14:06:14.165Z",
-      "updatedAt": "2026-06-17T14:06:14.165Z",
+      "createdAt": "2026-06-24T09:37:56.749Z",
+      "updatedAt": "2026-06-24T09:37:56.749Z",
+      "photoRequiredIf": {
+        "any": [
+          {
+            "selected": {
+              "option": "equipped",
+              "question": "toilet_availability"
+            }
+          },
+          {
+            "selected": {
+              "option": "regular",
+              "question": "toilet_availability"
+            }
+          }
+        ]
+      },
       "questions": [
         {
-          "id": "73ae16fb-4011-4780-b885-14df5c6ae84c",
-          "sectionId": "84a64f56-af3e-4bc7-a84b-ed0d3a9b6143",
+          "id": "08d4ff8a-a633-4ad8-892b-aeae0241d1ee",
+          "sectionId": "4e8f2091-bc5b-4aca-a265-f9eedb5d8ad3",
           "key": "toilet_availability",
           "title": "Доступность туалета",
           "controlType": "single",
           "required": true,
           "sortOrder": 1,
           "visibleIf": null,
-          "createdAt": "2026-06-17T14:06:14.165Z",
-          "updatedAt": "2026-06-17T14:06:14.165Z",
+          "createdAt": "2026-06-24T09:37:56.749Z",
+          "updatedAt": "2026-06-24T09:37:56.749Z",
           "options": [
             {
-              "id": "525781d2-2553-440a-a0e2-a70330c073b3",
-              "questionId": "73ae16fb-4011-4780-b885-14df5c6ae84c",
+              "id": "48499a5d-5326-4c68-8e0d-6bb16fe6bfb9",
+              "questionId": "08d4ff8a-a633-4ad8-892b-aeae0241d1ee",
               "key": "equipped",
               "label": "Оборудованный для колясок",
               "sortOrder": 1,
               "meta": null,
               "defaultVerdict": null,
-              "createdAt": "2026-06-17T14:06:14.165Z",
-              "updatedAt": "2026-06-17T14:06:14.165Z"
+              "createdAt": "2026-06-24T09:37:56.749Z",
+              "updatedAt": "2026-06-24T09:37:56.749Z",
+              "visibleIf": null
             },
             {
-              "id": "29bb0a1b-2530-4e03-9ea6-28b1dedcc892",
-              "questionId": "73ae16fb-4011-4780-b885-14df5c6ae84c",
+              "id": "ea2e30fa-c9e0-4d0e-be84-359ee1f90f58",
+              "questionId": "08d4ff8a-a633-4ad8-892b-aeae0241d1ee",
               "key": "regular",
               "label": "Обычный",
               "sortOrder": 2,
               "meta": null,
               "defaultVerdict": null,
-              "createdAt": "2026-06-17T14:06:14.165Z",
-              "updatedAt": "2026-06-17T14:06:14.165Z"
+              "createdAt": "2026-06-24T09:37:56.749Z",
+              "updatedAt": "2026-06-24T09:37:56.749Z",
+              "visibleIf": null
             },
             {
-              "id": "dbd31b1b-c323-488a-a6e1-0b297817461d",
-              "questionId": "73ae16fb-4011-4780-b885-14df5c6ae84c",
+              "id": "0ea67d13-b658-4a47-bcff-ad417830eba5",
+              "questionId": "08d4ff8a-a633-4ad8-892b-aeae0241d1ee",
               "key": "none",
               "label": "Туалета нет",
               "sortOrder": 3,
               "meta": null,
               "defaultVerdict": null,
-              "createdAt": "2026-06-17T14:06:14.165Z",
-              "updatedAt": "2026-06-17T14:06:14.165Z"
+              "createdAt": "2026-06-24T09:37:56.749Z",
+              "updatedAt": "2026-06-24T09:37:56.749Z",
+              "visibleIf": null
             }
           ]
         },
         {
-          "id": "db8f65df-96df-4827-b232-2982dccb7408",
-          "sectionId": "84a64f56-af3e-4bc7-a84b-ed0d3a9b6143",
+          "id": "fb25c2b1-5e58-4347-bf1e-5ea9a8ec0b9f",
+          "sectionId": "4e8f2091-bc5b-4aca-a265-f9eedb5d8ad3",
           "key": "toilet_width",
           "title": "Ширина двери туалета",
           "controlType": "single",
           "required": false,
           "sortOrder": 2,
-          "visibleIf": null,
-          "createdAt": "2026-06-17T14:06:14.165Z",
-          "updatedAt": "2026-06-17T14:06:14.165Z",
+          "visibleIf": {
+            "any": [
+              {
+                "selected": {
+                  "option": "equipped",
+                  "question": "toilet_availability"
+                }
+              },
+              {
+                "selected": {
+                  "option": "regular",
+                  "question": "toilet_availability"
+                }
+              }
+            ]
+          },
+          "createdAt": "2026-06-24T09:37:56.749Z",
+          "updatedAt": "2026-06-24T09:37:56.749Z",
           "options": [
             {
-              "id": "2cd84f59-461e-41c6-ad64-f7ebc1b10b49",
-              "questionId": "db8f65df-96df-4827-b232-2982dccb7408",
+              "id": "85c79412-e284-4b90-a83c-928378a4b1c4",
+              "questionId": "fb25c2b1-5e58-4347-bf1e-5ea9a8ec0b9f",
               "key": "narrow",
               "label": "Узкая 55–65 см",
               "sortOrder": 1,
               "meta": null,
               "defaultVerdict": null,
-              "createdAt": "2026-06-17T14:06:14.165Z",
-              "updatedAt": "2026-06-17T14:06:14.165Z"
+              "createdAt": "2026-06-24T09:37:56.749Z",
+              "updatedAt": "2026-06-24T09:37:56.749Z",
+              "visibleIf": null
             },
             {
-              "id": "c496dace-bb28-4dad-b2b6-8cced3024b9f",
-              "questionId": "db8f65df-96df-4827-b232-2982dccb7408",
+              "id": "5c0a3df4-cb88-4be2-bece-8318ebd99d84",
+              "questionId": "fb25c2b1-5e58-4347-bf1e-5ea9a8ec0b9f",
               "key": "standard",
               "label": "Стандартная 70–80 см",
               "sortOrder": 2,
               "meta": null,
               "defaultVerdict": null,
-              "createdAt": "2026-06-17T14:06:14.165Z",
-              "updatedAt": "2026-06-17T14:06:14.165Z"
+              "createdAt": "2026-06-24T09:37:56.749Z",
+              "updatedAt": "2026-06-24T09:37:56.749Z",
+              "visibleIf": null
             },
             {
-              "id": "559feacc-b171-4595-a9eb-af6f587ca2b8",
-              "questionId": "db8f65df-96df-4827-b232-2982dccb7408",
+              "id": "d102717c-cf66-4845-9ac7-c774e88e1902",
+              "questionId": "fb25c2b1-5e58-4347-bf1e-5ea9a8ec0b9f",
               "key": "wide",
               "label": "Широкая 85–100 см",
               "sortOrder": 3,
               "meta": null,
               "defaultVerdict": null,
-              "createdAt": "2026-06-17T14:06:14.165Z",
-              "updatedAt": "2026-06-17T14:06:14.165Z"
+              "createdAt": "2026-06-24T09:37:56.749Z",
+              "updatedAt": "2026-06-24T09:37:56.749Z",
+              "visibleIf": null
             }
           ]
         },
         {
-          "id": "1a137c88-4725-4288-b9c6-4690cf59fb04",
-          "sectionId": "84a64f56-af3e-4bc7-a84b-ed0d3a9b6143",
+          "id": "64cc24c1-8519-4173-af85-8a0d78bdf327",
+          "sectionId": "4e8f2091-bc5b-4aca-a265-f9eedb5d8ad3",
           "key": "toilet_equipped_barriers",
           "title": "Барьеры оборудованного туалета",
           "controlType": "multi",
           "required": false,
           "sortOrder": 3,
-          "visibleIf": null,
-          "createdAt": "2026-06-17T14:06:14.165Z",
-          "updatedAt": "2026-06-17T14:06:14.165Z",
+          "visibleIf": {
+            "selected": {
+              "option": "equipped",
+              "question": "toilet_availability"
+            }
+          },
+          "createdAt": "2026-06-24T09:37:56.749Z",
+          "updatedAt": "2026-06-24T09:37:56.749Z",
           "options": [
             {
-              "id": "97eb3379-9a94-4bfa-b9f6-5e4abb159078",
-              "questionId": "1a137c88-4725-4288-b9c6-4690cf59fb04",
+              "id": "763c9c99-6f8b-4103-b966-0af0f4c94834",
+              "questionId": "64cc24c1-8519-4173-af85-8a0d78bdf327",
               "key": "one_rail",
               "label": "Один поручень",
               "sortOrder": 1,
               "meta": null,
               "defaultVerdict": null,
-              "createdAt": "2026-06-17T14:06:14.165Z",
-              "updatedAt": "2026-06-17T14:06:14.165Z"
+              "createdAt": "2026-06-24T09:37:56.749Z",
+              "updatedAt": "2026-06-24T09:37:56.749Z",
+              "visibleIf": null
             },
             {
-              "id": "c364fffb-e7b6-425e-b634-2ea2b022a99b",
-              "questionId": "1a137c88-4725-4288-b9c6-4690cf59fb04",
+              "id": "0453dc65-a261-48fd-9265-bc4b3aa37b12",
+              "questionId": "64cc24c1-8519-4173-af85-8a0d78bdf327",
               "key": "no_rails",
               "label": "Нет поручней",
               "sortOrder": 2,
               "meta": null,
               "defaultVerdict": null,
-              "createdAt": "2026-06-17T14:06:14.165Z",
-              "updatedAt": "2026-06-17T14:06:14.165Z"
+              "createdAt": "2026-06-24T09:37:56.749Z",
+              "updatedAt": "2026-06-24T09:37:56.749Z",
+              "visibleIf": null
             },
             {
-              "id": "8fb98279-e940-4209-b584-1d4eb42aa584",
-              "questionId": "1a137c88-4725-4288-b9c6-4690cf59fb04",
+              "id": "da1d11dd-144e-45c6-8907-385a39f79971",
+              "questionId": "64cc24c1-8519-4173-af85-8a0d78bdf327",
               "key": "high",
               "label": "Элементы расположены высоко",
               "sortOrder": 3,
               "meta": null,
               "defaultVerdict": null,
-              "createdAt": "2026-06-17T14:06:14.165Z",
-              "updatedAt": "2026-06-17T14:06:14.165Z"
+              "createdAt": "2026-06-24T09:37:56.749Z",
+              "updatedAt": "2026-06-24T09:37:56.749Z",
+              "visibleIf": null
+            },
+            {
+              "id": "9eda0f17-1547-4cf5-8c5a-5488c435aa02",
+              "questionId": "64cc24c1-8519-4173-af85-8a0d78bdf327",
+              "key": "hard_reach",
+              "label": "Тяжело добраться до туалета",
+              "sortOrder": 90,
+              "meta": null,
+              "defaultVerdict": null,
+              "createdAt": "2026-06-24T09:37:56.749Z",
+              "updatedAt": "2026-06-24T09:37:56.749Z",
+              "visibleIf": null
             }
           ]
         },
         {
-          "id": "c671723b-10db-482d-a208-5955c49bcf53",
-          "sectionId": "84a64f56-af3e-4bc7-a84b-ed0d3a9b6143",
+          "id": "735b5d7d-81ab-4c85-8463-2693181a2233",
+          "sectionId": "4e8f2091-bc5b-4aca-a265-f9eedb5d8ad3",
           "key": "toilet_regular_barriers",
           "title": "Барьеры обычного туалета",
           "controlType": "multi",
           "required": false,
           "sortOrder": 4,
-          "visibleIf": null,
-          "createdAt": "2026-06-17T14:06:14.165Z",
-          "updatedAt": "2026-06-17T14:06:14.165Z",
+          "visibleIf": {
+            "selected": {
+              "option": "regular",
+              "question": "toilet_availability"
+            }
+          },
+          "createdAt": "2026-06-24T09:37:56.749Z",
+          "updatedAt": "2026-06-24T09:37:56.749Z",
           "options": [
             {
-              "id": "1701afcc-b41e-4264-87bd-744b981f8045",
-              "questionId": "c671723b-10db-482d-a208-5955c49bcf53",
+              "id": "8aa9fbe6-ad49-45cf-bbbc-e604dfda890e",
+              "questionId": "735b5d7d-81ab-4c85-8463-2693181a2233",
               "key": "no_turn",
               "label": "Не развернуться",
               "sortOrder": 1,
               "meta": null,
               "defaultVerdict": null,
-              "createdAt": "2026-06-17T14:06:14.165Z",
-              "updatedAt": "2026-06-17T14:06:14.165Z"
+              "createdAt": "2026-06-24T09:37:56.749Z",
+              "updatedAt": "2026-06-24T09:37:56.749Z",
+              "visibleIf": null
             },
             {
-              "id": "5e3736b7-454e-4336-bb3e-386bc5fa19a3",
-              "questionId": "c671723b-10db-482d-a208-5955c49bcf53",
+              "id": "cbdb3b3b-6443-4534-9463-1e142f4055a3",
+              "questionId": "735b5d7d-81ab-4c85-8463-2693181a2233",
               "key": "no_close",
               "label": "Не закрыться",
               "sortOrder": 2,
               "meta": null,
               "defaultVerdict": null,
-              "createdAt": "2026-06-17T14:06:14.165Z",
-              "updatedAt": "2026-06-17T14:06:14.165Z"
+              "createdAt": "2026-06-24T09:37:56.749Z",
+              "updatedAt": "2026-06-24T09:37:56.749Z",
+              "visibleIf": null
             },
             {
-              "id": "cb94c429-c550-4b72-b5f6-12ca527ece99",
-              "questionId": "c671723b-10db-482d-a208-5955c49bcf53",
+              "id": "5557d14d-6cc1-46d5-bc03-b79a849741f8",
+              "questionId": "735b5d7d-81ab-4c85-8463-2693181a2233",
               "key": "high",
-              "label": "Предметы расположены высоко",
+              "label": "Элементы расположены высоко",
               "sortOrder": 3,
               "meta": null,
               "defaultVerdict": null,
-              "createdAt": "2026-06-17T14:06:14.165Z",
-              "updatedAt": "2026-06-17T14:06:14.165Z"
+              "createdAt": "2026-06-24T09:37:56.749Z",
+              "updatedAt": "2026-06-24T09:37:56.749Z",
+              "visibleIf": null
+            },
+            {
+              "id": "218ee35a-1095-4982-9f95-7b67a67c0d2b",
+              "questionId": "735b5d7d-81ab-4c85-8463-2693181a2233",
+              "key": "hard_reach",
+              "label": "Тяжело добраться до туалета",
+              "sortOrder": 90,
+              "meta": null,
+              "defaultVerdict": null,
+              "createdAt": "2026-06-24T09:37:56.749Z",
+              "updatedAt": "2026-06-24T09:37:56.749Z",
+              "visibleIf": null
             }
           ]
         }
       ]
     },
     {
-      "id": "14190af2-7ddf-4971-a9f0-983c94c93796",
+      "id": "f7537b8f-0acc-4da0-984a-b0a6db2d255c",
       "key": "parking",
       "title": "Парковка",
       "sortOrder": 4,
       "affectsStatus": false,
       "photoRequired": false,
-      "createdAt": "2026-06-17T14:06:14.165Z",
-      "updatedAt": "2026-06-17T14:06:14.165Z",
+      "createdAt": "2026-06-24T09:37:56.749Z",
+      "updatedAt": "2026-06-24T09:37:56.749Z",
+      "photoRequiredIf": null,
       "questions": [
         {
-          "id": "95ce76f1-6154-466e-82d2-5d0fcda68642",
-          "sectionId": "14190af2-7ddf-4971-a9f0-983c94c93796",
+          "id": "91b92804-99ee-405e-94fb-9515ef51a5dd",
+          "sectionId": "f7537b8f-0acc-4da0-984a-b0a6db2d255c",
           "key": "parking_availability",
           "title": "Доступность парковки",
           "controlType": "multi",
           "required": false,
           "sortOrder": 1,
           "visibleIf": null,
-          "createdAt": "2026-06-17T14:06:14.165Z",
-          "updatedAt": "2026-06-17T14:06:14.165Z",
+          "createdAt": "2026-06-24T09:37:56.749Z",
+          "updatedAt": "2026-06-24T09:37:56.749Z",
           "options": [
             {
-              "id": "a292b802-6d58-41d3-8164-e235da73e8de",
-              "questionId": "95ce76f1-6154-466e-82d2-5d0fcda68642",
+              "id": "b15e8ba6-e23a-4f17-98d8-a8657de9ef37",
+              "questionId": "91b92804-99ee-405e-94fb-9515ef51a5dd",
               "key": "disabled",
               "label": "Для людей с инвалидностью",
               "sortOrder": 1,
               "meta": null,
               "defaultVerdict": null,
-              "createdAt": "2026-06-17T14:06:14.165Z",
-              "updatedAt": "2026-06-17T14:06:14.165Z"
+              "createdAt": "2026-06-24T09:37:56.749Z",
+              "updatedAt": "2026-06-24T09:37:56.749Z",
+              "visibleIf": null
             },
             {
-              "id": "2fe52eb6-dce8-44c9-9a34-5ec7e0106a7d",
-              "questionId": "95ce76f1-6154-466e-82d2-5d0fcda68642",
+              "id": "7edc86be-4936-422a-b495-b797271d6df9",
+              "questionId": "91b92804-99ee-405e-94fb-9515ef51a5dd",
               "key": "dedicated",
               "label": "Выделенная",
               "sortOrder": 2,
               "meta": null,
               "defaultVerdict": null,
-              "createdAt": "2026-06-17T14:06:14.165Z",
-              "updatedAt": "2026-06-17T14:06:14.165Z"
+              "createdAt": "2026-06-24T09:37:56.749Z",
+              "updatedAt": "2026-06-24T09:37:56.749Z",
+              "visibleIf": null
             },
             {
-              "id": "8e91b0f6-78f2-412c-94b6-650a15edf472",
-              "questionId": "95ce76f1-6154-466e-82d2-5d0fcda68642",
+              "id": "3ac203be-664f-4096-9119-1390dcd3f49e",
+              "questionId": "91b92804-99ee-405e-94fb-9515ef51a5dd",
               "key": "unorganized",
               "label": "Неорганизованная",
               "sortOrder": 3,
               "meta": null,
               "defaultVerdict": null,
-              "createdAt": "2026-06-17T14:06:14.165Z",
-              "updatedAt": "2026-06-17T14:06:14.165Z"
+              "createdAt": "2026-06-24T09:37:56.749Z",
+              "updatedAt": "2026-06-24T09:37:56.749Z",
+              "visibleIf": null
+            },
+            {
+              "id": "dddb20e0-46bc-41ba-aeaa-25f07a6fb5be",
+              "questionId": "91b92804-99ee-405e-94fb-9515ef51a5dd",
+              "key": "none",
+              "label": "Нет парковки",
+              "sortOrder": 90,
+              "meta": null,
+              "defaultVerdict": null,
+              "createdAt": "2026-06-24T09:37:56.749Z",
+              "updatedAt": "2026-06-24T09:37:56.749Z",
+              "visibleIf": null
             }
           ]
         },
         {
-          "id": "f1bea052-cf0a-43d7-bd7a-3a8eaa039ddd",
-          "sectionId": "14190af2-7ddf-4971-a9f0-983c94c93796",
+          "id": "a81f2422-1de5-4dfa-887b-e0311f032512",
+          "sectionId": "f7537b8f-0acc-4da0-984a-b0a6db2d255c",
           "key": "parking_type",
           "title": "Тип парковки",
           "controlType": "multi",
           "required": false,
           "sortOrder": 2,
-          "visibleIf": null,
-          "createdAt": "2026-06-17T14:06:14.165Z",
-          "updatedAt": "2026-06-17T14:06:14.165Z",
+          "visibleIf": {
+            "any": [
+              {
+                "selected": {
+                  "option": "disabled",
+                  "question": "parking_availability"
+                }
+              },
+              {
+                "selected": {
+                  "option": "dedicated",
+                  "question": "parking_availability"
+                }
+              },
+              {
+                "selected": {
+                  "option": "unorganized",
+                  "question": "parking_availability"
+                }
+              }
+            ]
+          },
+          "createdAt": "2026-06-24T09:37:56.749Z",
+          "updatedAt": "2026-06-24T09:37:56.749Z",
           "options": [
             {
-              "id": "b0b19d43-411e-4f11-9b08-1776247003c2",
-              "questionId": "f1bea052-cf0a-43d7-bd7a-3a8eaa039ddd",
+              "id": "2bca843b-a29a-4c6c-821d-8213804ea7b9",
+              "questionId": "a81f2422-1de5-4dfa-887b-e0311f032512",
               "key": "yard",
               "label": "Во дворе",
               "sortOrder": 1,
               "meta": null,
               "defaultVerdict": null,
-              "createdAt": "2026-06-17T14:06:14.165Z",
-              "updatedAt": "2026-06-17T14:06:14.165Z"
+              "createdAt": "2026-06-24T09:37:56.749Z",
+              "updatedAt": "2026-06-24T09:37:56.749Z",
+              "visibleIf": null
             },
             {
-              "id": "98276d99-2e6f-416b-9b37-6b797b34bd0a",
-              "questionId": "f1bea052-cf0a-43d7-bd7a-3a8eaa039ddd",
+              "id": "1128baff-5a37-43a0-9ec5-9ff061c710f7",
+              "questionId": "a81f2422-1de5-4dfa-887b-e0311f032512",
               "key": "underground",
               "label": "Подземная",
               "sortOrder": 2,
               "meta": null,
               "defaultVerdict": null,
-              "createdAt": "2026-06-17T14:06:14.165Z",
-              "updatedAt": "2026-06-17T14:06:14.165Z"
+              "createdAt": "2026-06-24T09:37:56.749Z",
+              "updatedAt": "2026-06-24T09:37:56.749Z",
+              "visibleIf": null
             },
             {
-              "id": "405bd07a-4096-4610-a292-51d3a8e2c4f8",
-              "questionId": "f1bea052-cf0a-43d7-bd7a-3a8eaa039ddd",
+              "id": "6b7ba00f-8297-4e2e-84ef-44fed08fe393",
+              "questionId": "a81f2422-1de5-4dfa-887b-e0311f032512",
               "key": "roadside",
               "label": "Вдоль дороги",
               "sortOrder": 3,
               "meta": null,
               "defaultVerdict": null,
-              "createdAt": "2026-06-17T14:06:14.165Z",
-              "updatedAt": "2026-06-17T14:06:14.165Z"
+              "createdAt": "2026-06-24T09:37:56.749Z",
+              "updatedAt": "2026-06-24T09:37:56.749Z",
+              "visibleIf": null
             }
           ]
         },
         {
-          "id": "a5297764-cf8a-4d3b-b7a7-3a27d3722f5c",
-          "sectionId": "14190af2-7ddf-4971-a9f0-983c94c93796",
+          "id": "1a806de2-4f6e-45cd-9ff6-f538d5e3c713",
+          "sectionId": "f7537b8f-0acc-4da0-984a-b0a6db2d255c",
           "key": "parking_barriers",
           "title": "Барьеры",
           "controlType": "multi",
           "required": false,
           "sortOrder": 3,
-          "visibleIf": null,
-          "createdAt": "2026-06-17T14:06:14.165Z",
-          "updatedAt": "2026-06-17T14:06:14.165Z",
+          "visibleIf": {
+            "any": [
+              {
+                "selected": {
+                  "option": "disabled",
+                  "question": "parking_availability"
+                }
+              },
+              {
+                "selected": {
+                  "option": "dedicated",
+                  "question": "parking_availability"
+                }
+              },
+              {
+                "selected": {
+                  "option": "unorganized",
+                  "question": "parking_availability"
+                }
+              }
+            ]
+          },
+          "createdAt": "2026-06-24T09:37:56.749Z",
+          "updatedAt": "2026-06-24T09:37:56.749Z",
           "options": [
             {
-              "id": "06dd87b0-b776-4f4a-b328-0949fe8a8261",
-              "questionId": "a5297764-cf8a-4d3b-b7a7-3a27d3722f5c",
+              "id": "1c876c84-aa5f-4f79-9b3e-9b54b63e0cc5",
+              "questionId": "1a806de2-4f6e-45cd-9ff6-f538d5e3c713",
               "key": "curb",
               "label": "Бордюр",
               "sortOrder": 1,
               "meta": null,
               "defaultVerdict": null,
-              "createdAt": "2026-06-17T14:06:14.165Z",
-              "updatedAt": "2026-06-17T14:06:14.165Z"
+              "createdAt": "2026-06-24T09:37:56.749Z",
+              "updatedAt": "2026-06-24T09:37:56.749Z",
+              "visibleIf": null
             },
             {
-              "id": "480ffe5f-33c8-4124-a02c-04e4bfad091a",
-              "questionId": "a5297764-cf8a-4d3b-b7a7-3a27d3722f5c",
+              "id": "1f936e8a-bdad-4396-aefb-3e5b7732f070",
+              "questionId": "1a806de2-4f6e-45cd-9ff6-f538d5e3c713",
               "key": "bad_surface",
               "label": "Плохое покрытие",
               "sortOrder": 2,
               "meta": null,
               "defaultVerdict": null,
-              "createdAt": "2026-06-17T14:06:14.165Z",
-              "updatedAt": "2026-06-17T14:06:14.165Z"
+              "createdAt": "2026-06-24T09:37:56.749Z",
+              "updatedAt": "2026-06-24T09:37:56.749Z",
+              "visibleIf": null
             },
             {
-              "id": "9839458a-bf48-44f0-aaef-36c3c18843c2",
-              "questionId": "a5297764-cf8a-4d3b-b7a7-3a27d3722f5c",
+              "id": "7ba25c43-1ba0-4795-9aa5-0aadcc8075d3",
+              "questionId": "1a806de2-4f6e-45cd-9ff6-f538d5e3c713",
               "key": "far",
               "label": "Дальше 100 м",
               "sortOrder": 3,
               "meta": null,
               "defaultVerdict": null,
-              "createdAt": "2026-06-17T14:06:14.165Z",
-              "updatedAt": "2026-06-17T14:06:14.165Z"
+              "createdAt": "2026-06-24T09:37:56.749Z",
+              "updatedAt": "2026-06-24T09:37:56.749Z",
+              "visibleIf": null
             }
           ]
         }
       ]
     },
     {
-      "id": "8c8d3eb6-bb17-4cf0-8be0-1fcd83438f1d",
+      "id": "c86b220f-b600-4c0f-ae79-bbc4412702d4",
       "key": "additions",
-      "title": "Что еще стоит знать?",
+      "title": "Есть чем дополнить?",
       "sortOrder": 5,
       "affectsStatus": false,
       "photoRequired": false,
-      "createdAt": "2026-06-17T14:06:14.165Z",
-      "updatedAt": "2026-06-17T14:06:14.165Z",
+      "createdAt": "2026-06-24T09:37:56.749Z",
+      "updatedAt": "2026-06-24T09:37:56.749Z",
+      "photoRequiredIf": null,
       "questions": [
         {
-          "id": "11782c1b-20b9-4824-8ef3-007cec6f6b69",
-          "sectionId": "8c8d3eb6-bb17-4cf0-8be0-1fcd83438f1d",
+          "id": "bf80d527-93fc-4cc3-8552-cd3eef36ebcb",
+          "sectionId": "c86b220f-b600-4c0f-ae79-bbc4412702d4",
           "key": "additions_help",
           "title": "Доступность",
           "controlType": "multi",
           "required": false,
           "sortOrder": 1,
           "visibleIf": null,
-          "createdAt": "2026-06-17T14:06:14.165Z",
-          "updatedAt": "2026-06-17T14:06:14.165Z",
+          "createdAt": "2026-06-24T09:37:56.749Z",
+          "updatedAt": "2026-06-24T09:37:56.749Z",
           "options": [
             {
-              "id": "f3331358-b245-4718-b5f6-4593248fdf51",
-              "questionId": "11782c1b-20b9-4824-8ef3-007cec6f6b69",
+              "id": "9577b80c-9842-41c5-a3c1-0ddd803b00df",
+              "questionId": "bf80d527-93fc-4cc3-8552-cd3eef36ebcb",
               "key": "staff_helps",
               "label": "Персонал помогает",
               "sortOrder": 1,
               "meta": null,
               "defaultVerdict": null,
-              "createdAt": "2026-06-17T14:06:14.165Z",
-              "updatedAt": "2026-06-17T14:06:14.165Z"
+              "createdAt": "2026-06-24T09:37:56.749Z",
+              "updatedAt": "2026-06-24T09:37:56.749Z",
+              "visibleIf": null
             },
             {
-              "id": "4ffcceb8-c46f-4c23-b64c-a85e950b0d34",
-              "questionId": "11782c1b-20b9-4824-8ef3-007cec6f6b69",
+              "id": "57535474-3a4e-4d6b-8fb7-1504977ad7fc",
+              "questionId": "bf80d527-93fc-4cc3-8552-cd3eef36ebcb",
               "key": "companion",
               "label": "Нужна помощь сопровождающего",
               "sortOrder": 2,
               "meta": null,
               "defaultVerdict": null,
-              "createdAt": "2026-06-17T14:06:14.165Z",
-              "updatedAt": "2026-06-17T14:06:14.165Z"
-            },
-            {
-              "id": "d0dc9a4d-11ef-4abf-a0dc-500e6ff2b903",
-              "questionId": "11782c1b-20b9-4824-8ef3-007cec6f6b69",
-              "key": "mother and child room",
-              "label": "Комната матери и ребенка",
-              "sortOrder": 3,
-              "meta": null,
-              "defaultVerdict": null,
-              "createdAt": "2026-06-18T08:41:08.746Z",
-              "updatedAt": "2026-06-18T08:41:08.746Z"
+              "createdAt": "2026-06-24T09:37:56.749Z",
+              "updatedAt": "2026-06-24T09:37:56.749Z",
+              "visibleIf": null
             }
           ]
         }
