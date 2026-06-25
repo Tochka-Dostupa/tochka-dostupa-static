@@ -1,5 +1,5 @@
 {
-  "surveyVersion": "9bd28b8fc15b",
+  "surveyVersion": "4563dbf1c8d6",
   "aggregation": {
     "baseScope": "entrance",
     "loweringScopes": [
@@ -21,6 +21,7 @@
       "createdAt": "2026-06-17T14:06:14.165Z",
       "updatedAt": "2026-06-17T14:06:14.165Z",
       "photoRequiredIf": null,
+      "photoMax": 7,
       "questions": [
         {
           "id": "b56545c8-6303-4db4-b8d2-2319ee9440e9",
@@ -298,6 +299,7 @@
       "createdAt": "2026-06-17T14:06:14.165Z",
       "updatedAt": "2026-06-17T14:06:14.165Z",
       "photoRequiredIf": null,
+      "photoMax": 7,
       "questions": [
         {
           "id": "a84807e6-3897-4ee5-aaaf-2c66df2bdcbc",
@@ -498,6 +500,7 @@
           }
         ]
       },
+      "photoMax": 7,
       "questions": [
         {
           "id": "73ae16fb-4011-4780-b885-14df5c6ae84c",
@@ -760,6 +763,7 @@
       "createdAt": "2026-06-17T14:06:14.165Z",
       "updatedAt": "2026-06-17T14:06:14.165Z",
       "photoRequiredIf": null,
+      "photoMax": 7,
       "questions": [
         {
           "id": "95ce76f1-6154-466e-82d2-5d0fcda68642",
@@ -977,6 +981,7 @@
       "createdAt": "2026-06-17T14:06:14.165Z",
       "updatedAt": "2026-06-17T14:06:14.165Z",
       "photoRequiredIf": null,
+      "photoMax": 7,
       "questions": [
         {
           "id": "11782c1b-20b9-4824-8ef3-007cec6f6b69",
