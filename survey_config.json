@@ -1,5 +1,5 @@
 {
-  "surveyVersion": "e9717a47c8fd",
+  "surveyVersion": "93c9042cb8d1",
   "aggregation": {
     "baseScope": "entrance",
     "loweringScopes": [
@@ -21,6 +21,7 @@
       "createdAt": "2026-06-24T09:37:56.749Z",
       "updatedAt": "2026-06-24T09:37:56.749Z",
       "photoRequiredIf": null,
+      "photoMax": 7,
       "questions": [
         {
           "id": "cb4680cf-fb9f-4760-9dd8-feba9483fd13",
@@ -298,6 +299,7 @@
       "createdAt": "2026-06-24T09:37:56.749Z",
       "updatedAt": "2026-06-24T09:37:56.749Z",
       "photoRequiredIf": null,
+      "photoMax": 7,
       "questions": [
         {
           "id": "13cc1ed5-9f23-42ba-aea8-37f63641e20c",
@@ -498,6 +500,7 @@
           }
         ]
       },
+      "photoMax": 7,
       "questions": [
         {
           "id": "08d4ff8a-a633-4ad8-892b-aeae0241d1ee",
@@ -760,6 +763,7 @@
       "createdAt": "2026-06-24T09:37:56.749Z",
       "updatedAt": "2026-06-24T09:37:56.749Z",
       "photoRequiredIf": null,
+      "photoMax": 7,
       "questions": [
         {
           "id": "91b92804-99ee-405e-94fb-9515ef51a5dd",
@@ -977,6 +981,7 @@
       "createdAt": "2026-06-24T09:37:56.749Z",
       "updatedAt": "2026-06-24T09:37:56.749Z",
       "photoRequiredIf": null,
+      "photoMax": 7,
       "questions": [
         {
           "id": "bf80d527-93fc-4cc3-8552-cd3eef36ebcb",
