@@ -1,5 +1,5 @@
 {
-  "surveyVersion": "4563dbf1c8d6",
+  "surveyVersion": "3f874201f5b1",
   "aggregation": {
     "baseScope": "entrance",
     "loweringScopes": [
@@ -558,7 +558,7 @@
           "key": "toilet_width",
           "title": "Ширина двери туалета",
           "controlType": "single",
-          "required": false,
+          "required": true,
           "sortOrder": 2,
           "visibleIf": {
             "any": [
