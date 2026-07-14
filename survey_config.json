@@ -1,5 +1,5 @@
 {
-  "surveyVersion": "48acd92d60ff",
+  "surveyVersion": "7d798f364084",
   "aggregation": {
     "baseScope": "entrance",
     "loweringScopes": [
@@ -518,7 +518,7 @@
               "id": "48499a5d-5326-4c68-8e0d-6bb16fe6bfb9",
               "questionId": "08d4ff8a-a633-4ad8-892b-aeae0241d1ee",
               "key": "equipped",
-              "label": "Оборудованный для колясок",
+              "label": "Оборудованный",
               "sortOrder": 1,
               "meta": null,
               "defaultVerdict": null,
