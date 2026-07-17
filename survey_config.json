@@ -1,5 +1,5 @@
 {
-  "surveyVersion": "7d798f364084",
+  "surveyVersion": "901c4d19930f",
   "aggregation": {
     "baseScope": "entrance",
     "loweringScopes": [
@@ -759,10 +759,31 @@
       "title": "Парковка",
       "sortOrder": 4,
       "affectsStatus": false,
-      "photoRequired": false,
+      "photoRequired": true,
       "createdAt": "2026-06-24T09:37:56.749Z",
       "updatedAt": "2026-06-24T09:37:56.749Z",
-      "photoRequiredIf": null,
+      "photoRequiredIf": {
+        "any": [
+          {
+            "selected": {
+              "option": "curb",
+              "question": "parking_barriers"
+            }
+          },
+          {
+            "selected": {
+              "option": "bad_surface",
+              "question": "parking_barriers"
+            }
+          },
+          {
+            "selected": {
+              "option": "far",
+              "question": "parking_barriers"
+            }
+          }
+        ]
+      },
       "photoMax": 7,
       "questions": [
         {
@@ -770,7 +791,7 @@
           "sectionId": "f7537b8f-0acc-4da0-984a-b0a6db2d255c",
           "key": "parking_availability",
           "title": "Доступность парковки",
-          "controlType": "multi",
+          "controlType": "single",
           "required": false,
           "sortOrder": 1,
           "visibleIf": null,
@@ -974,7 +995,7 @@
     {
       "id": "c86b220f-b600-4c0f-ae79-bbc4412702d4",
       "key": "additions",
-      "title": "Есть чем дополнить?",
+      "title": "Что еще стоит знать?",
       "sortOrder": 5,
       "affectsStatus": false,
       "photoRequired": false,
