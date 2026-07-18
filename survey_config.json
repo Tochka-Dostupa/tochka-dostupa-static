@@ -1,5 +1,5 @@
 {
-  "surveyVersion": "901c4d19930f",
+  "surveyVersion": "fc1e6c13029a",
   "aggregation": {
     "baseScope": "entrance",
     "loweringScopes": [
@@ -446,7 +446,7 @@
               "id": "3f55a392-463d-49e6-abae-a033cd49de94",
               "questionId": "9ba76a7c-0bc5-4fcc-9cee-24bcd51c736d",
               "key": "restricted",
-              "label": "Ограничен проезд",
+              "label": "Перемещение ограничено",
               "sortOrder": 3,
               "meta": null,
               "defaultVerdict": null,
@@ -674,7 +674,7 @@
               "id": "9eda0f17-1547-4cf5-8c5a-5488c435aa02",
               "questionId": "64cc24c1-8519-4173-af85-8a0d78bdf327",
               "key": "hard_reach",
-              "label": "Тяжело добраться до туалета",
+              "label": "Туалет в труднодоступном месте",
               "sortOrder": 90,
               "meta": null,
               "defaultVerdict": null,
@@ -980,7 +980,7 @@
               "id": "7ba25c43-1ba0-4795-9aa5-0aadcc8075d3",
               "questionId": "1a806de2-4f6e-45cd-9ff6-f538d5e3c713",
               "key": "far",
-              "label": "Дальше 100 м",
+              "label": "Дальше 100 метров",
               "sortOrder": 3,
               "meta": null,
               "defaultVerdict": null,
