@@ -1,5 +1,5 @@
 {
-  "surveyVersion": "fc1e6c13029a",
+  "surveyVersion": "ea1cf6f1a937",
   "aggregation": {
     "baseScope": "entrance",
     "loweringScopes": [
@@ -39,36 +39,36 @@
               "id": "8179c584-d69f-4584-b202-4bbf0a3c6e9d",
               "questionId": "cb4680cf-fb9f-4760-9dd8-feba9483fd13",
               "key": "narrow",
-              "label": "Узкий 55–65 см",
+              "label": "Узкий вход 55–65 см",
               "sortOrder": 1,
               "meta": null,
               "defaultVerdict": null,
               "createdAt": "2026-06-24T09:37:56.749Z",
-              "updatedAt": "2026-06-24T09:37:56.749Z",
+              "updatedAt": "2026-07-22T11:10:10.525Z",
               "visibleIf": null
             },
             {
               "id": "a241e6e4-c072-429d-bb18-29ea1cad1829",
               "questionId": "cb4680cf-fb9f-4760-9dd8-feba9483fd13",
               "key": "standard",
-              "label": "Стандартный 70–80 см",
+              "label": "Стандартный вход 70–80 см",
               "sortOrder": 2,
               "meta": null,
               "defaultVerdict": null,
               "createdAt": "2026-06-24T09:37:56.749Z",
-              "updatedAt": "2026-06-24T09:37:56.749Z",
+              "updatedAt": "2026-07-22T11:10:10.532Z",
               "visibleIf": null
             },
             {
               "id": "278531f2-9d20-4790-911c-3fd95875cd6c",
               "questionId": "cb4680cf-fb9f-4760-9dd8-feba9483fd13",
               "key": "wide",
-              "label": "Широкий 85+ см",
+              "label": "Широкий вход 85+ см",
               "sortOrder": 3,
               "meta": null,
               "defaultVerdict": null,
               "createdAt": "2026-06-24T09:37:56.749Z",
-              "updatedAt": "2026-06-24T09:37:56.749Z",
+              "updatedAt": "2026-07-22T11:10:10.537Z",
               "visibleIf": null
             }
           ]
@@ -372,36 +372,36 @@
               "id": "a342b390-cd9d-4c2f-971a-cedbb90b60c6",
               "questionId": "317c03c8-9603-4197-a20e-496df876b732",
               "key": "narrow",
-              "label": "Узкая 55–65 см",
+              "label": "Узкая дверь лифта 55–65 см",
               "sortOrder": 1,
               "meta": null,
               "defaultVerdict": null,
               "createdAt": "2026-06-24T09:37:56.749Z",
-              "updatedAt": "2026-06-24T09:37:56.749Z",
+              "updatedAt": "2026-07-22T11:10:10.546Z",
               "visibleIf": null
             },
             {
               "id": "c7abcb78-7a20-4751-80cb-8bca9712f175",
               "questionId": "317c03c8-9603-4197-a20e-496df876b732",
               "key": "standard",
-              "label": "Стандартная 70–80 см",
+              "label": "Стандартная дверь лифта 70–80 см",
               "sortOrder": 2,
               "meta": null,
               "defaultVerdict": null,
               "createdAt": "2026-06-24T09:37:56.749Z",
-              "updatedAt": "2026-06-24T09:37:56.749Z",
+              "updatedAt": "2026-07-22T11:10:10.551Z",
               "visibleIf": null
             },
             {
               "id": "01e88bf6-a460-4959-a8f5-ad2a4493b540",
               "questionId": "317c03c8-9603-4197-a20e-496df876b732",
               "key": "wide",
-              "label": "Широкая 85+ см",
+              "label": "Широкая дверь лифта 85+ см",
               "sortOrder": 3,
               "meta": null,
               "defaultVerdict": null,
               "createdAt": "2026-06-24T09:37:56.749Z",
-              "updatedAt": "2026-06-24T09:37:56.749Z",
+              "updatedAt": "2026-07-22T11:10:10.555Z",
               "visibleIf": null
             }
           ]
@@ -583,36 +583,36 @@
               "id": "85c79412-e284-4b90-a83c-928378a4b1c4",
               "questionId": "fb25c2b1-5e58-4347-bf1e-5ea9a8ec0b9f",
               "key": "narrow",
-              "label": "Узкая 55–65 см",
+              "label": "Узкая дверь 55–65 см",
               "sortOrder": 1,
               "meta": null,
               "defaultVerdict": null,
               "createdAt": "2026-06-24T09:37:56.749Z",
-              "updatedAt": "2026-06-24T09:37:56.749Z",
+              "updatedAt": "2026-07-22T11:10:10.558Z",
               "visibleIf": null
             },
             {
               "id": "5c0a3df4-cb88-4be2-bece-8318ebd99d84",
               "questionId": "fb25c2b1-5e58-4347-bf1e-5ea9a8ec0b9f",
               "key": "standard",
-              "label": "Стандартная 70–80 см",
+              "label": "Стандартная дверь 70–80 см",
               "sortOrder": 2,
               "meta": null,
               "defaultVerdict": null,
               "createdAt": "2026-06-24T09:37:56.749Z",
-              "updatedAt": "2026-06-24T09:37:56.749Z",
+              "updatedAt": "2026-07-22T11:10:10.562Z",
               "visibleIf": null
             },
             {
               "id": "d102717c-cf66-4845-9ac7-c774e88e1902",
               "questionId": "fb25c2b1-5e58-4347-bf1e-5ea9a8ec0b9f",
               "key": "wide",
-              "label": "Широкая 85–100 см",
+              "label": "Широкая дверь 85+ см",
               "sortOrder": 3,
               "meta": null,
               "defaultVerdict": null,
               "createdAt": "2026-06-24T09:37:56.749Z",
-              "updatedAt": "2026-06-24T09:37:56.749Z",
+              "updatedAt": "2026-07-22T11:10:10.567Z",
               "visibleIf": null
             }
           ]
