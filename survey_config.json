@@ -1,5 +1,5 @@
 {
-  "surveyVersion": "ea1cf6f1a937",
+  "surveyVersion": "8000259bfeeb",
   "aggregation": {
     "baseScope": "entrance",
     "loweringScopes": [
@@ -22,6 +22,7 @@
       "updatedAt": "2026-06-24T09:37:56.749Z",
       "photoRequiredIf": null,
       "photoMax": 7,
+      "optionalIf": null,
       "questions": [
         {
           "id": "cb4680cf-fb9f-4760-9dd8-feba9483fd13",
@@ -45,7 +46,8 @@
               "defaultVerdict": null,
               "createdAt": "2026-06-24T09:37:56.749Z",
               "updatedAt": "2026-07-22T11:10:10.525Z",
-              "visibleIf": null
+              "visibleIf": null,
+              "cardLabel": null
             },
             {
               "id": "a241e6e4-c072-429d-bb18-29ea1cad1829",
@@ -57,7 +59,8 @@
               "defaultVerdict": null,
               "createdAt": "2026-06-24T09:37:56.749Z",
               "updatedAt": "2026-07-22T11:10:10.532Z",
-              "visibleIf": null
+              "visibleIf": null,
+              "cardLabel": null
             },
             {
               "id": "278531f2-9d20-4790-911c-3fd95875cd6c",
@@ -69,7 +72,8 @@
               "defaultVerdict": null,
               "createdAt": "2026-06-24T09:37:56.749Z",
               "updatedAt": "2026-07-22T11:10:10.537Z",
-              "visibleIf": null
+              "visibleIf": null,
+              "cardLabel": null
             }
           ]
         },
@@ -95,7 +99,8 @@
               "defaultVerdict": null,
               "createdAt": "2026-06-24T09:37:56.749Z",
               "updatedAt": "2026-06-24T09:37:56.749Z",
-              "visibleIf": null
+              "visibleIf": null,
+              "cardLabel": null
             },
             {
               "id": "f18c0c38-0a03-437e-b195-152ce03a947f",
@@ -107,7 +112,8 @@
               "defaultVerdict": null,
               "createdAt": "2026-06-24T09:37:56.749Z",
               "updatedAt": "2026-06-24T09:37:56.749Z",
-              "visibleIf": null
+              "visibleIf": null,
+              "cardLabel": null
             },
             {
               "id": "a7034902-849c-42d6-b087-01ba49b12d0d",
@@ -119,7 +125,8 @@
               "defaultVerdict": null,
               "createdAt": "2026-06-24T09:37:56.749Z",
               "updatedAt": "2026-06-24T09:37:56.749Z",
-              "visibleIf": null
+              "visibleIf": null,
+              "cardLabel": null
             },
             {
               "id": "5c4527c4-aa18-4f7a-b5a6-2a6eb4e753a5",
@@ -131,7 +138,8 @@
               "defaultVerdict": null,
               "createdAt": "2026-06-24T09:37:56.749Z",
               "updatedAt": "2026-06-24T09:37:56.749Z",
-              "visibleIf": null
+              "visibleIf": null,
+              "cardLabel": null
             }
           ]
         },
@@ -157,7 +165,8 @@
               "defaultVerdict": null,
               "createdAt": "2026-06-24T09:37:56.749Z",
               "updatedAt": "2026-06-24T09:37:56.749Z",
-              "visibleIf": null
+              "visibleIf": null,
+              "cardLabel": null
             },
             {
               "id": "2e956f48-2273-4afe-9800-76ad115c7a58",
@@ -169,7 +178,8 @@
               "defaultVerdict": null,
               "createdAt": "2026-06-24T09:37:56.749Z",
               "updatedAt": "2026-06-24T09:37:56.749Z",
-              "visibleIf": null
+              "visibleIf": null,
+              "cardLabel": null
             },
             {
               "id": "c1a183b2-44b5-479b-8ec9-3490a9d6a8bd",
@@ -181,7 +191,8 @@
               "defaultVerdict": null,
               "createdAt": "2026-06-24T09:37:56.749Z",
               "updatedAt": "2026-06-24T09:37:56.749Z",
-              "visibleIf": null
+              "visibleIf": null,
+              "cardLabel": null
             },
             {
               "id": "d0a2e102-fb86-4f6b-9d30-48c439266fc8",
@@ -198,7 +209,8 @@
                   "option": "call_button",
                   "question": "entrance_elements"
                 }
-              }
+              },
+              "cardLabel": null
             },
             {
               "id": "c917fdf6-9d1d-44bc-b6b7-16fd8a5358d5",
@@ -215,7 +227,8 @@
                   "option": "ramp",
                   "question": "entrance_elements"
                 }
-              }
+              },
+              "cardLabel": null
             },
             {
               "id": "862173fb-f691-4ffb-850b-aba3edd33594",
@@ -232,7 +245,8 @@
                   "option": "ramp",
                   "question": "entrance_elements"
                 }
-              }
+              },
+              "cardLabel": null
             },
             {
               "id": "b35f6fd3-4ac7-4b6a-b296-2c888f0e15da",
@@ -249,7 +263,8 @@
                   "option": "ramp",
                   "question": "entrance_elements"
                 }
-              }
+              },
+              "cardLabel": null
             },
             {
               "id": "dbb71b51-af10-47fe-b0cf-0f91d7020bcb",
@@ -266,7 +281,8 @@
                   "option": "ramp",
                   "question": "entrance_elements"
                 }
-              }
+              },
+              "cardLabel": null
             },
             {
               "id": "0c6c560d-8f6b-4f89-8302-648ba4656af7",
@@ -283,7 +299,8 @@
                   "option": "lift_platform",
                   "question": "entrance_elements"
                 }
-              }
+              },
+              "cardLabel": null
             }
           ]
         }
@@ -298,8 +315,72 @@
       "photoRequired": true,
       "createdAt": "2026-06-24T09:37:56.749Z",
       "updatedAt": "2026-06-24T09:37:56.749Z",
-      "photoRequiredIf": null,
+      "photoRequiredIf": {
+        "not": {
+          "all": [
+            {
+              "any": [
+                {
+                  "selected": {
+                    "option": "steps",
+                    "question": "entrance_barriers"
+                  }
+                },
+                {
+                  "selected": {
+                    "option": "threshold",
+                    "question": "entrance_barriers"
+                  }
+                },
+                {
+                  "selected": {
+                    "option": "heavy_door",
+                    "question": "entrance_barriers"
+                  }
+                },
+                {
+                  "selected": {
+                    "option": "narrow",
+                    "question": "entrance_width"
+                  }
+                }
+              ]
+            },
+            {
+              "not": {
+                "any": [
+                  {
+                    "selected": {
+                      "option": "ramp",
+                      "question": "entrance_elements"
+                    }
+                  },
+                  {
+                    "selected": {
+                      "option": "lift_platform",
+                      "question": "entrance_elements"
+                    }
+                  },
+                  {
+                    "selected": {
+                      "option": "auto_door",
+                      "question": "entrance_elements"
+                    }
+                  },
+                  {
+                    "selected": {
+                      "option": "call_button",
+                      "question": "entrance_elements"
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      },
       "photoMax": 7,
+      "optionalIf": null,
       "questions": [
         {
           "id": "13cc1ed5-9f23-42ba-aea8-37f63641e20c",
@@ -323,7 +404,8 @@
               "defaultVerdict": null,
               "createdAt": "2026-06-24T09:37:56.749Z",
               "updatedAt": "2026-06-24T09:37:56.749Z",
-              "visibleIf": null
+              "visibleIf": null,
+              "cardLabel": null
             },
             {
               "id": "510ec2ca-4b10-4aaf-b6e9-7e4e0f0c7a12",
@@ -335,7 +417,8 @@
               "defaultVerdict": null,
               "createdAt": "2026-06-24T09:37:56.749Z",
               "updatedAt": "2026-06-24T09:37:56.749Z",
-              "visibleIf": null
+              "visibleIf": null,
+              "cardLabel": null
             },
             {
               "id": "ca105d90-4626-4e8a-98a4-166ff93bee81",
@@ -347,7 +430,8 @@
               "defaultVerdict": null,
               "createdAt": "2026-06-24T09:37:56.749Z",
               "updatedAt": "2026-06-24T09:37:56.749Z",
-              "visibleIf": null
+              "visibleIf": null,
+              "cardLabel": null
             }
           ]
         },
@@ -378,7 +462,8 @@
               "defaultVerdict": null,
               "createdAt": "2026-06-24T09:37:56.749Z",
               "updatedAt": "2026-07-22T11:10:10.546Z",
-              "visibleIf": null
+              "visibleIf": null,
+              "cardLabel": null
             },
             {
               "id": "c7abcb78-7a20-4751-80cb-8bca9712f175",
@@ -390,7 +475,8 @@
               "defaultVerdict": null,
               "createdAt": "2026-06-24T09:37:56.749Z",
               "updatedAt": "2026-07-22T11:10:10.551Z",
-              "visibleIf": null
+              "visibleIf": null,
+              "cardLabel": null
             },
             {
               "id": "01e88bf6-a460-4959-a8f5-ad2a4493b540",
@@ -402,7 +488,8 @@
               "defaultVerdict": null,
               "createdAt": "2026-06-24T09:37:56.749Z",
               "updatedAt": "2026-07-22T11:10:10.555Z",
-              "visibleIf": null
+              "visibleIf": null,
+              "cardLabel": null
             }
           ]
         },
@@ -428,7 +515,8 @@
               "defaultVerdict": null,
               "createdAt": "2026-06-24T09:37:56.749Z",
               "updatedAt": "2026-06-24T09:37:56.749Z",
-              "visibleIf": null
+              "visibleIf": null,
+              "cardLabel": null
             },
             {
               "id": "eff39739-294a-40e2-830c-0b4cf31c4e49",
@@ -440,7 +528,8 @@
               "defaultVerdict": null,
               "createdAt": "2026-06-24T09:37:56.749Z",
               "updatedAt": "2026-06-24T09:37:56.749Z",
-              "visibleIf": null
+              "visibleIf": null,
+              "cardLabel": null
             },
             {
               "id": "3f55a392-463d-49e6-abae-a033cd49de94",
@@ -452,7 +541,8 @@
               "defaultVerdict": null,
               "createdAt": "2026-06-24T09:37:56.749Z",
               "updatedAt": "2026-06-24T09:37:56.749Z",
-              "visibleIf": null
+              "visibleIf": null,
+              "cardLabel": null
             },
             {
               "id": "819c8e25-e2db-41bb-b181-a4e7569fa19f",
@@ -469,7 +559,8 @@
                   "option": "lift",
                   "question": "movement_access"
                 }
-              }
+              },
+              "cardLabel": null
             }
           ]
         }
@@ -501,6 +592,150 @@
         ]
       },
       "photoMax": 7,
+      "optionalIf": {
+        "all": [
+          {
+            "any": [
+              {
+                "all": [
+                  {
+                    "any": [
+                      {
+                        "selected": {
+                          "option": "steps",
+                          "question": "entrance_barriers"
+                        }
+                      },
+                      {
+                        "selected": {
+                          "option": "threshold",
+                          "question": "entrance_barriers"
+                        }
+                      },
+                      {
+                        "selected": {
+                          "option": "heavy_door",
+                          "question": "entrance_barriers"
+                        }
+                      },
+                      {
+                        "selected": {
+                          "option": "narrow",
+                          "question": "entrance_width"
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "not": {
+                      "any": [
+                        {
+                          "selected": {
+                            "option": "ramp",
+                            "question": "entrance_elements"
+                          }
+                        },
+                        {
+                          "selected": {
+                            "option": "lift_platform",
+                            "question": "entrance_elements"
+                          }
+                        },
+                        {
+                          "selected": {
+                            "option": "auto_door",
+                            "question": "entrance_elements"
+                          }
+                        },
+                        {
+                          "selected": {
+                            "option": "call_button",
+                            "question": "entrance_elements"
+                          }
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              {
+                "all": [
+                  {
+                    "any": [
+                      {
+                        "selected": {
+                          "option": "steps",
+                          "question": "movement_barriers"
+                        }
+                      },
+                      {
+                        "selected": {
+                          "option": "threshold",
+                          "question": "movement_barriers"
+                        }
+                      },
+                      {
+                        "selected": {
+                          "option": "restricted",
+                          "question": "movement_barriers"
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "not": {
+                      "any": [
+                        {
+                          "selected": {
+                            "option": "lift",
+                            "question": "movement_access"
+                          }
+                        },
+                        {
+                          "selected": {
+                            "option": "lift_platform",
+                            "question": "movement_access"
+                          }
+                        },
+                        {
+                          "selected": {
+                            "option": "travelator",
+                            "question": "movement_access"
+                          }
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "not": {
+              "any": [
+                {
+                  "selected": {
+                    "option": "equipped",
+                    "question": "toilet_availability"
+                  }
+                },
+                {
+                  "selected": {
+                    "option": "regular",
+                    "question": "toilet_availability"
+                  }
+                },
+                {
+                  "selected": {
+                    "option": "none",
+                    "question": "toilet_availability"
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      },
       "questions": [
         {
           "id": "08d4ff8a-a633-4ad8-892b-aeae0241d1ee",
@@ -524,7 +759,8 @@
               "defaultVerdict": null,
               "createdAt": "2026-06-24T09:37:56.749Z",
               "updatedAt": "2026-06-24T09:37:56.749Z",
-              "visibleIf": null
+              "visibleIf": null,
+              "cardLabel": null
             },
             {
               "id": "ea2e30fa-c9e0-4d0e-be84-359ee1f90f58",
@@ -536,7 +772,8 @@
               "defaultVerdict": null,
               "createdAt": "2026-06-24T09:37:56.749Z",
               "updatedAt": "2026-06-24T09:37:56.749Z",
-              "visibleIf": null
+              "visibleIf": null,
+              "cardLabel": null
             },
             {
               "id": "0ea67d13-b658-4a47-bcff-ad417830eba5",
@@ -548,7 +785,8 @@
               "defaultVerdict": null,
               "createdAt": "2026-06-24T09:37:56.749Z",
               "updatedAt": "2026-06-24T09:37:56.749Z",
-              "visibleIf": null
+              "visibleIf": null,
+              "cardLabel": null
             }
           ]
         },
@@ -589,7 +827,8 @@
               "defaultVerdict": null,
               "createdAt": "2026-06-24T09:37:56.749Z",
               "updatedAt": "2026-07-22T11:10:10.558Z",
-              "visibleIf": null
+              "visibleIf": null,
+              "cardLabel": null
             },
             {
               "id": "5c0a3df4-cb88-4be2-bece-8318ebd99d84",
@@ -601,7 +840,8 @@
               "defaultVerdict": null,
               "createdAt": "2026-06-24T09:37:56.749Z",
               "updatedAt": "2026-07-22T11:10:10.562Z",
-              "visibleIf": null
+              "visibleIf": null,
+              "cardLabel": null
             },
             {
               "id": "d102717c-cf66-4845-9ac7-c774e88e1902",
@@ -613,7 +853,8 @@
               "defaultVerdict": null,
               "createdAt": "2026-06-24T09:37:56.749Z",
               "updatedAt": "2026-07-22T11:10:10.567Z",
-              "visibleIf": null
+              "visibleIf": null,
+              "cardLabel": null
             }
           ]
         },
@@ -644,7 +885,8 @@
               "defaultVerdict": null,
               "createdAt": "2026-06-24T09:37:56.749Z",
               "updatedAt": "2026-06-24T09:37:56.749Z",
-              "visibleIf": null
+              "visibleIf": null,
+              "cardLabel": null
             },
             {
               "id": "0453dc65-a261-48fd-9265-bc4b3aa37b12",
@@ -656,7 +898,8 @@
               "defaultVerdict": null,
               "createdAt": "2026-06-24T09:37:56.749Z",
               "updatedAt": "2026-06-24T09:37:56.749Z",
-              "visibleIf": null
+              "visibleIf": null,
+              "cardLabel": null
             },
             {
               "id": "da1d11dd-144e-45c6-8907-385a39f79971",
@@ -668,7 +911,8 @@
               "defaultVerdict": null,
               "createdAt": "2026-06-24T09:37:56.749Z",
               "updatedAt": "2026-06-24T09:37:56.749Z",
-              "visibleIf": null
+              "visibleIf": null,
+              "cardLabel": null
             },
             {
               "id": "9eda0f17-1547-4cf5-8c5a-5488c435aa02",
@@ -680,7 +924,8 @@
               "defaultVerdict": null,
               "createdAt": "2026-06-24T09:37:56.749Z",
               "updatedAt": "2026-06-24T09:37:56.749Z",
-              "visibleIf": null
+              "visibleIf": null,
+              "cardLabel": null
             }
           ]
         },
@@ -711,7 +956,8 @@
               "defaultVerdict": null,
               "createdAt": "2026-06-24T09:37:56.749Z",
               "updatedAt": "2026-06-24T09:37:56.749Z",
-              "visibleIf": null
+              "visibleIf": null,
+              "cardLabel": null
             },
             {
               "id": "cbdb3b3b-6443-4534-9463-1e142f4055a3",
@@ -723,7 +969,8 @@
               "defaultVerdict": null,
               "createdAt": "2026-06-24T09:37:56.749Z",
               "updatedAt": "2026-06-24T09:37:56.749Z",
-              "visibleIf": null
+              "visibleIf": null,
+              "cardLabel": null
             },
             {
               "id": "5557d14d-6cc1-46d5-bc03-b79a849741f8",
@@ -735,7 +982,8 @@
               "defaultVerdict": null,
               "createdAt": "2026-06-24T09:37:56.749Z",
               "updatedAt": "2026-06-24T09:37:56.749Z",
-              "visibleIf": null
+              "visibleIf": null,
+              "cardLabel": null
             },
             {
               "id": "218ee35a-1095-4982-9f95-7b67a67c0d2b",
@@ -747,7 +995,8 @@
               "defaultVerdict": null,
               "createdAt": "2026-06-24T09:37:56.749Z",
               "updatedAt": "2026-06-24T09:37:56.749Z",
-              "visibleIf": null
+              "visibleIf": null,
+              "cardLabel": null
             }
           ]
         }
@@ -785,6 +1034,7 @@
         ]
       },
       "photoMax": 7,
+      "optionalIf": null,
       "questions": [
         {
           "id": "91b92804-99ee-405e-94fb-9515ef51a5dd",
@@ -808,7 +1058,8 @@
               "defaultVerdict": null,
               "createdAt": "2026-06-24T09:37:56.749Z",
               "updatedAt": "2026-06-24T09:37:56.749Z",
-              "visibleIf": null
+              "visibleIf": null,
+              "cardLabel": null
             },
             {
               "id": "7edc86be-4936-422a-b495-b797271d6df9",
@@ -820,7 +1071,8 @@
               "defaultVerdict": null,
               "createdAt": "2026-06-24T09:37:56.749Z",
               "updatedAt": "2026-06-24T09:37:56.749Z",
-              "visibleIf": null
+              "visibleIf": null,
+              "cardLabel": null
             },
             {
               "id": "3ac203be-664f-4096-9119-1390dcd3f49e",
@@ -832,7 +1084,8 @@
               "defaultVerdict": null,
               "createdAt": "2026-06-24T09:37:56.749Z",
               "updatedAt": "2026-06-24T09:37:56.749Z",
-              "visibleIf": null
+              "visibleIf": null,
+              "cardLabel": null
             },
             {
               "id": "dddb20e0-46bc-41ba-aeaa-25f07a6fb5be",
@@ -844,7 +1097,8 @@
               "defaultVerdict": null,
               "createdAt": "2026-06-24T09:37:56.749Z",
               "updatedAt": "2026-06-24T09:37:56.749Z",
-              "visibleIf": null
+              "visibleIf": null,
+              "cardLabel": null
             }
           ]
         },
@@ -885,13 +1139,14 @@
               "id": "2bca843b-a29a-4c6c-821d-8213804ea7b9",
               "questionId": "a81f2422-1de5-4dfa-887b-e0311f032512",
               "key": "yard",
-              "label": "Во дворе",
+              "label": "На территории",
               "sortOrder": 1,
               "meta": null,
               "defaultVerdict": null,
               "createdAt": "2026-06-24T09:37:56.749Z",
               "updatedAt": "2026-06-24T09:37:56.749Z",
-              "visibleIf": null
+              "visibleIf": null,
+              "cardLabel": null
             },
             {
               "id": "1128baff-5a37-43a0-9ec5-9ff061c710f7",
@@ -903,7 +1158,8 @@
               "defaultVerdict": null,
               "createdAt": "2026-06-24T09:37:56.749Z",
               "updatedAt": "2026-06-24T09:37:56.749Z",
-              "visibleIf": null
+              "visibleIf": null,
+              "cardLabel": null
             },
             {
               "id": "6b7ba00f-8297-4e2e-84ef-44fed08fe393",
@@ -915,7 +1171,8 @@
               "defaultVerdict": null,
               "createdAt": "2026-06-24T09:37:56.749Z",
               "updatedAt": "2026-06-24T09:37:56.749Z",
-              "visibleIf": null
+              "visibleIf": null,
+              "cardLabel": null
             }
           ]
         },
@@ -962,7 +1219,8 @@
               "defaultVerdict": null,
               "createdAt": "2026-06-24T09:37:56.749Z",
               "updatedAt": "2026-06-24T09:37:56.749Z",
-              "visibleIf": null
+              "visibleIf": null,
+              "cardLabel": null
             },
             {
               "id": "1f936e8a-bdad-4396-aefb-3e5b7732f070",
@@ -974,7 +1232,8 @@
               "defaultVerdict": null,
               "createdAt": "2026-06-24T09:37:56.749Z",
               "updatedAt": "2026-06-24T09:37:56.749Z",
-              "visibleIf": null
+              "visibleIf": null,
+              "cardLabel": null
             },
             {
               "id": "7ba25c43-1ba0-4795-9aa5-0aadcc8075d3",
@@ -986,7 +1245,8 @@
               "defaultVerdict": null,
               "createdAt": "2026-06-24T09:37:56.749Z",
               "updatedAt": "2026-06-24T09:37:56.749Z",
-              "visibleIf": null
+              "visibleIf": null,
+              "cardLabel": null
             }
           ]
         }
@@ -1003,6 +1263,7 @@
       "updatedAt": "2026-06-24T09:37:56.749Z",
       "photoRequiredIf": null,
       "photoMax": 7,
+      "optionalIf": null,
       "questions": [
         {
           "id": "bf80d527-93fc-4cc3-8552-cd3eef36ebcb",
@@ -1026,7 +1287,8 @@
               "defaultVerdict": null,
               "createdAt": "2026-06-24T09:37:56.749Z",
               "updatedAt": "2026-06-24T09:37:56.749Z",
-              "visibleIf": null
+              "visibleIf": null,
+              "cardLabel": null
             },
             {
               "id": "57535474-3a4e-4d6b-8fb7-1504977ad7fc",
@@ -1038,7 +1300,8 @@
               "defaultVerdict": null,
               "createdAt": "2026-06-24T09:37:56.749Z",
               "updatedAt": "2026-06-24T09:37:56.749Z",
-              "visibleIf": null
+              "visibleIf": null,
+              "cardLabel": null
             }
           ]
         }
