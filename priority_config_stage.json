@@ -2,74 +2,97 @@
   "categories": [
     {
       "title": "Приоритетные",
-      "searchTerms": ["МФЦ", "поликлиника"],
       "icon": "star",
-      "default": true
-    },
-    {
-      "title": "Где поесть",
-      "searchTerms": ["Где поесть"],
-      "icon": "food"
-    },
-    {
-      "title": "Продукты",
-      "searchTerms": ["Продукты"],
-      "icon": "grocery"
-    },
-    {
-      "title": "Аптеки",
-      "searchTerms": ["Аптеки"],
-      "icon": "pharmacy"
-    },
-    {
-      "title": "Транспорт",
-      "searchTerms": ["Станция"],
-      "icon": "0xE800"
-    },
-    {
-      "title": "Банки",
-      "searchTerms": ["Банки"],
-      "icon": "atm"
-    },
-    {
-      "title": "Больницы",
-      "searchTerms": ["Больницы"],
-      "icon": "hospital"
-    },
-    {
-      "title": "Культура",
-      "searchTerms": ["Музей", "Выставка", "Театры"],
-      "icon": "0xE82C"
-    },
-    {
-      "title": "Спорт",
-      "searchTerms": ["Фитнес", "Спорт", "Бассейн"],
-      "icon": "fitness"
-    },
-    {
-      "title": "Красота",
-      "searchTerms": ["Красота"],
-      "icon": "beauty"
-    },
-    {
-      "title": "Гостиницы",
-      "searchTerms": ["Гостиницы"],
-      "icon": "hotel"
-    },
-    {
-      "title": "Бары и пабы",
-      "searchTerms": ["Бары и пабы"],
-      "icon": "bar"
-    },
-    {
-      "title": "Торговый центр",
-      "searchTerms": ["Торговый центр"],
-      "icon": "mall"
+      "searchTerms": [
+        "rubric:201,53505"
+      ]
     },
     {
       "title": "Развлечения",
-      "searchTerms": ["Кинотеатры", "Цирк"],
-      "icon": "cinema"
+      "icon": "cinema",
+      "searchTerms": [
+        "rubric:199"
+      ]
+    },
+    {
+      "title": "Продукты",
+      "icon": "grocery",
+      "searchTerms": [
+        "rubric:350,373"
+      ]
+    },
+    {
+      "title": "Спорт",
+      "icon": "fitness",
+      "searchTerms": [
+        "Бассейн",
+        "Спорт",
+        "Фитнес",
+        "фитнес-клуб"
+      ]
+    },
+    {
+      "title": "Аптеки",
+      "icon": "pharmacy",
+      "searchTerms": [
+        "rubric:207"
+      ]
+    },
+    {
+      "title": "Торговля",
+      "icon": "mall",
+      "searchTerms": [
+        "Торговый центр",
+        "ТЦ",
+        "ТРЦ",
+        "торговый комплекс"
+      ]
+    },
+    {
+      "title": "Медицина",
+      "icon": "hospital",
+      "searchTerms": [
+        "rubric:201"
+      ]
+    },
+    {
+      "title": "Красота",
+      "icon": "beauty",
+      "searchTerms": [
+        "Красота",
+        "салон красоты",
+        "парикмахерская",
+        "барбершоп"
+      ]
+    },
+    {
+      "title": "Транспорт",
+      "icon": "0xE800",
+      "searchTerms": [
+        "Станция",
+        "ржд"
+      ]
+    },
+    {
+      "title": "Банки",
+      "icon": "atm",
+      "searchTerms": [
+        "rubric:492"
+      ]
+    },
+    {
+      "title": "Гостиницы",
+      "icon": "hotel",
+      "searchTerms": [
+        "rubric:269"
+      ]
+    },
+    {
+      "title": "Еда и напитки",
+      "icon": "food",
+      "searchTerms": [
+        "rubric:1203"
+      ]
     }
   ]
 }

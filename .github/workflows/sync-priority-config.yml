@@ -1,0 +1,51 @@
+name: Sync priority (volunteer categories) config mirror
+
+# Снимает актуальные волонтёрские категории с прод/staging-бэка в этот репозиторий.
+# Файлы — фолбэк мобилы (читает бэк первым, GitHub-raw — если бэк недоступен),
+# и одновременно ОСНОВНОЙ источник для старых версий приложения (у них
+# PRIORITY_CONFIG_URL вшит на эти файлы). Категории/рубрики правятся в админке,
+# поэтому зеркало держим авто-синком, а не руками.
+# Эндпоинт /user/volunteer-categories публичный → секреты не нужны.
+
+on:
+  schedule:
+    - cron: '0 3 * * *' # каждый день в 03:00 UTC
+  workflow_dispatch: {} # ручной запуск из вкладки Actions
+
+permissions:
+  contents: write
+
+concurrency:
+  group: sync-priority-config
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Fetch prod + staging volunteer categories
+        run: |
+          set -euo pipefail
+          fetch() {
+            # $1 = URL, $2 = выходной файл. Пишем только валидный JSON в том же
+            # формате, что ручной снимок (2 пробела + перевод строки) — без ложных диффов.
+            curl -sf --max-time 30 "$1" \
+              | node -e 'let s="";process.stdin.on("data",d=>s+=d).on("end",()=>{const c=JSON.parse(s);if(!Array.isArray(c.categories)||!c.categories.length)throw new Error("bad config");require("fs").writeFileSync(process.argv[1],JSON.stringify(c,null,2)+"\n")})' "$2"
+          }
+          fetch https://api.tochka-dostupa.app/user/volunteer-categories priority_config.json
+          fetch https://staging-api.tochka-dostupa.app/user/volunteer-categories priority_config_stage.json
+
+      - name: Commit if changed
+        run: |
+          set -euo pipefail
+          if [ -z "$(git status --porcelain priority_config.json priority_config_stage.json)" ]; then
+            echo "Конфиг не менялся — коммит не нужен."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add priority_config.json priority_config_stage.json
+          git commit -m "chore(priority): auto-sync volunteer categories mirror (prod+stage)"
+          git push
