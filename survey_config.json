@@ -1,5 +1,5 @@
 {
-  "surveyVersion": "8000259bfeeb",
+  "surveyVersion": "3289244938af",
   "aggregation": {
     "baseScope": "entrance",
     "loweringScopes": [
@@ -456,40 +456,40 @@
               "id": "a342b390-cd9d-4c2f-971a-cedbb90b60c6",
               "questionId": "317c03c8-9603-4197-a20e-496df876b732",
               "key": "narrow",
-              "label": "Узкая дверь лифта 55–65 см",
+              "label": "Узкая дверь 55–65 см",
               "sortOrder": 1,
               "meta": null,
               "defaultVerdict": null,
               "createdAt": "2026-06-24T09:37:56.749Z",
               "updatedAt": "2026-07-22T11:10:10.546Z",
               "visibleIf": null,
-              "cardLabel": null
+              "cardLabel": "Узкая дверь лифта 55–65 см"
             },
             {
               "id": "c7abcb78-7a20-4751-80cb-8bca9712f175",
               "questionId": "317c03c8-9603-4197-a20e-496df876b732",
               "key": "standard",
-              "label": "Стандартная дверь лифта 70–80 см",
+              "label": "Стандартная дверь 70–80 см",
               "sortOrder": 2,
               "meta": null,
               "defaultVerdict": null,
               "createdAt": "2026-06-24T09:37:56.749Z",
               "updatedAt": "2026-07-22T11:10:10.551Z",
               "visibleIf": null,
-              "cardLabel": null
+              "cardLabel": "Стандартная дверь лифта 70–80 см"
             },
             {
               "id": "01e88bf6-a460-4959-a8f5-ad2a4493b540",
               "questionId": "317c03c8-9603-4197-a20e-496df876b732",
               "key": "wide",
-              "label": "Широкая дверь лифта 85+ см",
+              "label": "Широкая дверь 85+ см",
               "sortOrder": 3,
               "meta": null,
               "defaultVerdict": null,
               "createdAt": "2026-06-24T09:37:56.749Z",
               "updatedAt": "2026-07-22T11:10:10.555Z",
               "visibleIf": null,
-              "cardLabel": null
+              "cardLabel": "Широкая дверь лифта 85+ см"
             }
           ]
         },
