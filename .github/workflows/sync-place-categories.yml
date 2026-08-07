@@ -1,0 +1,53 @@
+name: Sync place-categories (verified mode) config mirror
+
+# Снимает актуальные категории режима «Проверенные» с прод/staging-бэка в этот
+# репозиторий. Файлы — instant/offline-фолбэк мобилы (она читает бэк
+# /user/place-categories как источник истины, а этот файл показывает мгновенно
+# на холодном старте до ответа сети) И источник upsert для backend
+# recategorize-other. Категории правятся в админке → держим зеркало авто-синком,
+# иначе статик отстаёт (было 7 против 13 в БД → «моргание» чипов на «Карте»).
+# Проекция на дисплей-поля {internalName,title,icon,sortOrder} (id/createdAt из
+# ответа НЕ пишем — иначе шумные диффы). Эндпоинт публичный → секреты не нужны.
+
+on:
+  schedule:
+    - cron: '0 3 * * *' # каждый день в 03:00 UTC
+  workflow_dispatch: {} # ручной запуск из вкладки Actions
+
+permissions:
+  contents: write
+
+concurrency:
+  group: sync-place-categories
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Fetch prod + staging place categories
+        run: |
+          set -euo pipefail
+          fetch() {
+            # $1 = URL, $2 = выходной файл. Проекция на дисплей-поля + сортировка
+            # по sortOrder + 2 пробела + перевод строки (стабильно, без ложных диффов).
+            curl -sf --max-time 30 "$1" \
+              | node -e 'let s="";process.stdin.on("data",d=>s+=d).on("end",()=>{const a=JSON.parse(s);if(!Array.isArray(a)||!a.length)throw new Error("bad config");const cats=a.map(c=>({internalName:c.internalName,title:c.title,icon:c.icon??null,sortOrder:c.sortOrder})).sort((x,y)=>x.sortOrder-y.sortOrder);require("fs").writeFileSync(process.argv[1],JSON.stringify({categories:cats},null,2)+"\n")})' "$2"
+          }
+          fetch https://api.tochka-dostupa.app/user/place-categories place_categories.json
+          fetch https://staging-api.tochka-dostupa.app/user/place-categories place_categories_stage.json
+
+      - name: Commit if changed
+        run: |
+          set -euo pipefail
+          if [ -z "$(git status --porcelain place_categories.json place_categories_stage.json)" ]; then
+            echo "Конфиг не менялся — коммит не нужен."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add place_categories.json place_categories_stage.json
+          git commit -m "chore(place-categories): auto-sync verified categories mirror (prod+stage)"
+          git push
