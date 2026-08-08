@@ -1,5 +1,5 @@
 {
-  "surveyVersion": "3289244938af",
+  "surveyVersion": "5edb59fd3ec5",
   "aggregation": {
     "baseScope": "entrance",
     "loweringScopes": [
@@ -315,72 +315,70 @@
       "photoRequired": true,
       "createdAt": "2026-06-24T09:37:56.749Z",
       "updatedAt": "2026-06-24T09:37:56.749Z",
-      "photoRequiredIf": {
-        "not": {
-          "all": [
-            {
+      "photoRequiredIf": null,
+      "photoMax": 7,
+      "optionalIf": {
+        "all": [
+          {
+            "any": [
+              {
+                "selected": {
+                  "option": "steps",
+                  "question": "entrance_barriers"
+                }
+              },
+              {
+                "selected": {
+                  "option": "threshold",
+                  "question": "entrance_barriers"
+                }
+              },
+              {
+                "selected": {
+                  "option": "heavy_door",
+                  "question": "entrance_barriers"
+                }
+              },
+              {
+                "selected": {
+                  "option": "narrow",
+                  "question": "entrance_width"
+                }
+              }
+            ]
+          },
+          {
+            "not": {
               "any": [
                 {
                   "selected": {
-                    "option": "steps",
-                    "question": "entrance_barriers"
+                    "option": "ramp",
+                    "question": "entrance_elements"
                   }
                 },
                 {
                   "selected": {
-                    "option": "threshold",
-                    "question": "entrance_barriers"
+                    "option": "lift_platform",
+                    "question": "entrance_elements"
                   }
                 },
                 {
                   "selected": {
-                    "option": "heavy_door",
-                    "question": "entrance_barriers"
+                    "option": "auto_door",
+                    "question": "entrance_elements"
                   }
                 },
                 {
                   "selected": {
-                    "option": "narrow",
-                    "question": "entrance_width"
+                    "option": "call_button",
+                    "question": "entrance_elements"
                   }
                 }
               ]
-            },
-            {
-              "not": {
-                "any": [
-                  {
-                    "selected": {
-                      "option": "ramp",
-                      "question": "entrance_elements"
-                    }
-                  },
-                  {
-                    "selected": {
-                      "option": "lift_platform",
-                      "question": "entrance_elements"
-                    }
-                  },
-                  {
-                    "selected": {
-                      "option": "auto_door",
-                      "question": "entrance_elements"
-                    }
-                  },
-                  {
-                    "selected": {
-                      "option": "call_button",
-                      "question": "entrance_elements"
-                    }
-                  }
-                ]
-              }
             }
-          ]
-        }
+          }
+        ]
       },
-      "photoMax": 7,
-      "optionalIf": null,
       "questions": [
         {
           "id": "13cc1ed5-9f23-42ba-aea8-37f63641e20c",
@@ -441,7 +439,7 @@
           "key": "lift_width",
           "title": "Ширина двери лифта",
           "controlType": "single",
-          "required": false,
+          "required": true,
           "sortOrder": 2,
           "visibleIf": {
             "selected": {
