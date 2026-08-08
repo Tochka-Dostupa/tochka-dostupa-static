@@ -37,12 +37,6 @@
       "sortOrder": 40
     },
     {
-      "internalName": "beauty",
-      "title": "Красота",
-      "icon": "beauty",
-      "sortOrder": 50
-    },
-    {
       "internalName": "gas",
       "title": "АЗС",
       "icon": "gas",
@@ -58,6 +52,12 @@
       "internalName": "hotel",
       "title": "Гостиницы",
       "icon": "hotel",
+      "sortOrder": 80
+    },
+    {
+      "internalName": "beauty",
+      "title": "Красота",
+      "icon": "beauty",
       "sortOrder": 80
     },
     {
