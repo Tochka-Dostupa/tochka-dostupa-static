@@ -1,5 +1,5 @@
 {
-  "surveyVersion": "5edb59fd3ec5",
+  "surveyVersion": "ffcefef30911",
   "aggregation": {
     "baseScope": "entrance",
     "loweringScopes": [
@@ -172,7 +172,7 @@
               "id": "2e956f48-2273-4afe-9800-76ad115c7a58",
               "questionId": "d41c1b85-37e4-4960-afc6-b5d0355577ed",
               "key": "threshold",
-              "label": "Порог",
+              "label": "Порог 5+ см",
               "sortOrder": 2,
               "meta": null,
               "defaultVerdict": null,
@@ -259,10 +259,20 @@
               "createdAt": "2026-06-24T09:37:56.749Z",
               "updatedAt": "2026-06-24T09:37:56.749Z",
               "visibleIf": {
-                "selected": {
-                  "option": "ramp",
-                  "question": "entrance_elements"
-                }
+                "any": [
+                  {
+                    "selected": {
+                      "option": "steep_ramp",
+                      "question": "entrance_barriers"
+                    }
+                  },
+                  {
+                    "selected": {
+                      "option": "slippery_ramp",
+                      "question": "entrance_barriers"
+                    }
+                  }
+                ]
               },
               "cardLabel": null
             },
@@ -277,10 +287,20 @@
               "createdAt": "2026-06-24T09:37:56.749Z",
               "updatedAt": "2026-06-24T09:37:56.749Z",
               "visibleIf": {
-                "selected": {
-                  "option": "ramp",
-                  "question": "entrance_elements"
-                }
+                "any": [
+                  {
+                    "selected": {
+                      "option": "steep_ramp",
+                      "question": "entrance_barriers"
+                    }
+                  },
+                  {
+                    "selected": {
+                      "option": "slippery_ramp",
+                      "question": "entrance_barriers"
+                    }
+                  }
+                ]
               },
               "cardLabel": null
             },
@@ -520,7 +540,7 @@
               "id": "eff39739-294a-40e2-830c-0b4cf31c4e49",
               "questionId": "9ba76a7c-0bc5-4fcc-9cee-24bcd51c736d",
               "key": "threshold",
-              "label": "Порог",
+              "label": "Порог 5+ см",
               "sortOrder": 2,
               "meta": null,
               "defaultVerdict": null,
@@ -553,9 +573,9 @@
               "createdAt": "2026-06-24T09:37:56.749Z",
               "updatedAt": "2026-06-24T09:37:56.749Z",
               "visibleIf": {
-                "selected": {
-                  "option": "lift",
-                  "question": "movement_access"
+                "equals": {
+                  "value": "narrow",
+                  "question": "lift_width"
                 }
               },
               "cardLabel": null
@@ -873,19 +893,6 @@
           "createdAt": "2026-06-24T09:37:56.749Z",
           "updatedAt": "2026-06-24T09:37:56.749Z",
           "options": [
-            {
-              "id": "763c9c99-6f8b-4103-b966-0af0f4c94834",
-              "questionId": "64cc24c1-8519-4173-af85-8a0d78bdf327",
-              "key": "one_rail",
-              "label": "Один поручень",
-              "sortOrder": 1,
-              "meta": null,
-              "defaultVerdict": null,
-              "createdAt": "2026-06-24T09:37:56.749Z",
-              "updatedAt": "2026-06-24T09:37:56.749Z",
-              "visibleIf": null,
-              "cardLabel": null
-            },
             {
               "id": "0453dc65-a261-48fd-9265-bc4b3aa37b12",
               "questionId": "64cc24c1-8519-4173-af85-8a0d78bdf327",
