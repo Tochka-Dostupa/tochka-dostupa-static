@@ -1,5 +1,5 @@
 {
-  "surveyVersion": "472eef93f05b",
+  "surveyVersion": "5556af029a96",
   "aggregation": {
     "baseScope": "entrance",
     "loweringScopes": [
@@ -1042,7 +1042,7 @@
               "id": "2fe52eb6-dce8-44c9-9a34-5ec7e0106a7d",
               "questionId": "95ce76f1-6154-466e-82d2-5d0fcda68642",
               "key": "dedicated",
-              "label": "Выделенная",
+              "label": "Обычная",
               "sortOrder": 2,
               "meta": null,
               "defaultVerdict": null,
@@ -1098,12 +1098,6 @@
               {
                 "selected": {
                   "option": "dedicated",
-                  "question": "parking_availability"
-                }
-              },
-              {
-                "selected": {
-                  "option": "unorganized",
                   "question": "parking_availability"
                 }
               }
@@ -1172,12 +1166,6 @@
               {
                 "selected": {
                   "option": "dedicated",
-                  "question": "parking_availability"
-                }
-              },
-              {
-                "selected": {
-                  "option": "unorganized",
                   "question": "parking_availability"
                 }
               }

@@ -1,5 +1,5 @@
 {
-  "surveyVersion": "ffcefef30911",
+  "surveyVersion": "89cb666df27b",
   "aggregation": {
     "baseScope": "entrance",
     "loweringScopes": [
@@ -1070,21 +1070,8 @@
               "id": "7edc86be-4936-422a-b495-b797271d6df9",
               "questionId": "91b92804-99ee-405e-94fb-9515ef51a5dd",
               "key": "dedicated",
-              "label": "Выделенная",
+              "label": "Обычная",
               "sortOrder": 2,
-              "meta": null,
-              "defaultVerdict": null,
-              "createdAt": "2026-06-24T09:37:56.749Z",
-              "updatedAt": "2026-06-24T09:37:56.749Z",
-              "visibleIf": null,
-              "cardLabel": null
-            },
-            {
-              "id": "3ac203be-664f-4096-9119-1390dcd3f49e",
-              "questionId": "91b92804-99ee-405e-94fb-9515ef51a5dd",
-              "key": "unorganized",
-              "label": "Неорганизованная",
-              "sortOrder": 3,
               "meta": null,
               "defaultVerdict": null,
               "createdAt": "2026-06-24T09:37:56.749Z",
@@ -1126,12 +1113,6 @@
               {
                 "selected": {
                   "option": "dedicated",
-                  "question": "parking_availability"
-                }
-              },
-              {
-                "selected": {
-                  "option": "unorganized",
                   "question": "parking_availability"
                 }
               }
@@ -1200,12 +1181,6 @@
               {
                 "selected": {
                   "option": "dedicated",
-                  "question": "parking_availability"
-                }
-              },
-              {
-                "selected": {
-                  "option": "unorganized",
                   "question": "parking_availability"
                 }
               }
