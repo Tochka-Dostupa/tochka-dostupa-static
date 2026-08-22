@@ -1,82 +1,82 @@
 {
   "categories": [
     {
-      "internalName": "entertainment",
-      "title": "Развлечения",
-      "icon": "cinema",
+      "internalName": "food",
+      "title": "Еда и напитки",
+      "icon": "food",
       "sortOrder": 10
     },
     {
       "internalName": "grocery",
       "title": "Продукты",
       "icon": "grocery",
-      "sortOrder": 10
-    },
-    {
-      "internalName": "sport",
-      "title": "Спорт",
-      "icon": "fitness",
-      "sortOrder": 11
+      "sortOrder": 20
     },
     {
       "internalName": "pharmacy",
       "title": "Аптеки",
       "icon": "pharmacy",
-      "sortOrder": 20
+      "sortOrder": 30
     },
     {
       "internalName": "mall",
       "title": "Торговля",
       "icon": "mall",
-      "sortOrder": 30
+      "sortOrder": 40
+    },
+    {
+      "internalName": "entertainment",
+      "title": "Развлечения",
+      "icon": "cinema",
+      "sortOrder": 50
+    },
+    {
+      "internalName": "sport",
+      "title": "Спорт",
+      "icon": "fitness",
+      "sortOrder": 60
     },
     {
       "internalName": "health",
       "title": "Медицина",
       "icon": "hospital",
-      "sortOrder": 40
+      "sortOrder": 70
     },
     {
       "internalName": "gas",
       "title": "АЗС",
       "icon": "gas",
-      "sortOrder": 70
+      "sortOrder": 90
     },
     {
       "internalName": "bank",
       "title": "Банки",
       "icon": "atm",
-      "sortOrder": 70
+      "sortOrder": 100
     },
     {
       "internalName": "hotel",
       "title": "Гостиницы",
       "icon": "hotel",
-      "sortOrder": 80
+      "sortOrder": 110
     },
     {
       "internalName": "beauty",
       "title": "Красота",
       "icon": "beauty",
-      "sortOrder": 80
+      "sortOrder": 120
     },
     {
       "internalName": "МФЦ",
       "title": "МФЦ",
       "icon": "visit",
-      "sortOrder": 90
+      "sortOrder": 130
     },
     {
       "internalName": "other",
       "title": "Прочее",
       "icon": null,
-      "sortOrder": 99
-    },
-    {
-      "internalName": "food",
-      "title": "Еда и напитки",
-      "icon": "food",
-      "sortOrder": 100
+      "sortOrder": 140
     }
   ]
 }
