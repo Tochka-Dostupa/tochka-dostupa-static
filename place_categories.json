@@ -37,33 +37,33 @@
       "sortOrder": 70
     },
     {
+      "internalName": "sport",
+      "title": "Спорт",
+      "icon": "fitness",
+      "sortOrder": 80
+    },
+    {
       "internalName": "bank",
       "title": "Банки",
       "icon": "atm",
-      "sortOrder": 80
+      "sortOrder": 90
     },
     {
       "internalName": "pickup",
       "title": "Пункты выдачи",
       "icon": "delivery",
-      "sortOrder": 90
+      "sortOrder": 100
     },
     {
       "internalName": "beauty",
       "title": "Красота",
       "icon": "beauty",
-      "sortOrder": 100
+      "sortOrder": 110
     },
     {
       "internalName": "МФЦ",
       "title": "МФЦ",
       "icon": "visit",
-      "sortOrder": 110
-    },
-    {
-      "internalName": "sport",
-      "title": "Спорт",
-      "icon": "fitness",
       "sortOrder": 120
     },
     {
@@ -73,10 +73,16 @@
       "sortOrder": 130
     },
     {
+      "internalName": "business_center",
+      "title": "БЦ",
+      "icon": null,
+      "sortOrder": 140
+    },
+    {
       "internalName": "other",
       "title": "Прочее",
       "icon": null,
-      "sortOrder": 150
+      "sortOrder": 160
     }
   ]
 }
