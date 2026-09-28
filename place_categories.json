@@ -21,7 +21,7 @@
     {
       "internalName": "health",
       "title": "Медицина",
-      "icon": "hospital",
+      "icon": "0xE83F",
       "sortOrder": 40
     },
     {
@@ -51,7 +51,7 @@
     {
       "internalName": "pickup",
       "title": "Пункты выдачи",
-      "icon": "delivery",
+      "icon": "0xE86C",
       "sortOrder": 100
     },
     {
@@ -61,9 +61,9 @@
       "sortOrder": 110
     },
     {
-      "internalName": "МФЦ",
-      "title": "МФЦ",
-      "icon": "visit",
+      "internalName": "Госучреждения",
+      "title": "Госучреждения",
+      "icon": "0xE86D",
       "sortOrder": 120
     },
     {
@@ -75,13 +75,13 @@
     {
       "internalName": "business_center",
       "title": "БЦ",
-      "icon": null,
+      "icon": "0xE82D",
       "sortOrder": 140
     },
     {
       "internalName": "other",
       "title": "Прочее",
-      "icon": null,
+      "icon": "0xE82E",
       "sortOrder": 160
     }
   ]
