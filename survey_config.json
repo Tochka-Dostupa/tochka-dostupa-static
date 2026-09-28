@@ -1,5 +1,5 @@
 {
-  "surveyVersion": "89cb666df27b",
+  "surveyVersion": "24a778f09e1f",
   "aggregation": {
     "baseScope": "entrance",
     "loweringScopes": [
@@ -144,13 +144,77 @@
           ]
         },
         {
+          "id": "abd23f23-683e-4742-8def-fac2caf6dad2",
+          "sectionId": "89bbd5b3-e211-4017-bae7-90be622a0647",
+          "key": "entrance_ramp_slope",
+          "title": "Угол наклона пандуса",
+          "controlType": "single",
+          "required": true,
+          "sortOrder": 3,
+          "visibleIf": {
+            "selected": {
+              "option": "ramp",
+              "question": "entrance_elements"
+            }
+          },
+          "createdAt": "2026-09-28T07:53:22.857Z",
+          "updatedAt": "2026-09-28T07:53:22.857Z",
+          "options": [
+            {
+              "id": "0a851186-cf1e-4bd6-957f-2ea013672550",
+              "questionId": "abd23f23-683e-4742-8def-fac2caf6dad2",
+              "key": "low",
+              "label": "Низкий",
+              "sortOrder": 1,
+              "meta": {
+                "chip": "access"
+              },
+              "defaultVerdict": null,
+              "createdAt": "2026-09-28T07:53:22.857Z",
+              "updatedAt": "2026-09-28T07:53:22.857Z",
+              "visibleIf": null,
+              "cardLabel": "Низкий угол пандуса"
+            },
+            {
+              "id": "44d03b87-b2cd-4a54-b967-9a9f734e8f0d",
+              "questionId": "abd23f23-683e-4742-8def-fac2caf6dad2",
+              "key": "medium",
+              "label": "Средний",
+              "sortOrder": 2,
+              "meta": {
+                "chip": "barrier"
+              },
+              "defaultVerdict": null,
+              "createdAt": "2026-09-28T07:53:22.857Z",
+              "updatedAt": "2026-09-28T07:53:22.857Z",
+              "visibleIf": null,
+              "cardLabel": "Средний угол пандуса"
+            },
+            {
+              "id": "08298e8c-55f0-4706-b633-a03298086e7f",
+              "questionId": "abd23f23-683e-4742-8def-fac2caf6dad2",
+              "key": "high",
+              "label": "Высокий",
+              "sortOrder": 3,
+              "meta": {
+                "chip": "barrier"
+              },
+              "defaultVerdict": null,
+              "createdAt": "2026-09-28T07:53:22.857Z",
+              "updatedAt": "2026-09-28T07:53:22.857Z",
+              "visibleIf": null,
+              "cardLabel": "Высокий угол пандуса"
+            }
+          ]
+        },
+        {
           "id": "d41c1b85-37e4-4960-afc6-b5d0355577ed",
           "sectionId": "89bbd5b3-e211-4017-bae7-90be622a0647",
           "key": "entrance_barriers",
           "title": "Барьеры",
           "controlType": "multi",
           "required": false,
-          "sortOrder": 3,
+          "sortOrder": 4,
           "visibleIf": null,
           "createdAt": "2026-06-24T09:37:56.749Z",
           "updatedAt": "2026-06-24T09:37:56.749Z",
@@ -213,24 +277,6 @@
               "cardLabel": null
             },
             {
-              "id": "c917fdf6-9d1d-44bc-b6b7-16fd8a5358d5",
-              "questionId": "d41c1b85-37e4-4960-afc6-b5d0355577ed",
-              "key": "steep_ramp",
-              "label": "Крутой пандус",
-              "sortOrder": 5,
-              "meta": null,
-              "defaultVerdict": null,
-              "createdAt": "2026-06-24T09:37:56.749Z",
-              "updatedAt": "2026-06-24T09:37:56.749Z",
-              "visibleIf": {
-                "selected": {
-                  "option": "ramp",
-                  "question": "entrance_elements"
-                }
-              },
-              "cardLabel": null
-            },
-            {
               "id": "862173fb-f691-4ffb-850b-aba3edd33594",
               "questionId": "d41c1b85-37e4-4960-afc6-b5d0355577ed",
               "key": "slippery_ramp",
@@ -241,10 +287,20 @@
               "createdAt": "2026-06-24T09:37:56.749Z",
               "updatedAt": "2026-06-24T09:37:56.749Z",
               "visibleIf": {
-                "selected": {
-                  "option": "ramp",
-                  "question": "entrance_elements"
-                }
+                "any": [
+                  {
+                    "equals": {
+                      "value": "medium",
+                      "question": "entrance_ramp_slope"
+                    }
+                  },
+                  {
+                    "equals": {
+                      "value": "high",
+                      "question": "entrance_ramp_slope"
+                    }
+                  }
+                ]
               },
               "cardLabel": null
             },
@@ -261,15 +317,15 @@
               "visibleIf": {
                 "any": [
                   {
-                    "selected": {
-                      "option": "steep_ramp",
-                      "question": "entrance_barriers"
+                    "equals": {
+                      "value": "medium",
+                      "question": "entrance_ramp_slope"
                     }
                   },
                   {
-                    "selected": {
-                      "option": "slippery_ramp",
-                      "question": "entrance_barriers"
+                    "equals": {
+                      "value": "high",
+                      "question": "entrance_ramp_slope"
                     }
                   }
                 ]
@@ -289,15 +345,15 @@
               "visibleIf": {
                 "any": [
                   {
-                    "selected": {
-                      "option": "steep_ramp",
-                      "question": "entrance_barriers"
+                    "equals": {
+                      "value": "medium",
+                      "question": "entrance_ramp_slope"
                     }
                   },
                   {
-                    "selected": {
-                      "option": "slippery_ramp",
-                      "question": "entrance_barriers"
+                    "equals": {
+                      "value": "high",
+                      "question": "entrance_ramp_slope"
                     }
                   }
                 ]
@@ -357,12 +413,6 @@
                 "selected": {
                   "option": "heavy_door",
                   "question": "entrance_barriers"
-                }
-              },
-              {
-                "selected": {
-                  "option": "narrow",
-                  "question": "entrance_width"
                 }
               }
             ]
@@ -634,12 +684,6 @@
                         "selected": {
                           "option": "heavy_door",
                           "question": "entrance_barriers"
-                        }
-                      },
-                      {
-                        "selected": {
-                          "option": "narrow",
-                          "question": "entrance_width"
                         }
                       }
                     ]
@@ -931,6 +975,21 @@
               "updatedAt": "2026-06-24T09:37:56.749Z",
               "visibleIf": null,
               "cardLabel": null
+            },
+            {
+              "id": "ffdc1946-3325-480c-b70d-697b40d1f038",
+              "questionId": "64cc24c1-8519-4173-af85-8a0d78bdf327",
+              "key": "in_mall",
+              "label": "Туалет в ТЦ",
+              "sortOrder": 95,
+              "meta": {
+                "chip": "access"
+              },
+              "defaultVerdict": null,
+              "createdAt": "2026-09-28T07:53:22.857Z",
+              "updatedAt": "2026-09-28T07:53:22.857Z",
+              "visibleIf": null,
+              "cardLabel": null
             }
           ]
         },
@@ -1000,6 +1059,21 @@
               "defaultVerdict": null,
               "createdAt": "2026-06-24T09:37:56.749Z",
               "updatedAt": "2026-06-24T09:37:56.749Z",
+              "visibleIf": null,
+              "cardLabel": null
+            },
+            {
+              "id": "2f604c06-d991-40c6-abd7-dfa515ca6121",
+              "questionId": "735b5d7d-81ab-4c85-8463-2693181a2233",
+              "key": "in_mall",
+              "label": "Туалет в ТЦ",
+              "sortOrder": 95,
+              "meta": {
+                "chip": "access"
+              },
+              "defaultVerdict": null,
+              "createdAt": "2026-09-28T07:53:22.857Z",
+              "updatedAt": "2026-09-28T07:53:22.857Z",
               "visibleIf": null,
               "cardLabel": null
             }
