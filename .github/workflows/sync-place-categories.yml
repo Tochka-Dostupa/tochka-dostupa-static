@@ -2,8 +2,10 @@ name: Sync place-categories config mirror
 
 # Снимает актуальные категории с прод/staging-бэка в этот репозиторий. Файлы —
 # instant/offline-фолбэк мобилы (на холодном старте до ответа сети) И источник
-# upsert для backend recategorize-other. Категории правятся в админке, поэтому
-# зеркало синкается часто (раз в 15 минут), а не раз в сутки.
+# upsert для backend recategorize-other. Категории правятся в админке редко
+# (раз в месяц), зеркало нужно только чистой установке в первые секунды —
+# синка раз в сутки хватает; после правки можно запустить вручную (Actions →
+# Run workflow).
 #
 # Источник — `/user/map-categories` (Карта 2.0: единый список с isPriority и
 # rubricIds — то, что показывает приложение). На бэке, где его ещё нет (прод до
@@ -17,7 +19,7 @@ name: Sync place-categories config mirror
 
 on:
   schedule:
-    - cron: '*/15 * * * *'
+    - cron: '0 3 * * *' # каждый день в 03:00 UTC
   workflow_dispatch: {} # ручной запуск из вкладки Actions
 
 permissions:
