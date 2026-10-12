@@ -1,82 +1,144 @@
 {
   "categories": [
     {
+      "internalName": "vol_priority",
+      "title": "Приоритетные",
+      "icon": "star",
+      "sortOrder": 1,
+      "isPriority": true,
+      "rubricIds": [
+        "201",
+        "53505"
+      ]
+    },
+    {
       "internalName": "food",
       "title": "Еда и напитки",
       "icon": "food",
-      "sortOrder": 10
+      "sortOrder": 10,
+      "isPriority": false,
+      "rubricIds": [
+        "1203"
+      ]
     },
     {
       "internalName": "grocery",
       "title": "Продукты",
       "icon": "grocery",
-      "sortOrder": 20
+      "sortOrder": 20,
+      "isPriority": false,
+      "rubricIds": [
+        "350",
+        "373"
+      ]
     },
     {
       "internalName": "pharmacy",
       "title": "Аптеки",
       "icon": "pharmacy",
-      "sortOrder": 30
+      "sortOrder": 30,
+      "isPriority": false,
+      "rubricIds": [
+        "207"
+      ]
     },
     {
       "internalName": "mall",
       "title": "Торговля",
       "icon": "mall",
-      "sortOrder": 40
+      "sortOrder": 40,
+      "isPriority": false,
+      "rubricIds": []
     },
     {
       "internalName": "entertainment",
       "title": "Развлечения",
       "icon": "cinema",
-      "sortOrder": 50
+      "sortOrder": 50,
+      "isPriority": false,
+      "rubricIds": [
+        "199"
+      ]
     },
     {
       "internalName": "sport",
       "title": "Спорт",
       "icon": "fitness",
-      "sortOrder": 60
+      "sortOrder": 60,
+      "isPriority": false,
+      "rubricIds": []
     },
     {
       "internalName": "health",
       "title": "Медицина",
       "icon": "hospital",
-      "sortOrder": 70
+      "sortOrder": 70,
+      "isPriority": false,
+      "rubricIds": [
+        "201"
+      ]
+    },
+    {
+      "internalName": "vol_transport",
+      "title": "Транспорт",
+      "icon": "0xE800",
+      "sortOrder": 80,
+      "isPriority": false,
+      "rubricIds": []
     },
     {
       "internalName": "gas",
       "title": "АЗС",
       "icon": "gas",
-      "sortOrder": 90
+      "sortOrder": 90,
+      "isPriority": false,
+      "rubricIds": []
     },
     {
       "internalName": "bank",
       "title": "Банки",
       "icon": "atm",
-      "sortOrder": 100
+      "sortOrder": 100,
+      "isPriority": false,
+      "rubricIds": [
+        "492"
+      ]
     },
     {
       "internalName": "hotel",
       "title": "Гостиницы",
       "icon": "hotel",
-      "sortOrder": 110
+      "sortOrder": 110,
+      "isPriority": false,
+      "rubricIds": [
+        "269"
+      ]
     },
     {
       "internalName": "beauty",
       "title": "Красота",
       "icon": "beauty",
-      "sortOrder": 120
+      "sortOrder": 120,
+      "isPriority": false,
+      "rubricIds": []
     },
     {
       "internalName": "МФЦ",
       "title": "МФЦ",
       "icon": "visit",
-      "sortOrder": 130
+      "sortOrder": 130,
+      "isPriority": false,
+      "rubricIds": [
+        "53505"
+      ]
     },
     {
       "internalName": "other",
       "title": "Прочее",
       "icon": null,
-      "sortOrder": 140
+      "sortOrder": 140,
+      "isPriority": false,
+      "rubricIds": []
     }
   ]
 }

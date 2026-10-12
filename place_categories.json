@@ -4,85 +4,113 @@
       "internalName": "food",
       "title": "Еда и напитки",
       "icon": "food",
-      "sortOrder": 10
+      "sortOrder": 10,
+      "isPriority": false,
+      "rubricIds": []
     },
     {
       "internalName": "grocery",
       "title": "Продукты",
       "icon": "grocery",
-      "sortOrder": 20
+      "sortOrder": 20,
+      "isPriority": false,
+      "rubricIds": []
     },
     {
       "internalName": "pharmacy",
       "title": "Аптеки",
       "icon": "pharmacy",
-      "sortOrder": 30
+      "sortOrder": 30,
+      "isPriority": false,
+      "rubricIds": []
     },
     {
       "internalName": "health",
       "title": "Медицина",
       "icon": "0xE83F",
-      "sortOrder": 40
+      "sortOrder": 40,
+      "isPriority": false,
+      "rubricIds": []
     },
     {
       "internalName": "mall",
       "title": "ТЦ",
       "icon": "mall",
-      "sortOrder": 50
+      "sortOrder": 50,
+      "isPriority": false,
+      "rubricIds": []
     },
     {
       "internalName": "entertainment",
       "title": "Развлечения",
       "icon": "cinema",
-      "sortOrder": 70
+      "sortOrder": 70,
+      "isPriority": false,
+      "rubricIds": []
     },
     {
       "internalName": "sport",
       "title": "Спорт",
       "icon": "fitness",
-      "sortOrder": 80
+      "sortOrder": 80,
+      "isPriority": false,
+      "rubricIds": []
     },
     {
       "internalName": "bank",
       "title": "Банки",
       "icon": "atm",
-      "sortOrder": 90
+      "sortOrder": 90,
+      "isPriority": false,
+      "rubricIds": []
     },
     {
       "internalName": "pickup",
       "title": "Пункты выдачи",
       "icon": "0xE86C",
-      "sortOrder": 100
+      "sortOrder": 100,
+      "isPriority": false,
+      "rubricIds": []
     },
     {
       "internalName": "beauty",
       "title": "Красота",
       "icon": "beauty",
-      "sortOrder": 110
+      "sortOrder": 110,
+      "isPriority": false,
+      "rubricIds": []
     },
     {
       "internalName": "Госучреждения",
       "title": "Госучреждения",
       "icon": "0xE86D",
-      "sortOrder": 120
+      "sortOrder": 120,
+      "isPriority": false,
+      "rubricIds": []
     },
     {
       "internalName": "hotel",
       "title": "Гостиницы",
       "icon": "hotel",
-      "sortOrder": 130
+      "sortOrder": 130,
+      "isPriority": false,
+      "rubricIds": []
     },
     {
       "internalName": "business_center",
       "title": "БЦ",
       "icon": "0xE82D",
-      "sortOrder": 140
+      "sortOrder": 140,
+      "isPriority": false,
+      "rubricIds": []
     },
     {
       "internalName": "other",
       "title": "Прочее",
       "icon": "0xE82E",
-      "sortOrder": 160
+      "sortOrder": 160,
+      "isPriority": false,
+      "rubricIds": []
     }
   ]
 }
