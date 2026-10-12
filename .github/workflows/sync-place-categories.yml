@@ -1,17 +1,23 @@
-name: Sync place-categories (verified mode) config mirror
+name: Sync place-categories config mirror
 
-# Снимает актуальные категории режима «Проверенные» с прод/staging-бэка в этот
-# репозиторий. Файлы — instant/offline-фолбэк мобилы (она читает бэк
-# /user/place-categories как источник истины, а этот файл показывает мгновенно
-# на холодном старте до ответа сети) И источник upsert для backend
-# recategorize-other. Категории правятся в админке → держим зеркало авто-синком,
-# иначе статик отстаёт (было 7 против 13 в БД → «моргание» чипов на «Карте»).
-# Проекция на дисплей-поля {internalName,title,icon,sortOrder} (id/createdAt из
-# ответа НЕ пишем — иначе шумные диффы). Эндпоинт публичный → секреты не нужны.
+# Снимает актуальные категории с прод/staging-бэка в этот репозиторий. Файлы —
+# instant/offline-фолбэк мобилы (на холодном старте до ответа сети) И источник
+# upsert для backend recategorize-other. Категории правятся в админке, поэтому
+# зеркало синкается часто (раз в 15 минут), а не раз в сутки.
+#
+# Источник — `/user/map-categories` (Карта 2.0: единый список с isPriority и
+# rubricIds — то, что показывает приложение). На бэке, где его ещё нет (прод до
+# релиза Карты 2.0, 404), берём старый `/user/place-categories`: после релиза
+# прод переключится сам. Обе ручки читают одну таблицу place_categories, так что
+# upsert бэкенда из файла остаётся no-op по существующим категориям.
+#
+# Прод и стейдж синкаются независимо: лежащий стейдж не блокирует прод.
+# Проекция на поля {internalName,title,icon,sortOrder,isPriority,rubricIds}
+# (id/createdAt не пишем — иначе шумные диффы). Эндпоинты публичные.
 
 on:
   schedule:
-    - cron: '0 3 * * *' # каждый день в 03:00 UTC
+    - cron: '*/15 * * * *'
   workflow_dispatch: {} # ручной запуск из вкладки Actions
 
 permissions:
@@ -27,17 +33,46 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Fetch prod + staging place categories
+      - name: Fetch prod + staging categories
         run: |
-          set -euo pipefail
+          set -uo pipefail
+          # $1 = база API, $2 = выходной файл. 0 — записали, 1 — бэк не ответил.
           fetch() {
-            # $1 = URL, $2 = выходной файл. Проекция на дисплей-поля + сортировка
-            # по sortOrder + 2 пробела + перевод строки (стабильно, без ложных диффов).
-            curl -sf --max-time 30 "$1" \
-              | node -e 'let s="";process.stdin.on("data",d=>s+=d).on("end",()=>{const a=JSON.parse(s);if(!Array.isArray(a)||!a.length)throw new Error("bad config");const cats=a.map(c=>({internalName:c.internalName,title:c.title,icon:c.icon??null,sortOrder:c.sortOrder})).sort((x,y)=>x.sortOrder-y.sortOrder);require("fs").writeFileSync(process.argv[1],JSON.stringify({categories:cats},null,2)+"\n")})' "$2"
+            local body
+            body=$(curl -sf --max-time 30 "$1/user/map-categories") \
+              || body=$(curl -sf --max-time 30 "$1/user/place-categories") \
+              || { echo "::warning::$1 не ответил — $2 не трогаю"; return 1; }
+            printf '%s' "$body" | node -e '
+              let s = "";
+              process.stdin.on("data", d => (s += d)).on("end", () => {
+                const a = JSON.parse(s);
+                if (!Array.isArray(a) || !a.length) throw new Error("bad config");
+                const cats = a
+                  .map(c => ({
+                    internalName: c.internalName,
+                    title: c.title,
+                    icon: c.icon ?? null,
+                    sortOrder: c.sortOrder,
+                    isPriority: c.isPriority === true,
+                    rubricIds: Array.isArray(c.rubricIds) ? c.rubricIds.map(String) : [],
+                  }))
+                  .sort((x, y) =>
+                    x.isPriority !== y.isPriority
+                      ? (x.isPriority ? -1 : 1)
+                      : x.sortOrder - y.sortOrder || x.title.localeCompare(y.title),
+                  );
+                require("fs").writeFileSync(
+                  process.argv[1],
+                  JSON.stringify({ categories: cats }, null, 2) + "\n",
+                );
+              });
+            ' "$2" || { echo "::warning::$1 отдал не то — $2 не трогаю"; git checkout -- "$2"; return 1; }
           }
-          fetch https://api.tochka-dostupa.app/user/place-categories place_categories.json
-          fetch https://staging-api.tochka-dostupa.app/user/place-categories place_categories_stage.json
+          ok=0
+          fetch https://api.tochka-dostupa.app place_categories.json && ok=1
+          fetch https://staging-api.tochka-dostupa.app place_categories_stage.json && ok=1
+          # Красим ран, только если не ответил ни один бэк.
+          [ "$ok" = 1 ]
 
       - name: Commit if changed
         run: |
@@ -49,5 +84,5 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add place_categories.json place_categories_stage.json
-          git commit -m "chore(place-categories): auto-sync verified categories mirror (prod+stage)"
+          git commit -m "chore(place-categories): auto-sync categories mirror (prod+stage)"
           git push
