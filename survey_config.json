@@ -1,5 +1,5 @@
 {
-  "surveyVersion": "24a778f09e1f",
+  "surveyVersion": "15bb770891b3",
   "aggregation": {
     "baseScope": "entrance",
     "loweringScopes": [
@@ -108,10 +108,14 @@
               "key": "call_button",
               "label": "Кнопка вызова",
               "sortOrder": 2,
-              "meta": null,
+              "meta": {
+                "declaredLabels": [
+                  "Кнопка вызова"
+                ]
+              },
               "defaultVerdict": null,
               "createdAt": "2026-06-24T09:37:56.749Z",
-              "updatedAt": "2026-06-24T09:37:56.749Z",
+              "updatedAt": "2026-10-13T09:06:06.581Z",
               "visibleIf": null,
               "cardLabel": null
             },
@@ -121,10 +125,14 @@
               "key": "ramp",
               "label": "Пандус",
               "sortOrder": 3,
-              "meta": null,
+              "meta": {
+                "declaredLabels": [
+                  "Пандус"
+                ]
+              },
               "defaultVerdict": null,
               "createdAt": "2026-06-24T09:37:56.749Z",
-              "updatedAt": "2026-06-24T09:37:56.749Z",
+              "updatedAt": "2026-10-13T09:06:06.581Z",
               "visibleIf": null,
               "cardLabel": null
             },
@@ -134,10 +142,31 @@
               "key": "lift_platform",
               "label": "Подъёмник",
               "sortOrder": 4,
-              "meta": null,
+              "meta": {
+                "declaredLabels": [
+                  "Подъёмник"
+                ]
+              },
               "defaultVerdict": null,
               "createdAt": "2026-06-24T09:37:56.749Z",
-              "updatedAt": "2026-06-24T09:37:56.749Z",
+              "updatedAt": "2026-10-13T09:06:06.581Z",
+              "visibleIf": null,
+              "cardLabel": null
+            },
+            {
+              "id": "9326de01-68ea-4ab6-a13b-e325db401019",
+              "questionId": "9deed3ec-fef1-42ef-b63d-9c0e798a8682",
+              "key": "stair_climber",
+              "label": "Ступенькоход",
+              "sortOrder": 5,
+              "meta": {
+                "declaredLabels": [
+                  "Ступенькоход"
+                ]
+              },
+              "defaultVerdict": null,
+              "createdAt": "2026-10-13T09:06:06.581Z",
+              "updatedAt": "2026-10-13T09:06:06.581Z",
               "visibleIf": null,
               "cardLabel": null
             }
@@ -225,10 +254,14 @@
               "key": "steps",
               "label": "Ступени",
               "sortOrder": 1,
-              "meta": null,
+              "meta": {
+                "contradictsDeclared": [
+                  "Вход без ступеней"
+                ]
+              },
               "defaultVerdict": null,
               "createdAt": "2026-06-24T09:37:56.749Z",
-              "updatedAt": "2026-06-24T09:37:56.749Z",
+              "updatedAt": "2026-10-13T09:06:06.581Z",
               "visibleIf": null,
               "cardLabel": null
             },
@@ -264,10 +297,14 @@
               "key": "call_button_broken",
               "label": "Кнопка вызова не работает",
               "sortOrder": 4,
-              "meta": null,
+              "meta": {
+                "contradictsDeclared": [
+                  "Кнопка вызова"
+                ]
+              },
               "defaultVerdict": null,
               "createdAt": "2026-06-24T09:37:56.749Z",
-              "updatedAt": "2026-06-24T09:37:56.749Z",
+              "updatedAt": "2026-10-13T09:06:06.581Z",
               "visibleIf": {
                 "selected": {
                   "option": "call_button",
@@ -366,10 +403,14 @@
               "key": "lift_broken",
               "label": "Подъёмник не работает",
               "sortOrder": 9,
-              "meta": null,
+              "meta": {
+                "contradictsDeclared": [
+                  "Подъёмник"
+                ]
+              },
               "defaultVerdict": null,
               "createdAt": "2026-06-24T09:37:56.749Z",
-              "updatedAt": "2026-06-24T09:37:56.749Z",
+              "updatedAt": "2026-10-13T09:06:06.581Z",
               "visibleIf": {
                 "selected": {
                   "option": "lift_platform",
@@ -468,10 +509,14 @@
               "key": "lift",
               "label": "Лифт",
               "sortOrder": 1,
-              "meta": null,
+              "meta": {
+                "declaredLabels": [
+                  "Лифт"
+                ]
+              },
               "defaultVerdict": null,
               "createdAt": "2026-06-24T09:37:56.749Z",
-              "updatedAt": "2026-06-24T09:37:56.749Z",
+              "updatedAt": "2026-10-13T09:06:06.581Z",
               "visibleIf": null,
               "cardLabel": null
             },
@@ -1354,6 +1399,40 @@
               "defaultVerdict": null,
               "createdAt": "2026-06-24T09:37:56.749Z",
               "updatedAt": "2026-06-24T09:37:56.749Z",
+              "visibleIf": null,
+              "cardLabel": null
+            },
+            {
+              "id": "576d5283-2b96-439b-9ddc-3f7cc57e0b28",
+              "questionId": "bf80d527-93fc-4cc3-8552-cd3eef36ebcb",
+              "key": "blind_service",
+              "label": "Обслуживание незрячих",
+              "sortOrder": 3,
+              "meta": {
+                "declaredLabels": [
+                  "Обслуживание незрячих"
+                ]
+              },
+              "defaultVerdict": null,
+              "createdAt": "2026-10-13T09:06:06.581Z",
+              "updatedAt": "2026-10-13T09:06:06.581Z",
+              "visibleIf": null,
+              "cardLabel": null
+            },
+            {
+              "id": "426d5175-f6cf-4c7b-b80f-01bc73b6d8fd",
+              "questionId": "bf80d527-93fc-4cc3-8552-cd3eef36ebcb",
+              "key": "video_sign_language",
+              "label": "Видеосурдоперевод",
+              "sortOrder": 4,
+              "meta": {
+                "declaredLabels": [
+                  "Видеосурдоперевод"
+                ]
+              },
+              "defaultVerdict": null,
+              "createdAt": "2026-10-13T09:06:06.581Z",
+              "updatedAt": "2026-10-13T09:06:06.581Z",
               "visibleIf": null,
               "cardLabel": null
             }
