@@ -1,5 +1,5 @@
 {
-  "surveyVersion": "15bb770891b3",
+  "surveyVersion": "8fba580afc9d",
   "aggregation": {
     "baseScope": "entrance",
     "loweringScopes": [
@@ -140,16 +140,16 @@
               "id": "5c4527c4-aa18-4f7a-b5a6-2a6eb4e753a5",
               "questionId": "9deed3ec-fef1-42ef-b63d-9c0e798a8682",
               "key": "lift_platform",
-              "label": "Подъёмник",
+              "label": "Подъемник",
               "sortOrder": 4,
               "meta": {
                 "declaredLabels": [
-                  "Подъёмник"
+                  "Подъемник"
                 ]
               },
               "defaultVerdict": null,
               "createdAt": "2026-06-24T09:37:56.749Z",
-              "updatedAt": "2026-10-13T09:06:06.581Z",
+              "updatedAt": "2026-10-13T17:59:20.240Z",
               "visibleIf": null,
               "cardLabel": null
             },
@@ -282,12 +282,12 @@
               "id": "c1a183b2-44b5-479b-8ec9-3490a9d6a8bd",
               "questionId": "d41c1b85-37e4-4960-afc6-b5d0355577ed",
               "key": "heavy_door",
-              "label": "Тяжёлая дверь",
+              "label": "Тяжелая дверь",
               "sortOrder": 3,
               "meta": null,
               "defaultVerdict": null,
               "createdAt": "2026-06-24T09:37:56.749Z",
-              "updatedAt": "2026-06-24T09:37:56.749Z",
+              "updatedAt": "2026-10-13T17:59:20.240Z",
               "visibleIf": null,
               "cardLabel": null
             },
@@ -401,16 +401,16 @@
               "id": "0c6c560d-8f6b-4f89-8302-648ba4656af7",
               "questionId": "d41c1b85-37e4-4960-afc6-b5d0355577ed",
               "key": "lift_broken",
-              "label": "Подъёмник не работает",
+              "label": "Подъемник не работает",
               "sortOrder": 9,
               "meta": {
                 "contradictsDeclared": [
-                  "Подъёмник"
+                  "Подъемник"
                 ]
               },
               "defaultVerdict": null,
               "createdAt": "2026-06-24T09:37:56.749Z",
-              "updatedAt": "2026-10-13T09:06:06.581Z",
+              "updatedAt": "2026-10-13T17:59:20.240Z",
               "visibleIf": {
                 "selected": {
                   "option": "lift_platform",
@@ -524,12 +524,12 @@
               "id": "510ec2ca-4b10-4aaf-b6e9-7e4e0f0c7a12",
               "questionId": "13cc1ed5-9f23-42ba-aea8-37f63641e20c",
               "key": "lift_platform",
-              "label": "Подъёмник",
+              "label": "Подъемник",
               "sortOrder": 2,
               "meta": null,
               "defaultVerdict": null,
               "createdAt": "2026-06-24T09:37:56.749Z",
-              "updatedAt": "2026-06-24T09:37:56.749Z",
+              "updatedAt": "2026-10-13T17:59:20.240Z",
               "visibleIf": null,
               "cardLabel": null
             },
