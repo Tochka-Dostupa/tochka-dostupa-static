@@ -1,5 +1,5 @@
 {
-  "surveyVersion": "8fba580afc9d",
+  "surveyVersion": "d12e90834bb8",
   "aggregation": {
     "baseScope": "entrance",
     "loweringScopes": [
@@ -661,7 +661,7 @@
               "id": "819c8e25-e2db-41bb-b181-a4e7569fa19f",
               "questionId": "9ba76a7c-0bc5-4fcc-9cee-24bcd51c736d",
               "key": "compact_lift",
-              "label": "Лифт для 1 коляски",
+              "label": "Лифт для одной коляски",
               "sortOrder": 4,
               "meta": null,
               "defaultVerdict": null,
