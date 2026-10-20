@@ -1,5 +1,5 @@
 {
-  "surveyVersion": "77d45109e22d",
+  "surveyVersion": "3bf4b44103ed",
   "aggregation": {
     "baseScope": "entrance",
     "loweringScopes": [
@@ -310,34 +310,6 @@
                   "option": "call_button",
                   "question": "entrance_elements"
                 }
-              },
-              "cardLabel": null
-            },
-            {
-              "id": "6e115926-47da-47d1-b625-3f3ac0dadbcb",
-              "questionId": "0843a5a6-62ab-4f14-a1c8-f5196906dbb3",
-              "key": "slippery_ramp",
-              "label": "Скользкий пандус",
-              "sortOrder": 6,
-              "meta": null,
-              "defaultVerdict": null,
-              "createdAt": "2026-06-17T14:06:14.165Z",
-              "updatedAt": "2026-06-17T14:06:14.165Z",
-              "visibleIf": {
-                "any": [
-                  {
-                    "equals": {
-                      "value": "medium",
-                      "question": "entrance_ramp_slope"
-                    }
-                  },
-                  {
-                    "equals": {
-                      "value": "high",
-                      "question": "entrance_ramp_slope"
-                    }
-                  }
-                ]
               },
               "cardLabel": null
             },
@@ -1009,19 +981,6 @@
               "cardLabel": null
             },
             {
-              "id": "8fb98279-e940-4209-b584-1d4eb42aa584",
-              "questionId": "1a137c88-4725-4288-b9c6-4690cf59fb04",
-              "key": "high",
-              "label": "Элементы расположены высоко",
-              "sortOrder": 3,
-              "meta": null,
-              "defaultVerdict": null,
-              "createdAt": "2026-06-17T14:06:14.165Z",
-              "updatedAt": "2026-06-17T14:06:14.165Z",
-              "visibleIf": null,
-              "cardLabel": null
-            },
-            {
               "id": "33b2c733-c90b-457d-b185-f100d7fc5992",
               "questionId": "1a137c88-4725-4288-b9c6-4690cf59fb04",
               "key": "hard_reach",
@@ -1087,19 +1046,6 @@
               "key": "no_close",
               "label": "Не закрыться",
               "sortOrder": 2,
-              "meta": null,
-              "defaultVerdict": null,
-              "createdAt": "2026-06-17T14:06:14.165Z",
-              "updatedAt": "2026-06-17T14:06:14.165Z",
-              "visibleIf": null,
-              "cardLabel": null
-            },
-            {
-              "id": "cb94c429-c550-4b72-b5f6-12ca527ece99",
-              "questionId": "c671723b-10db-482d-a208-5955c49bcf53",
-              "key": "high",
-              "label": "Элементы расположены высоко",
-              "sortOrder": 3,
               "meta": null,
               "defaultVerdict": null,
               "createdAt": "2026-06-17T14:06:14.165Z",
