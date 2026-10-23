@@ -1,5 +1,5 @@
 {
-  "surveyVersion": "3bf4b44103ed",
+  "surveyVersion": "688491ea0097",
   "aggregation": {
     "baseScope": "entrance",
     "loweringScopes": [
@@ -42,7 +42,10 @@
               "key": "narrow",
               "label": "Узкий вход 55–65 см",
               "sortOrder": 1,
-              "meta": null,
+              "meta": {
+                "chip": "barrier",
+                "tone": "limit"
+              },
               "defaultVerdict": null,
               "createdAt": "2026-06-17T14:06:14.165Z",
               "updatedAt": "2026-07-22T11:22:45.119Z",
@@ -211,7 +214,8 @@
               "label": "Средний",
               "sortOrder": 2,
               "meta": {
-                "chip": "barrier"
+                "chip": "barrier",
+                "tone": "limit"
               },
               "defaultVerdict": null,
               "createdAt": "2026-09-28T07:22:43.552Z",
@@ -255,6 +259,7 @@
               "label": "Ступени",
               "sortOrder": 1,
               "meta": {
+                "chip": "barrier",
                 "contradictsDeclared": [
                   "Вход без ступеней"
                 ]
@@ -271,7 +276,10 @@
               "key": "threshold",
               "label": "Порог",
               "sortOrder": 2,
-              "meta": null,
+              "meta": {
+                "chip": "barrier",
+                "tone": "limit"
+              },
               "defaultVerdict": null,
               "createdAt": "2026-06-17T14:06:14.165Z",
               "updatedAt": "2026-06-17T14:06:14.165Z",
@@ -284,7 +292,10 @@
               "key": "heavy_door",
               "label": "Тяжелая дверь",
               "sortOrder": 3,
-              "meta": null,
+              "meta": {
+                "chip": "barrier",
+                "tone": "limit"
+              },
               "defaultVerdict": null,
               "createdAt": "2026-06-17T14:06:14.165Z",
               "updatedAt": "2026-10-13T18:00:57.893Z",
@@ -298,6 +309,8 @@
               "label": "Кнопка вызова не работает",
               "sortOrder": 4,
               "meta": {
+                "chip": "barrier",
+                "tone": "limit",
                 "contradictsDeclared": [
                   "Кнопка вызова"
                 ]
@@ -319,7 +332,10 @@
               "key": "one_rail",
               "label": "Один поручень",
               "sortOrder": 7,
-              "meta": null,
+              "meta": {
+                "chip": "barrier",
+                "tone": "limit"
+              },
               "defaultVerdict": null,
               "createdAt": "2026-06-17T14:06:14.165Z",
               "updatedAt": "2026-06-17T14:06:14.165Z",
@@ -347,7 +363,10 @@
               "key": "no_rails",
               "label": "Нет поручней",
               "sortOrder": 8,
-              "meta": null,
+              "meta": {
+                "chip": "barrier",
+                "tone": "limit"
+              },
               "defaultVerdict": null,
               "createdAt": "2026-06-17T14:06:14.165Z",
               "updatedAt": "2026-06-17T14:06:14.165Z",
@@ -376,6 +395,7 @@
               "label": "Подъемник не работает",
               "sortOrder": 9,
               "meta": {
+                "chip": "barrier",
                 "contradictsDeclared": [
                   "Подъемник"
                 ]
@@ -543,7 +563,10 @@
               "key": "narrow",
               "label": "Узкая дверь 55–65 см",
               "sortOrder": 1,
-              "meta": null,
+              "meta": {
+                "chip": "barrier",
+                "tone": "limit"
+              },
               "defaultVerdict": null,
               "createdAt": "2026-06-17T14:06:14.165Z",
               "updatedAt": "2026-07-22T11:22:45.148Z",
@@ -596,7 +619,9 @@
               "key": "steps",
               "label": "Ступени",
               "sortOrder": 1,
-              "meta": null,
+              "meta": {
+                "chip": "barrier"
+              },
               "defaultVerdict": null,
               "createdAt": "2026-06-17T14:06:14.165Z",
               "updatedAt": "2026-06-17T14:06:14.165Z",
@@ -609,7 +634,10 @@
               "key": "threshold",
               "label": "Порог",
               "sortOrder": 2,
-              "meta": null,
+              "meta": {
+                "chip": "barrier",
+                "tone": "limit"
+              },
               "defaultVerdict": null,
               "createdAt": "2026-06-17T14:06:14.165Z",
               "updatedAt": "2026-06-17T14:06:14.165Z",
@@ -622,7 +650,10 @@
               "key": "restricted",
               "label": "Ограничен проезд",
               "sortOrder": 3,
-              "meta": null,
+              "meta": {
+                "chip": "barrier",
+                "tone": "limit"
+              },
               "defaultVerdict": null,
               "createdAt": "2026-06-17T14:06:14.165Z",
               "updatedAt": "2026-06-17T14:06:14.165Z",
@@ -635,7 +666,10 @@
               "key": "compact_lift",
               "label": "Лифт для 1 коляски",
               "sortOrder": 4,
-              "meta": null,
+              "meta": {
+                "chip": "barrier",
+                "tone": "limit"
+              },
               "defaultVerdict": null,
               "createdAt": "2026-06-17T14:06:14.165Z",
               "updatedAt": "2026-06-17T14:06:14.165Z",
@@ -847,7 +881,10 @@
               "key": "regular",
               "label": "Обычный",
               "sortOrder": 2,
-              "meta": null,
+              "meta": {
+                "chip": "barrier",
+                "tone": "limit"
+              },
               "defaultVerdict": null,
               "createdAt": "2026-06-17T14:06:14.165Z",
               "updatedAt": "2026-06-17T14:06:14.165Z",
@@ -860,7 +897,9 @@
               "key": "none",
               "label": "Туалета нет",
               "sortOrder": 3,
-              "meta": null,
+              "meta": {
+                "chip": "barrier"
+              },
               "defaultVerdict": null,
               "createdAt": "2026-06-17T14:06:14.165Z",
               "updatedAt": "2026-06-17T14:06:14.165Z",
@@ -902,7 +941,10 @@
               "key": "narrow",
               "label": "Узкая дверь 55–65 см",
               "sortOrder": 1,
-              "meta": null,
+              "meta": {
+                "chip": "barrier",
+                "tone": "limit"
+              },
               "defaultVerdict": null,
               "createdAt": "2026-06-17T14:06:14.165Z",
               "updatedAt": "2026-07-22T11:22:45.177Z",
@@ -973,7 +1015,10 @@
               "key": "no_rails",
               "label": "Нет поручней",
               "sortOrder": 2,
-              "meta": null,
+              "meta": {
+                "chip": "barrier",
+                "tone": "limit"
+              },
               "defaultVerdict": null,
               "createdAt": "2026-06-17T14:06:14.165Z",
               "updatedAt": "2026-06-17T14:06:14.165Z",
@@ -986,7 +1031,10 @@
               "key": "hard_reach",
               "label": "Тяжело добраться до туалета",
               "sortOrder": 90,
-              "meta": null,
+              "meta": {
+                "chip": "barrier",
+                "tone": "limit"
+              },
               "defaultVerdict": null,
               "createdAt": "2026-06-24T08:45:22.123Z",
               "updatedAt": "2026-06-24T08:45:22.123Z",
@@ -1000,7 +1048,8 @@
               "label": "Туалет в ТЦ",
               "sortOrder": 95,
               "meta": {
-                "chip": "access"
+                "chip": "barrier",
+                "tone": "limit"
               },
               "defaultVerdict": null,
               "createdAt": "2026-09-28T07:22:43.552Z",
@@ -1033,7 +1082,10 @@
               "key": "no_turn",
               "label": "Не развернуться",
               "sortOrder": 1,
-              "meta": null,
+              "meta": {
+                "chip": "barrier",
+                "tone": "limit"
+              },
               "defaultVerdict": null,
               "createdAt": "2026-06-17T14:06:14.165Z",
               "updatedAt": "2026-06-17T14:06:14.165Z",
@@ -1046,7 +1098,10 @@
               "key": "no_close",
               "label": "Не закрыться",
               "sortOrder": 2,
-              "meta": null,
+              "meta": {
+                "chip": "barrier",
+                "tone": "limit"
+              },
               "defaultVerdict": null,
               "createdAt": "2026-06-17T14:06:14.165Z",
               "updatedAt": "2026-06-17T14:06:14.165Z",
@@ -1059,7 +1114,10 @@
               "key": "hard_reach",
               "label": "Тяжело добраться до туалета",
               "sortOrder": 90,
-              "meta": null,
+              "meta": {
+                "chip": "barrier",
+                "tone": "limit"
+              },
               "defaultVerdict": null,
               "createdAt": "2026-06-24T08:45:22.123Z",
               "updatedAt": "2026-06-24T08:45:22.123Z",
@@ -1073,7 +1131,8 @@
               "label": "Туалет в ТЦ",
               "sortOrder": 95,
               "meta": {
-                "chip": "access"
+                "chip": "barrier",
+                "tone": "limit"
               },
               "defaultVerdict": null,
               "createdAt": "2026-09-28T07:22:43.552Z",
@@ -1129,7 +1188,10 @@
               "key": "dedicated",
               "label": "Обычная",
               "sortOrder": 2,
-              "meta": null,
+              "meta": {
+                "chip": "barrier",
+                "tone": "limit"
+              },
               "defaultVerdict": null,
               "createdAt": "2026-06-17T14:06:14.165Z",
               "updatedAt": "2026-06-17T14:06:14.165Z",
@@ -1155,7 +1217,9 @@
               "key": "none",
               "label": "Нет парковки",
               "sortOrder": 90,
-              "meta": null,
+              "meta": {
+                "chip": "barrier"
+              },
               "defaultVerdict": null,
               "createdAt": "2026-06-24T08:45:22.123Z",
               "updatedAt": "2026-06-24T08:45:22.123Z",
@@ -1265,7 +1329,10 @@
               "key": "curb",
               "label": "Бордюр",
               "sortOrder": 1,
-              "meta": null,
+              "meta": {
+                "chip": "barrier",
+                "tone": "limit"
+              },
               "defaultVerdict": null,
               "createdAt": "2026-06-17T14:06:14.165Z",
               "updatedAt": "2026-06-17T14:06:14.165Z",
@@ -1278,7 +1345,10 @@
               "key": "bad_surface",
               "label": "Плохое покрытие",
               "sortOrder": 2,
-              "meta": null,
+              "meta": {
+                "chip": "barrier",
+                "tone": "limit"
+              },
               "defaultVerdict": null,
               "createdAt": "2026-06-17T14:06:14.165Z",
               "updatedAt": "2026-06-17T14:06:14.165Z",
@@ -1291,7 +1361,10 @@
               "key": "far",
               "label": "Дальше 100 м",
               "sortOrder": 3,
-              "meta": null,
+              "meta": {
+                "chip": "barrier",
+                "tone": "limit"
+              },
               "defaultVerdict": null,
               "createdAt": "2026-06-17T14:06:14.165Z",
               "updatedAt": "2026-06-17T14:06:14.165Z",
@@ -1346,7 +1419,10 @@
               "key": "companion",
               "label": "Нужна помощь сопровождающего",
               "sortOrder": 2,
-              "meta": null,
+              "meta": {
+                "chip": "barrier",
+                "tone": "limit"
+              },
               "defaultVerdict": null,
               "createdAt": "2026-06-17T14:06:14.165Z",
               "updatedAt": "2026-06-17T14:06:14.165Z",
