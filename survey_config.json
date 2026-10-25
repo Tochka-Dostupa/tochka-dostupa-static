@@ -1,5 +1,5 @@
 {
-  "surveyVersion": "8a88d707c645",
+  "surveyVersion": "f6b51ccbdf99",
   "aggregation": {
     "baseScope": "entrance",
     "loweringScopes": [
@@ -873,7 +873,7 @@
               "createdAt": "2026-06-24T09:37:56.749Z",
               "updatedAt": "2026-06-24T09:37:56.749Z",
               "visibleIf": null,
-              "cardLabel": null
+              "cardLabel": "Оборудованный туалет"
             },
             {
               "id": "ea2e30fa-c9e0-4d0e-be84-359ee1f90f58",
@@ -889,7 +889,7 @@
               "createdAt": "2026-06-24T09:37:56.749Z",
               "updatedAt": "2026-06-24T09:37:56.749Z",
               "visibleIf": null,
-              "cardLabel": null
+              "cardLabel": "Обычный туалет"
             },
             {
               "id": "0ea67d13-b658-4a47-bcff-ad417830eba5",
@@ -1204,7 +1204,7 @@
               "createdAt": "2026-06-24T09:37:56.749Z",
               "updatedAt": "2026-06-24T09:37:56.749Z",
               "visibleIf": null,
-              "cardLabel": null
+              "cardLabel": "Обычная парковка"
             },
             {
               "id": "dddb20e0-46bc-41ba-aeaa-25f07a6fb5be",
