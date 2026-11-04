@@ -1,5 +1,5 @@
 {
-  "surveyVersion": "f6b51ccbdf99",
+  "surveyVersion": "6bebe1151d7b",
   "aggregation": {
     "baseScope": "entrance",
     "loweringScopes": [
@@ -1027,22 +1027,6 @@
               "updatedAt": "2026-06-24T09:37:56.749Z",
               "visibleIf": null,
               "cardLabel": null
-            },
-            {
-              "id": "ffdc1946-3325-480c-b70d-697b40d1f038",
-              "questionId": "64cc24c1-8519-4173-af85-8a0d78bdf327",
-              "key": "in_mall",
-              "label": "Туалет в ТЦ",
-              "sortOrder": 95,
-              "meta": {
-                "chip": "barrier",
-                "tone": "limit"
-              },
-              "defaultVerdict": null,
-              "createdAt": "2026-09-28T07:53:22.857Z",
-              "updatedAt": "2026-09-28T07:53:22.857Z",
-              "visibleIf": null,
-              "cardLabel": null
             }
           ]
         },
@@ -1108,22 +1092,6 @@
               "defaultVerdict": null,
               "createdAt": "2026-06-24T09:37:56.749Z",
               "updatedAt": "2026-06-24T09:37:56.749Z",
-              "visibleIf": null,
-              "cardLabel": null
-            },
-            {
-              "id": "2f604c06-d991-40c6-abd7-dfa515ca6121",
-              "questionId": "735b5d7d-81ab-4c85-8463-2693181a2233",
-              "key": "in_mall",
-              "label": "Туалет в ТЦ",
-              "sortOrder": 95,
-              "meta": {
-                "chip": "barrier",
-                "tone": "limit"
-              },
-              "defaultVerdict": null,
-              "createdAt": "2026-09-28T07:53:22.857Z",
-              "updatedAt": "2026-09-28T07:53:22.857Z",
               "visibleIf": null,
               "cardLabel": null
             }
@@ -1425,11 +1393,24 @@
               "cardLabel": null
             },
             {
+              "id": "64a17117-b0d5-43e2-bcd9-c748c8e023b9",
+              "questionId": "bf80d527-93fc-4cc3-8552-cd3eef36ebcb",
+              "key": "mother and child room",
+              "label": "Комната матери и ребенка",
+              "sortOrder": 3,
+              "meta": null,
+              "defaultVerdict": null,
+              "createdAt": "2026-11-04T09:14:57.276Z",
+              "updatedAt": "2026-11-04T09:14:57.276Z",
+              "visibleIf": null,
+              "cardLabel": null
+            },
+            {
               "id": "576d5283-2b96-439b-9ddc-3f7cc57e0b28",
               "questionId": "bf80d527-93fc-4cc3-8552-cd3eef36ebcb",
               "key": "blind_service",
               "label": "Обслуживание незрячих",
-              "sortOrder": 3,
+              "sortOrder": 4,
               "meta": {
                 "declaredLabels": [
                   "Обслуживание незрячих"
@@ -1446,7 +1427,7 @@
               "questionId": "bf80d527-93fc-4cc3-8552-cd3eef36ebcb",
               "key": "video_sign_language",
               "label": "Видеосурдоперевод",
-              "sortOrder": 4,
+              "sortOrder": 5,
               "meta": {
                 "declaredLabels": [
                   "Видеосурдоперевод"

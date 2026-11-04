@@ -1,5 +1,5 @@
 {
-  "surveyVersion": "688491ea0097",
+  "surveyVersion": "a7944bc577d3",
   "aggregation": {
     "baseScope": "entrance",
     "loweringScopes": [
@@ -1040,22 +1040,6 @@
               "updatedAt": "2026-06-24T08:45:22.123Z",
               "visibleIf": null,
               "cardLabel": null
-            },
-            {
-              "id": "49ff536d-13f2-4aab-9ac7-55ba2b34212a",
-              "questionId": "1a137c88-4725-4288-b9c6-4690cf59fb04",
-              "key": "in_mall",
-              "label": "Туалет в ТЦ",
-              "sortOrder": 95,
-              "meta": {
-                "chip": "barrier",
-                "tone": "limit"
-              },
-              "defaultVerdict": null,
-              "createdAt": "2026-09-28T07:22:43.552Z",
-              "updatedAt": "2026-09-28T07:22:43.552Z",
-              "visibleIf": null,
-              "cardLabel": null
             }
           ]
         },
@@ -1121,22 +1105,6 @@
               "defaultVerdict": null,
               "createdAt": "2026-06-24T08:45:22.123Z",
               "updatedAt": "2026-06-24T08:45:22.123Z",
-              "visibleIf": null,
-              "cardLabel": null
-            },
-            {
-              "id": "6ebb27cb-1011-4a02-ad7e-a5e2c0d39221",
-              "questionId": "c671723b-10db-482d-a208-5955c49bcf53",
-              "key": "in_mall",
-              "label": "Туалет в ТЦ",
-              "sortOrder": 95,
-              "meta": {
-                "chip": "barrier",
-                "tone": "limit"
-              },
-              "defaultVerdict": null,
-              "createdAt": "2026-09-28T07:22:43.552Z",
-              "updatedAt": "2026-09-28T07:22:43.552Z",
               "visibleIf": null,
               "cardLabel": null
             }
