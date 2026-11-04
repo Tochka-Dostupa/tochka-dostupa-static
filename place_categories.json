@@ -79,7 +79,8 @@
         "111594",
         "360",
         "52248",
-        "112656"
+        "112656",
+        "111593"
       ]
     },
     {
@@ -98,7 +99,6 @@
         "562",
         "564",
         "5843",
-        "111593",
         "350",
         "363",
         "361",
@@ -112,14 +112,16 @@
     },
     {
       "internalName": "pharmacy",
-      "title": "Аптеки",
+      "title": "Аптеки и косметика",
       "icon": "pharmacy",
       "sortOrder": 30,
       "isPriority": false,
       "rubricIds": [
         "207",
         "204",
-        "659"
+        "659",
+        "382",
+        "13102"
       ]
     },
     {
@@ -242,24 +244,10 @@
       ]
     },
     {
-      "internalName": "transport",
-      "title": "Транспорт",
-      "icon": "0xE800",
-      "sortOrder": 60,
-      "isPriority": false,
-      "rubricIds": [
-        "113944",
-        "110490",
-        "422",
-        "113081",
-        "517"
-      ]
-    },
-    {
       "internalName": "entertainment",
       "title": "Развлечения",
       "icon": "cinema",
-      "sortOrder": 70,
+      "sortOrder": 60,
       "isPriority": false,
       "rubricIds": [
         "199",
@@ -276,7 +264,6 @@
         "112617",
         "110427",
         "50532",
-        "113042",
         "113419",
         "99736",
         "309",
@@ -287,7 +274,6 @@
         "13787",
         "110388",
         "11647",
-        "634",
         "110530",
         "112836",
         "113332",
@@ -300,7 +286,7 @@
       "internalName": "sport",
       "title": "Спорт",
       "icon": "fitness",
-      "sortOrder": 80,
+      "sortOrder": 70,
       "isPriority": false,
       "rubricIds": [
         "268",
@@ -335,10 +321,45 @@
       ]
     },
     {
+      "internalName": "education",
+      "title": "Образование",
+      "icon": "0xE833",
+      "sortOrder": 80,
+      "isPriority": false,
+      "rubricIds": [
+        "5683",
+        "241",
+        "13789",
+        "234",
+        "245",
+        "54146",
+        "112619",
+        "246",
+        "633",
+        "233",
+        "10135",
+        "110405"
+      ]
+    },
+    {
+      "internalName": "transport",
+      "title": "Транспорт",
+      "icon": "0xE800",
+      "sortOrder": 90,
+      "isPriority": false,
+      "rubricIds": [
+        "113944",
+        "110490",
+        "422",
+        "113081",
+        "517"
+      ]
+    },
+    {
       "internalName": "bank",
       "title": "Банки",
       "icon": "atm",
-      "sortOrder": 90,
+      "sortOrder": 100,
       "isPriority": false,
       "rubricIds": [
         "492",
@@ -350,37 +371,11 @@
       "internalName": "pickup",
       "title": "Пункты выдачи",
       "icon": "0xE86C",
-      "sortOrder": 100,
+      "sortOrder": 110,
       "isPriority": false,
       "rubricIds": [
         "112611",
         "335"
-      ]
-    },
-    {
-      "internalName": "beauty",
-      "title": "Красота",
-      "icon": "beauty",
-      "sortOrder": 110,
-      "isPriority": false,
-      "rubricIds": [
-        "305",
-        "5603",
-        "651",
-        "110998",
-        "13726",
-        "382",
-        "13102",
-        "652",
-        "219",
-        "110816",
-        "56759",
-        "112847",
-        "110355",
-        "112828",
-        "946",
-        "71232",
-        "58858"
       ]
     },
     {
@@ -394,10 +389,20 @@
       ]
     },
     {
+      "internalName": "business_center",
+      "title": "БЦ",
+      "icon": "0xE82D",
+      "sortOrder": 130,
+      "isPriority": false,
+      "rubricIds": [
+        "13796"
+      ]
+    },
+    {
       "internalName": "hotel",
       "title": "Гостиницы",
       "icon": "hotel",
-      "sortOrder": 130,
+      "sortOrder": 140,
       "isPriority": false,
       "rubricIds": [
         "269",
@@ -405,20 +410,34 @@
       ]
     },
     {
-      "internalName": "business_center",
-      "title": "БЦ",
-      "icon": "0xE82D",
-      "sortOrder": 140,
+      "internalName": "beauty",
+      "title": "Красота",
+      "icon": "beauty",
+      "sortOrder": 150,
       "isPriority": false,
       "rubricIds": [
-        "13796"
+        "305",
+        "5603",
+        "651",
+        "110998",
+        "13726",
+        "652",
+        "219",
+        "110816",
+        "56759",
+        "112847",
+        "110355",
+        "112828",
+        "946",
+        "71232",
+        "58858"
       ]
     },
     {
       "internalName": "gas",
       "title": "АЗС",
       "icon": "gas",
-      "sortOrder": 150,
+      "sortOrder": 160,
       "isPriority": false,
       "rubricIds": [
         "18547"
@@ -428,7 +447,7 @@
       "internalName": "other",
       "title": "Прочее",
       "icon": "0xE82E",
-      "sortOrder": 160,
+      "sortOrder": 170,
       "isPriority": false,
       "rubricIds": [
         "189",
@@ -439,7 +458,7 @@
       "internalName": "outdoor",
       "title": "Прогулки",
       "icon": "0xE82F",
-      "sortOrder": 170,
+      "sortOrder": 180,
       "isPriority": false,
       "rubricIds": [
         "112670",
