@@ -244,47 +244,10 @@
       ]
     },
     {
-      "internalName": "entertainment",
-      "title": "Развлечения",
-      "icon": "cinema",
-      "sortOrder": 60,
-      "isPriority": false,
-      "rubricIds": [
-        "110358",
-        "110388",
-        "110427",
-        "110530",
-        "112617",
-        "112836",
-        "113083",
-        "113326",
-        "113332",
-        "11647",
-        "13787",
-        "14967",
-        "15707",
-        "169",
-        "173",
-        "190",
-        "192",
-        "193",
-        "199",
-        "21387",
-        "309",
-        "50532",
-        "51370",
-        "53598",
-        "6505",
-        "7332",
-        "111506",
-        "200"
-      ]
-    },
-    {
       "internalName": "sport",
       "title": "Спорт",
       "icon": "fitness",
-      "sortOrder": 70,
+      "sortOrder": 60,
       "isPriority": false,
       "rubricIds": [
         "268",
@@ -316,6 +279,43 @@
         "110388",
         "808",
         "634"
+      ]
+    },
+    {
+      "internalName": "entertainment",
+      "title": "Развлечения",
+      "icon": "cinema",
+      "sortOrder": 70,
+      "isPriority": false,
+      "rubricIds": [
+        "110358",
+        "110388",
+        "110427",
+        "110530",
+        "112617",
+        "112836",
+        "113083",
+        "113326",
+        "113332",
+        "11647",
+        "13787",
+        "14967",
+        "15707",
+        "169",
+        "173",
+        "190",
+        "192",
+        "193",
+        "199",
+        "21387",
+        "309",
+        "50532",
+        "51370",
+        "53598",
+        "6505",
+        "7332",
+        "111506",
+        "200"
       ]
     },
     {
@@ -356,10 +356,21 @@
       ]
     },
     {
+      "internalName": "Госучреждения",
+      "title": "Госучреждения",
+      "icon": "0xE86D",
+      "sortOrder": 100,
+      "isPriority": false,
+      "rubricIds": [
+        "53505",
+        "520"
+      ]
+    },
+    {
       "internalName": "bank",
       "title": "Банки",
       "icon": "atm",
-      "sortOrder": 100,
+      "sortOrder": 110,
       "isPriority": false,
       "rubricIds": [
         "492",
@@ -371,22 +382,11 @@
       "internalName": "pickup",
       "title": "Пункты выдачи",
       "icon": "0xE86C",
-      "sortOrder": 110,
+      "sortOrder": 120,
       "isPriority": false,
       "rubricIds": [
         "112611",
         "335"
-      ]
-    },
-    {
-      "internalName": "Госучреждения",
-      "title": "Госучреждения",
-      "icon": "0xE86D",
-      "sortOrder": 120,
-      "isPriority": false,
-      "rubricIds": [
-        "53505",
-        "520"
       ]
     },
     {
