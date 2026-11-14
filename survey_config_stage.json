@@ -1,5 +1,5 @@
 {
-  "surveyVersion": "8d716190c647",
+  "surveyVersion": "0891c10e647c",
   "aggregation": {
     "baseScope": "entrance",
     "loweringScopes": [
@@ -195,9 +195,9 @@
           "updatedAt": "2026-09-28T07:22:43.552Z",
           "hint": {
             "title": "Угол наклона пандуса",
-            "text": "Сравни наклон пандуса с лестницей рядом",
+            "text": null,
             "linkLabel": "Как определить угол?",
-            "imagePath": null,
+            "imagePath": "/user/survey/hint-image/entrance_ramp_slope?v=9d047613",
             "items": [
               {
                 "caption": "заеду сам",
@@ -233,7 +233,7 @@
               "id": "6ee8afee-66c7-4f20-8c60-bbe6482425b2",
               "questionId": "60a23a7a-0495-4157-bf49-bcba244c67d7",
               "key": "medium",
-              "label": "Средний до 10°",
+              "label": "Средний до 15°",
               "sortOrder": 2,
               "meta": {
                 "chip": "barrier",
@@ -243,13 +243,13 @@
               "createdAt": "2026-09-28T07:22:43.552Z",
               "updatedAt": "2026-09-28T07:22:43.552Z",
               "visibleIf": null,
-              "cardLabel": "Средний угол пандуса, 5–10°"
+              "cardLabel": "Средний угол пандуса, 5–15°"
             },
             {
               "id": "8fbdb6ae-e828-491f-b18d-cc447629c0ba",
               "questionId": "60a23a7a-0495-4157-bf49-bcba244c67d7",
               "key": "high",
-              "label": "Высокий 10°+",
+              "label": "Высокий 15°+",
               "sortOrder": 3,
               "meta": {
                 "chip": "barrier"
@@ -258,7 +258,7 @@
               "createdAt": "2026-09-28T07:22:43.552Z",
               "updatedAt": "2026-09-28T07:22:43.552Z",
               "visibleIf": null,
-              "cardLabel": "Высокий угол пандуса, больше 10°"
+              "cardLabel": "Высокий угол пандуса, больше 15°"
             }
           ]
         },
@@ -297,7 +297,7 @@
               "id": "e4c6f310-8d02-4d51-a683-f8fff28f718a",
               "questionId": "0843a5a6-62ab-4f14-a1c8-f5196906dbb3",
               "key": "threshold",
-              "label": "Порог",
+              "label": "Порог 5+ см",
               "sortOrder": 2,
               "meta": {
                 "chip": "barrier",
@@ -713,7 +713,7 @@
               "id": "43bb9573-7af5-49bb-89d4-cb8c5ebcfa01",
               "questionId": "26efc81e-3f2a-4827-abd3-02daf5429013",
               "key": "threshold",
-              "label": "Порог",
+              "label": "Порог 5+ см",
               "sortOrder": 2,
               "meta": {
                 "chip": "barrier",
