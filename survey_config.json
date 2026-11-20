@@ -1,5 +1,5 @@
 {
-  "surveyVersion": "d3437a1c61ba",
+  "surveyVersion": "7470a045d79a",
   "aggregation": {
     "baseScope": "entrance",
     "loweringScopes": [
@@ -1579,7 +1579,7 @@
               "id": "426d5175-f6cf-4c7b-b80f-01bc73b6d8fd",
               "questionId": "bf80d527-93fc-4cc3-8552-cd3eef36ebcb",
               "key": "video_sign_language",
-              "label": "Видеосурдоперевод",
+              "label": "Перевод на РЖЯ",
               "sortOrder": 5,
               "meta": {
                 "declaredLabels": [
