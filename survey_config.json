@@ -1,5 +1,5 @@
 {
-  "surveyVersion": "7470a045d79a",
+  "surveyVersion": "d8dd67f999b7",
   "aggregation": {
     "baseScope": "entrance",
     "loweringScopes": [
@@ -1063,13 +1063,46 @@
           ]
         },
         {
+          "id": "6630a3b6-6807-43a7-b5cc-5464a7d3704e",
+          "sectionId": "4e8f2091-bc5b-4aca-a265-f9eedb5d8ad3",
+          "key": "toilet_elements",
+          "title": "Элементы доступности",
+          "controlType": "multi",
+          "required": false,
+          "sortOrder": 3,
+          "visibleIf": {
+            "selected": {
+              "option": "equipped",
+              "question": "toilet_availability"
+            }
+          },
+          "createdAt": "2026-11-24T09:10:17.395Z",
+          "updatedAt": "2026-11-24T09:10:17.395Z",
+          "hint": null,
+          "options": [
+            {
+              "id": "d2f499cf-f788-48a5-882d-d61587759660",
+              "questionId": "6630a3b6-6807-43a7-b5cc-5464a7d3704e",
+              "key": "help_button",
+              "label": "Кнопка помощи",
+              "sortOrder": 1,
+              "meta": null,
+              "defaultVerdict": null,
+              "createdAt": "2026-11-24T09:10:17.395Z",
+              "updatedAt": "2026-11-24T09:10:17.395Z",
+              "visibleIf": null,
+              "cardLabel": null
+            }
+          ]
+        },
+        {
           "id": "64cc24c1-8519-4173-af85-8a0d78bdf327",
           "sectionId": "4e8f2091-bc5b-4aca-a265-f9eedb5d8ad3",
           "key": "toilet_equipped_barriers",
           "title": "Барьеры оборудованного туалета",
           "controlType": "multi",
           "required": false,
-          "sortOrder": 3,
+          "sortOrder": 4,
           "visibleIf": {
             "selected": {
               "option": "equipped",
@@ -1145,6 +1178,27 @@
               "cardLabel": null
             },
             {
+              "id": "1bc15325-9e9f-4e8e-995f-9b600e0248db",
+              "questionId": "64cc24c1-8519-4173-af85-8a0d78bdf327",
+              "key": "help_button_broken",
+              "label": "Кнопка помощи не работает",
+              "sortOrder": 6,
+              "meta": {
+                "chip": "barrier",
+                "tone": "limit"
+              },
+              "defaultVerdict": null,
+              "createdAt": "2026-11-24T09:10:17.395Z",
+              "updatedAt": "2026-11-24T09:10:17.395Z",
+              "visibleIf": {
+                "selected": {
+                  "option": "help_button",
+                  "question": "toilet_elements"
+                }
+              },
+              "cardLabel": null
+            },
+            {
               "id": "9eda0f17-1547-4cf5-8c5a-5488c435aa02",
               "questionId": "64cc24c1-8519-4173-af85-8a0d78bdf327",
               "key": "hard_reach",
@@ -1169,7 +1223,7 @@
           "title": "Барьеры обычного туалета",
           "controlType": "multi",
           "required": false,
-          "sortOrder": 4,
+          "sortOrder": 5,
           "visibleIf": {
             "selected": {
               "option": "regular",

@@ -1,5 +1,5 @@
 {
-  "surveyVersion": "0891c10e647c",
+  "surveyVersion": "7e23ec081e59",
   "aggregation": {
     "baseScope": "entrance",
     "loweringScopes": [
@@ -34,7 +34,7 @@
           "sortOrder": 1,
           "visibleIf": null,
           "createdAt": "2026-06-17T14:06:14.165Z",
-          "updatedAt": "2026-06-17T14:06:14.165Z",
+          "updatedAt": "2026-11-24T06:06:44.370Z",
           "hint": null,
           "options": [
             {
@@ -91,7 +91,7 @@
           "sortOrder": 2,
           "visibleIf": null,
           "createdAt": "2026-06-17T14:06:14.165Z",
-          "updatedAt": "2026-06-17T14:06:14.165Z",
+          "updatedAt": "2026-11-24T06:06:44.370Z",
           "hint": null,
           "options": [
             {
@@ -192,12 +192,12 @@
             }
           },
           "createdAt": "2026-09-28T07:22:43.552Z",
-          "updatedAt": "2026-09-28T07:22:43.552Z",
+          "updatedAt": "2026-11-24T06:06:44.370Z",
           "hint": {
             "title": "Угол наклона пандуса",
             "text": null,
             "linkLabel": "Как определить угол?",
-            "imagePath": "/user/survey/hint-image/entrance_ramp_slope?v=9d047613",
+            "imagePath": "/user/survey/hint-image/entrance_ramp_slope?v=497cc58c",
             "items": [
               {
                 "caption": "заеду сам",
@@ -272,7 +272,7 @@
           "sortOrder": 4,
           "visibleIf": null,
           "createdAt": "2026-06-17T14:06:14.165Z",
-          "updatedAt": "2026-06-17T14:06:14.165Z",
+          "updatedAt": "2026-11-24T06:06:44.370Z",
           "hint": null,
           "options": [
             {
@@ -571,7 +571,7 @@
           "sortOrder": 1,
           "visibleIf": null,
           "createdAt": "2026-06-17T14:06:14.165Z",
-          "updatedAt": "2026-06-17T14:06:14.165Z",
+          "updatedAt": "2026-11-24T06:06:44.370Z",
           "hint": null,
           "options": [
             {
@@ -634,7 +634,7 @@
             }
           },
           "createdAt": "2026-06-17T14:06:14.165Z",
-          "updatedAt": "2026-06-17T14:06:14.165Z",
+          "updatedAt": "2026-11-24T06:06:44.370Z",
           "hint": null,
           "options": [
             {
@@ -691,7 +691,7 @@
           "sortOrder": 3,
           "visibleIf": null,
           "createdAt": "2026-06-17T14:06:14.165Z",
-          "updatedAt": "2026-06-17T14:06:14.165Z",
+          "updatedAt": "2026-11-24T06:06:44.370Z",
           "hint": null,
           "options": [
             {
@@ -729,7 +729,7 @@
               "id": "f7548800-c42a-468b-82ed-b3f2d6e04328",
               "questionId": "26efc81e-3f2a-4827-abd3-02daf5429013",
               "key": "restricted",
-              "label": "Ограничен проезд",
+              "label": "Перемещение ограничено",
               "sortOrder": 3,
               "meta": {
                 "chip": "barrier",
@@ -737,7 +737,7 @@
               },
               "defaultVerdict": null,
               "createdAt": "2026-06-17T14:06:14.165Z",
-              "updatedAt": "2026-06-17T14:06:14.165Z",
+              "updatedAt": "2026-11-24T06:06:44.370Z",
               "visibleIf": null,
               "cardLabel": null
             },
@@ -745,7 +745,7 @@
               "id": "a37f190c-48b9-4c3b-bdbf-4400e4e2abab",
               "questionId": "26efc81e-3f2a-4827-abd3-02daf5429013",
               "key": "compact_lift",
-              "label": "Лифт для 1 коляски",
+              "label": "Лифт для одной коляски",
               "sortOrder": 4,
               "meta": {
                 "chip": "barrier",
@@ -753,11 +753,11 @@
               },
               "defaultVerdict": null,
               "createdAt": "2026-06-17T14:06:14.165Z",
-              "updatedAt": "2026-06-17T14:06:14.165Z",
+              "updatedAt": "2026-11-24T06:06:44.370Z",
               "visibleIf": {
-                "selected": {
-                  "option": "lift",
-                  "question": "movement_access"
+                "equals": {
+                  "value": "narrow",
+                  "question": "lift_width"
                 }
               },
               "cardLabel": null
@@ -941,21 +941,21 @@
           "sortOrder": 1,
           "visibleIf": null,
           "createdAt": "2026-06-17T14:06:14.165Z",
-          "updatedAt": "2026-06-17T14:06:14.165Z",
+          "updatedAt": "2026-11-24T06:06:44.370Z",
           "hint": null,
           "options": [
             {
               "id": "525781d2-2553-440a-a0e2-a70330c073b3",
               "questionId": "73ae16fb-4011-4780-b885-14df5c6ae84c",
               "key": "equipped",
-              "label": "Оборудованный для колясок",
+              "label": "Оборудованный",
               "sortOrder": 1,
               "meta": null,
               "defaultVerdict": null,
               "createdAt": "2026-06-17T14:06:14.165Z",
-              "updatedAt": "2026-06-17T14:06:14.165Z",
+              "updatedAt": "2026-11-24T06:06:44.370Z",
               "visibleIf": null,
-              "cardLabel": null
+              "cardLabel": "Оборудованный туалет"
             },
             {
               "id": "29bb0a1b-2530-4e03-9ea6-28b1dedcc892",
@@ -969,9 +969,9 @@
               },
               "defaultVerdict": null,
               "createdAt": "2026-06-17T14:06:14.165Z",
-              "updatedAt": "2026-06-17T14:06:14.165Z",
+              "updatedAt": "2026-11-24T06:06:44.370Z",
               "visibleIf": null,
-              "cardLabel": null
+              "cardLabel": "Обычный туалет"
             },
             {
               "id": "dbd31b1b-c323-488a-a6e1-0b297817461d",
@@ -1015,7 +1015,7 @@
             ]
           },
           "createdAt": "2026-06-17T14:06:14.165Z",
-          "updatedAt": "2026-06-17T14:06:14.165Z",
+          "updatedAt": "2026-11-24T06:06:44.370Z",
           "hint": null,
           "options": [
             {
@@ -1063,10 +1063,10 @@
           ]
         },
         {
-          "id": "1a137c88-4725-4288-b9c6-4690cf59fb04",
+          "id": "226e3e34-d3de-4d1d-865f-d69565e4ec46",
           "sectionId": "84a64f56-af3e-4bc7-a84b-ed0d3a9b6143",
-          "key": "toilet_equipped_barriers",
-          "title": "Барьеры оборудованного туалета",
+          "key": "toilet_elements",
+          "title": "Элементы доступности",
           "controlType": "multi",
           "required": false,
           "sortOrder": 3,
@@ -1076,23 +1076,43 @@
               "question": "toilet_availability"
             }
           },
-          "createdAt": "2026-06-17T14:06:14.165Z",
-          "updatedAt": "2026-06-17T14:06:14.165Z",
+          "createdAt": "2026-11-24T09:10:44.965Z",
+          "updatedAt": "2026-11-24T09:10:44.965Z",
           "hint": null,
           "options": [
             {
-              "id": "97eb3379-9a94-4bfa-b9f6-5e4abb159078",
-              "questionId": "1a137c88-4725-4288-b9c6-4690cf59fb04",
-              "key": "one_rail",
-              "label": "Один поручень",
+              "id": "ab2d63e0-456f-4725-9423-528c8334818d",
+              "questionId": "226e3e34-d3de-4d1d-865f-d69565e4ec46",
+              "key": "help_button",
+              "label": "Кнопка помощи",
               "sortOrder": 1,
               "meta": null,
               "defaultVerdict": null,
-              "createdAt": "2026-06-17T14:06:14.165Z",
-              "updatedAt": "2026-06-17T14:06:14.165Z",
+              "createdAt": "2026-11-24T09:10:44.965Z",
+              "updatedAt": "2026-11-24T09:10:44.965Z",
               "visibleIf": null,
               "cardLabel": null
-            },
+            }
+          ]
+        },
+        {
+          "id": "1a137c88-4725-4288-b9c6-4690cf59fb04",
+          "sectionId": "84a64f56-af3e-4bc7-a84b-ed0d3a9b6143",
+          "key": "toilet_equipped_barriers",
+          "title": "Барьеры оборудованного туалета",
+          "controlType": "multi",
+          "required": false,
+          "sortOrder": 4,
+          "visibleIf": {
+            "selected": {
+              "option": "equipped",
+              "question": "toilet_availability"
+            }
+          },
+          "createdAt": "2026-06-17T14:06:14.165Z",
+          "updatedAt": "2026-11-24T06:06:44.370Z",
+          "hint": null,
+          "options": [
             {
               "id": "c364fffb-e7b6-425e-b634-2ea2b022a99b",
               "questionId": "1a137c88-4725-4288-b9c6-4690cf59fb04",
@@ -1158,10 +1178,31 @@
               "cardLabel": null
             },
             {
+              "id": "14678690-8f9d-4082-b8f6-93bc77468c67",
+              "questionId": "1a137c88-4725-4288-b9c6-4690cf59fb04",
+              "key": "help_button_broken",
+              "label": "Кнопка помощи не работает",
+              "sortOrder": 6,
+              "meta": {
+                "chip": "barrier",
+                "tone": "limit"
+              },
+              "defaultVerdict": null,
+              "createdAt": "2026-11-24T09:10:44.965Z",
+              "updatedAt": "2026-11-24T09:10:44.965Z",
+              "visibleIf": {
+                "selected": {
+                  "option": "help_button",
+                  "question": "toilet_elements"
+                }
+              },
+              "cardLabel": null
+            },
+            {
               "id": "33b2c733-c90b-457d-b185-f100d7fc5992",
               "questionId": "1a137c88-4725-4288-b9c6-4690cf59fb04",
               "key": "hard_reach",
-              "label": "Тяжело добраться до туалета",
+              "label": "Туалет в труднодоступном месте",
               "sortOrder": 90,
               "meta": {
                 "chip": "barrier",
@@ -1169,7 +1210,7 @@
               },
               "defaultVerdict": null,
               "createdAt": "2026-06-24T08:45:22.123Z",
-              "updatedAt": "2026-06-24T08:45:22.123Z",
+              "updatedAt": "2026-11-24T06:06:44.370Z",
               "visibleIf": null,
               "cardLabel": null
             }
@@ -1182,7 +1223,7 @@
           "title": "Барьеры обычного туалета",
           "controlType": "multi",
           "required": false,
-          "sortOrder": 4,
+          "sortOrder": 5,
           "visibleIf": {
             "selected": {
               "option": "regular",
@@ -1190,7 +1231,7 @@
             }
           },
           "createdAt": "2026-06-17T14:06:14.165Z",
-          "updatedAt": "2026-06-17T14:06:14.165Z",
+          "updatedAt": "2026-11-24T06:06:44.370Z",
           "hint": null,
           "options": [
             {
@@ -1267,10 +1308,31 @@
       "title": "Парковка",
       "sortOrder": 4,
       "affectsStatus": false,
-      "photoRequired": false,
+      "photoRequired": true,
       "createdAt": "2026-06-17T14:06:14.165Z",
-      "updatedAt": "2026-06-17T14:06:14.165Z",
-      "photoRequiredIf": null,
+      "updatedAt": "2026-11-24T06:06:44.370Z",
+      "photoRequiredIf": {
+        "any": [
+          {
+            "selected": {
+              "option": "curb",
+              "question": "parking_barriers"
+            }
+          },
+          {
+            "selected": {
+              "option": "bad_surface",
+              "question": "parking_barriers"
+            }
+          },
+          {
+            "selected": {
+              "option": "far",
+              "question": "parking_barriers"
+            }
+          }
+        ]
+      },
       "photoMax": 7,
       "optionalIf": null,
       "questions": [
@@ -1279,12 +1341,12 @@
           "sectionId": "14190af2-7ddf-4971-a9f0-983c94c93796",
           "key": "parking_availability",
           "title": "Доступность парковки",
-          "controlType": "multi",
+          "controlType": "single",
           "required": false,
           "sortOrder": 1,
           "visibleIf": null,
           "createdAt": "2026-06-17T14:06:14.165Z",
-          "updatedAt": "2026-06-17T14:06:14.165Z",
+          "updatedAt": "2026-11-24T06:06:44.370Z",
           "hint": null,
           "options": [
             {
@@ -1312,22 +1374,9 @@
               },
               "defaultVerdict": null,
               "createdAt": "2026-06-17T14:06:14.165Z",
-              "updatedAt": "2026-06-17T14:06:14.165Z",
+              "updatedAt": "2026-11-24T06:06:44.370Z",
               "visibleIf": null,
-              "cardLabel": null
-            },
-            {
-              "id": "8e91b0f6-78f2-412c-94b6-650a15edf472",
-              "questionId": "95ce76f1-6154-466e-82d2-5d0fcda68642",
-              "key": "unorganized",
-              "label": "Неорганизованная",
-              "sortOrder": 3,
-              "meta": null,
-              "defaultVerdict": null,
-              "createdAt": "2026-06-17T14:06:14.165Z",
-              "updatedAt": "2026-06-17T14:06:14.165Z",
-              "visibleIf": null,
-              "cardLabel": null
+              "cardLabel": "Обычная парковка"
             },
             {
               "id": "36c615ac-0ba8-44be-993f-53e458b071ae",
@@ -1378,12 +1427,12 @@
               "id": "b0b19d43-411e-4f11-9b08-1776247003c2",
               "questionId": "f1bea052-cf0a-43d7-bd7a-3a8eaa039ddd",
               "key": "yard",
-              "label": "Во дворе",
+              "label": "На территории",
               "sortOrder": 1,
               "meta": null,
               "defaultVerdict": null,
               "createdAt": "2026-06-17T14:06:14.165Z",
-              "updatedAt": "2026-06-17T14:06:14.165Z",
+              "updatedAt": "2026-11-24T06:06:44.370Z",
               "visibleIf": null,
               "cardLabel": null
             },
@@ -1440,7 +1489,7 @@
             ]
           },
           "createdAt": "2026-06-17T14:06:14.165Z",
-          "updatedAt": "2026-06-17T14:06:14.165Z",
+          "updatedAt": "2026-11-24T06:06:44.370Z",
           "hint": null,
           "options": [
             {
@@ -1518,7 +1567,7 @@
           "sortOrder": 1,
           "visibleIf": null,
           "createdAt": "2026-06-17T14:06:14.165Z",
-          "updatedAt": "2026-06-17T14:06:14.165Z",
+          "updatedAt": "2026-11-24T06:06:44.370Z",
           "hint": null,
           "options": [
             {
@@ -1584,7 +1633,7 @@
               "id": "faeb121d-1265-40b0-90ee-e57d0e79f3b3",
               "questionId": "11782c1b-20b9-4824-8ef3-007cec6f6b69",
               "key": "video_sign_language",
-              "label": "Видеосурдоперевод",
+              "label": "Перевод на РЖЯ",
               "sortOrder": 5,
               "meta": {
                 "declaredLabels": [
@@ -1593,7 +1642,7 @@
               },
               "defaultVerdict": null,
               "createdAt": "2026-10-13T08:42:25.164Z",
-              "updatedAt": "2026-10-13T08:42:25.164Z",
+              "updatedAt": "2026-11-24T06:06:44.370Z",
               "visibleIf": null,
               "cardLabel": null
             }
