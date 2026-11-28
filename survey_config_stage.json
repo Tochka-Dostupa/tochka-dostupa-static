@@ -647,7 +647,7 @@
           "id": "d43cc7ae-6401-470e-949c-4fa6da488ef2",
           "sectionId": "572dbb5d-3a59-4216-a09f-2d4f1b767b68",
           "key": "lift_width",
-          "title": "Ширина двери лифта",
+          "title": "Ширина двер�� лифта",
           "controlType": "single",
           "required": true,
           "sortOrder": 2,

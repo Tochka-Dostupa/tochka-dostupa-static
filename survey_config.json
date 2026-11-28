@@ -23,6 +23,7 @@
       "photoRequiredIf": null,
       "photoMax": 7,
       "optionalIf": null,
+      "scope": "place",
       "questions": [
         {
           "id": "cb4680cf-fb9f-4760-9dd8-feba9483fd13",
@@ -51,7 +52,8 @@
               "createdAt": "2026-06-24T09:37:56.749Z",
               "updatedAt": "2026-07-22T11:10:10.525Z",
               "visibleIf": null,
-              "cardLabel": null
+              "cardLabel": null,
+              "atlasKind": null
             },
             {
               "id": "a241e6e4-c072-429d-bb18-29ea1cad1829",
@@ -64,7 +66,8 @@
               "createdAt": "2026-06-24T09:37:56.749Z",
               "updatedAt": "2026-07-22T11:10:10.532Z",
               "visibleIf": null,
-              "cardLabel": null
+              "cardLabel": null,
+              "atlasKind": null
             },
             {
               "id": "278531f2-9d20-4790-911c-3fd95875cd6c",
@@ -77,7 +80,8 @@
               "createdAt": "2026-06-24T09:37:56.749Z",
               "updatedAt": "2026-07-22T11:10:10.537Z",
               "visibleIf": null,
-              "cardLabel": null
+              "cardLabel": null,
+              "atlasKind": null
             }
           ]
         },
@@ -105,7 +109,8 @@
               "createdAt": "2026-06-24T09:37:56.749Z",
               "updatedAt": "2026-06-24T09:37:56.749Z",
               "visibleIf": null,
-              "cardLabel": null
+              "cardLabel": null,
+              "atlasKind": null
             },
             {
               "id": "f18c0c38-0a03-437e-b195-152ce03a947f",
@@ -122,7 +127,8 @@
               "createdAt": "2026-06-24T09:37:56.749Z",
               "updatedAt": "2026-10-13T09:06:06.581Z",
               "visibleIf": null,
-              "cardLabel": null
+              "cardLabel": null,
+              "atlasKind": null
             },
             {
               "id": "a7034902-849c-42d6-b087-01ba49b12d0d",
@@ -139,7 +145,8 @@
               "createdAt": "2026-06-24T09:37:56.749Z",
               "updatedAt": "2026-10-13T09:06:06.581Z",
               "visibleIf": null,
-              "cardLabel": null
+              "cardLabel": null,
+              "atlasKind": null
             },
             {
               "id": "5c4527c4-aa18-4f7a-b5a6-2a6eb4e753a5",
@@ -156,7 +163,8 @@
               "createdAt": "2026-06-24T09:37:56.749Z",
               "updatedAt": "2026-10-13T17:59:20.240Z",
               "visibleIf": null,
-              "cardLabel": null
+              "cardLabel": null,
+              "atlasKind": null
             },
             {
               "id": "9326de01-68ea-4ab6-a13b-e325db401019",
@@ -173,7 +181,8 @@
               "createdAt": "2026-10-13T09:06:06.581Z",
               "updatedAt": "2026-10-13T09:06:06.581Z",
               "visibleIf": null,
-              "cardLabel": null
+              "cardLabel": null,
+              "atlasKind": null
             }
           ]
         },
@@ -227,7 +236,8 @@
               "createdAt": "2026-09-28T07:53:22.857Z",
               "updatedAt": "2026-09-28T07:53:22.857Z",
               "visibleIf": null,
-              "cardLabel": "Низкий угол пандуса, до 5°"
+              "cardLabel": "Низкий угол пандуса, до 5°",
+              "atlasKind": null
             },
             {
               "id": "44d03b87-b2cd-4a54-b967-9a9f734e8f0d",
@@ -243,7 +253,8 @@
               "createdAt": "2026-09-28T07:53:22.857Z",
               "updatedAt": "2026-09-28T07:53:22.857Z",
               "visibleIf": null,
-              "cardLabel": "Средний угол пандуса, 5–15°"
+              "cardLabel": "Средний угол пандуса, 5–15°",
+              "atlasKind": null
             },
             {
               "id": "08298e8c-55f0-4706-b633-a03298086e7f",
@@ -258,7 +269,8 @@
               "createdAt": "2026-09-28T07:53:22.857Z",
               "updatedAt": "2026-09-28T07:53:22.857Z",
               "visibleIf": null,
-              "cardLabel": "Высокий угол пандуса, больше 15°"
+              "cardLabel": "Высокий угол пандуса, больше 15°",
+              "atlasKind": null
             }
           ]
         },
@@ -291,7 +303,8 @@
               "createdAt": "2026-06-24T09:37:56.749Z",
               "updatedAt": "2026-10-13T09:06:06.581Z",
               "visibleIf": null,
-              "cardLabel": null
+              "cardLabel": null,
+              "atlasKind": null
             },
             {
               "id": "2e956f48-2273-4afe-9800-76ad115c7a58",
@@ -307,7 +320,8 @@
               "createdAt": "2026-06-24T09:37:56.749Z",
               "updatedAt": "2026-06-24T09:37:56.749Z",
               "visibleIf": null,
-              "cardLabel": null
+              "cardLabel": null,
+              "atlasKind": null
             },
             {
               "id": "c1a183b2-44b5-479b-8ec9-3490a9d6a8bd",
@@ -323,7 +337,8 @@
               "createdAt": "2026-06-24T09:37:56.749Z",
               "updatedAt": "2026-10-13T17:59:20.240Z",
               "visibleIf": null,
-              "cardLabel": null
+              "cardLabel": null,
+              "atlasKind": null
             },
             {
               "id": "d0a2e102-fb86-4f6b-9d30-48c439266fc8",
@@ -347,7 +362,8 @@
                   "question": "entrance_elements"
                 }
               },
-              "cardLabel": null
+              "cardLabel": null,
+              "atlasKind": null
             },
             {
               "id": "dfbbaed8-0e5c-4d7e-a45b-2f16925761df",
@@ -402,7 +418,8 @@
                   }
                 ]
               },
-              "cardLabel": null
+              "cardLabel": null,
+              "atlasKind": null
             },
             {
               "id": "b35f6fd3-4ac7-4b6a-b296-2c888f0e15da",
@@ -433,7 +450,8 @@
                   }
                 ]
               },
-              "cardLabel": null
+              "cardLabel": null,
+              "atlasKind": null
             },
             {
               "id": "dbb71b51-af10-47fe-b0cf-0f91d7020bcb",
@@ -464,7 +482,8 @@
                   }
                 ]
               },
-              "cardLabel": null
+              "cardLabel": null,
+              "atlasKind": null
             },
             {
               "id": "0c6c560d-8f6b-4f89-8302-648ba4656af7",
@@ -487,7 +506,8 @@
                   "question": "entrance_elements"
                 }
               },
-              "cardLabel": null
+              "cardLabel": null,
+              "atlasKind": null
             }
           ]
         }
@@ -560,6 +580,7 @@
           }
         ]
       },
+      "scope": "place",
       "questions": [
         {
           "id": "13cc1ed5-9f23-42ba-aea8-37f63641e20c",
@@ -589,7 +610,8 @@
               "createdAt": "2026-06-24T09:37:56.749Z",
               "updatedAt": "2026-10-13T09:06:06.581Z",
               "visibleIf": null,
-              "cardLabel": null
+              "cardLabel": null,
+              "atlasKind": null
             },
             {
               "id": "510ec2ca-4b10-4aaf-b6e9-7e4e0f0c7a12",
@@ -602,7 +624,8 @@
               "createdAt": "2026-06-24T09:37:56.749Z",
               "updatedAt": "2026-10-13T17:59:20.240Z",
               "visibleIf": null,
-              "cardLabel": null
+              "cardLabel": null,
+              "atlasKind": null
             },
             {
               "id": "ca105d90-4626-4e8a-98a4-166ff93bee81",
@@ -615,7 +638,8 @@
               "createdAt": "2026-06-24T09:37:56.749Z",
               "updatedAt": "2026-06-24T09:37:56.749Z",
               "visibleIf": null,
-              "cardLabel": null
+              "cardLabel": null,
+              "atlasKind": null
             }
           ]
         },
@@ -651,7 +675,8 @@
               "createdAt": "2026-06-24T09:37:56.749Z",
               "updatedAt": "2026-07-22T11:10:10.546Z",
               "visibleIf": null,
-              "cardLabel": "Узкая дверь лифта до 70 см"
+              "cardLabel": "Узкая дверь лифта до 70 см",
+              "atlasKind": null
             },
             {
               "id": "c7abcb78-7a20-4751-80cb-8bca9712f175",
@@ -664,7 +689,8 @@
               "createdAt": "2026-06-24T09:37:56.749Z",
               "updatedAt": "2026-07-22T11:10:10.551Z",
               "visibleIf": null,
-              "cardLabel": "Стандартная дверь лифта 70–90 см"
+              "cardLabel": "Стандартная дверь лифта 70–90 см",
+              "atlasKind": null
             },
             {
               "id": "01e88bf6-a460-4959-a8f5-ad2a4493b540",
@@ -677,7 +703,8 @@
               "createdAt": "2026-06-24T09:37:56.749Z",
               "updatedAt": "2026-07-22T11:10:10.555Z",
               "visibleIf": null,
-              "cardLabel": "Широкая дверь лифта 90+ см"
+              "cardLabel": "Широкая дверь лифта 90+ см",
+              "atlasKind": null
             }
           ]
         },
@@ -707,7 +734,8 @@
               "createdAt": "2026-06-24T09:37:56.749Z",
               "updatedAt": "2026-06-24T09:37:56.749Z",
               "visibleIf": null,
-              "cardLabel": null
+              "cardLabel": null,
+              "atlasKind": null
             },
             {
               "id": "eff39739-294a-40e2-830c-0b4cf31c4e49",
@@ -723,7 +751,8 @@
               "createdAt": "2026-06-24T09:37:56.749Z",
               "updatedAt": "2026-06-24T09:37:56.749Z",
               "visibleIf": null,
-              "cardLabel": null
+              "cardLabel": null,
+              "atlasKind": null
             },
             {
               "id": "3f55a392-463d-49e6-abae-a033cd49de94",
@@ -739,7 +768,8 @@
               "createdAt": "2026-06-24T09:37:56.749Z",
               "updatedAt": "2026-06-24T09:37:56.749Z",
               "visibleIf": null,
-              "cardLabel": null
+              "cardLabel": null,
+              "atlasKind": null
             },
             {
               "id": "819c8e25-e2db-41bb-b181-a4e7569fa19f",
@@ -760,7 +790,8 @@
                   "question": "lift_width"
                 }
               },
-              "cardLabel": null
+              "cardLabel": null,
+              "atlasKind": null
             }
           ]
         }
@@ -930,6 +961,7 @@
           }
         ]
       },
+      "scope": "place",
       "questions": [
         {
           "id": "08d4ff8a-a633-4ad8-892b-aeae0241d1ee",
@@ -955,7 +987,8 @@
               "createdAt": "2026-06-24T09:37:56.749Z",
               "updatedAt": "2026-06-24T09:37:56.749Z",
               "visibleIf": null,
-              "cardLabel": "Оборудованный туалет"
+              "cardLabel": "Оборудованный туалет",
+              "atlasKind": null
             },
             {
               "id": "ea2e30fa-c9e0-4d0e-be84-359ee1f90f58",
@@ -971,7 +1004,8 @@
               "createdAt": "2026-06-24T09:37:56.749Z",
               "updatedAt": "2026-06-24T09:37:56.749Z",
               "visibleIf": null,
-              "cardLabel": "Обычный туалет"
+              "cardLabel": "Обычный туалет",
+              "atlasKind": null
             },
             {
               "id": "0ea67d13-b658-4a47-bcff-ad417830eba5",
@@ -986,7 +1020,8 @@
               "createdAt": "2026-06-24T09:37:56.749Z",
               "updatedAt": "2026-06-24T09:37:56.749Z",
               "visibleIf": null,
-              "cardLabel": null
+              "cardLabel": null,
+              "atlasKind": null
             }
           ]
         },
@@ -1032,7 +1067,8 @@
               "createdAt": "2026-06-24T09:37:56.749Z",
               "updatedAt": "2026-07-22T11:10:10.558Z",
               "visibleIf": null,
-              "cardLabel": null
+              "cardLabel": null,
+              "atlasKind": null
             },
             {
               "id": "5c0a3df4-cb88-4be2-bece-8318ebd99d84",
@@ -1045,7 +1081,8 @@
               "createdAt": "2026-06-24T09:37:56.749Z",
               "updatedAt": "2026-07-22T11:10:10.562Z",
               "visibleIf": null,
-              "cardLabel": null
+              "cardLabel": null,
+              "atlasKind": null
             },
             {
               "id": "d102717c-cf66-4845-9ac7-c774e88e1902",
@@ -1058,7 +1095,8 @@
               "createdAt": "2026-06-24T09:37:56.749Z",
               "updatedAt": "2026-07-22T11:10:10.567Z",
               "visibleIf": null,
-              "cardLabel": null
+              "cardLabel": null,
+              "atlasKind": null
             }
           ]
         },
@@ -1091,7 +1129,8 @@
               "createdAt": "2026-11-24T09:10:17.395Z",
               "updatedAt": "2026-11-24T09:10:17.395Z",
               "visibleIf": null,
-              "cardLabel": null
+              "cardLabel": null,
+              "atlasKind": null
             }
           ]
         },
@@ -1127,7 +1166,8 @@
               "createdAt": "2026-06-24T09:37:56.749Z",
               "updatedAt": "2026-06-24T09:37:56.749Z",
               "visibleIf": null,
-              "cardLabel": null
+              "cardLabel": null,
+              "atlasKind": null
             },
             {
               "id": "61ad58c4-9b58-4305-a2fd-ff403dc1a423",
@@ -1143,7 +1183,8 @@
               "createdAt": "2026-11-14T06:35:38.114Z",
               "updatedAt": "2026-11-14T06:35:38.114Z",
               "visibleIf": null,
-              "cardLabel": null
+              "cardLabel": null,
+              "atlasKind": null
             },
             {
               "id": "7998d0f5-1d6c-4e81-ba80-48d0968d9f36",
@@ -1159,7 +1200,8 @@
               "createdAt": "2026-11-14T06:35:38.114Z",
               "updatedAt": "2026-11-14T06:35:38.114Z",
               "visibleIf": null,
-              "cardLabel": null
+              "cardLabel": null,
+              "atlasKind": null
             },
             {
               "id": "63fe5378-21da-4f29-aa7b-4addd8b0ae4f",
@@ -1175,7 +1217,8 @@
               "createdAt": "2026-11-14T06:35:38.114Z",
               "updatedAt": "2026-11-14T06:35:38.114Z",
               "visibleIf": null,
-              "cardLabel": null
+              "cardLabel": null,
+              "atlasKind": null
             },
             {
               "id": "1bc15325-9e9f-4e8e-995f-9b600e0248db",
@@ -1196,7 +1239,8 @@
                   "question": "toilet_elements"
                 }
               },
-              "cardLabel": null
+              "cardLabel": null,
+              "atlasKind": null
             },
             {
               "id": "9eda0f17-1547-4cf5-8c5a-5488c435aa02",
@@ -1212,7 +1256,8 @@
               "createdAt": "2026-06-24T09:37:56.749Z",
               "updatedAt": "2026-06-24T09:37:56.749Z",
               "visibleIf": null,
-              "cardLabel": null
+              "cardLabel": null,
+              "atlasKind": null
             }
           ]
         },
@@ -1248,7 +1293,8 @@
               "createdAt": "2026-06-24T09:37:56.749Z",
               "updatedAt": "2026-06-24T09:37:56.749Z",
               "visibleIf": null,
-              "cardLabel": null
+              "cardLabel": null,
+              "atlasKind": null
             },
             {
               "id": "cbdb3b3b-6443-4534-9463-1e142f4055a3",
@@ -1264,7 +1310,8 @@
               "createdAt": "2026-06-24T09:37:56.749Z",
               "updatedAt": "2026-06-24T09:37:56.749Z",
               "visibleIf": null,
-              "cardLabel": null
+              "cardLabel": null,
+              "atlasKind": null
             },
             {
               "id": "e4394be5-d4d6-455d-914b-27af7b62816a",
@@ -1280,7 +1327,8 @@
               "createdAt": "2026-11-14T06:35:38.114Z",
               "updatedAt": "2026-11-14T06:35:38.114Z",
               "visibleIf": null,
-              "cardLabel": null
+              "cardLabel": null,
+              "atlasKind": null
             },
             {
               "id": "218ee35a-1095-4982-9f95-7b67a67c0d2b",
@@ -1296,7 +1344,8 @@
               "createdAt": "2026-06-24T09:37:56.749Z",
               "updatedAt": "2026-06-24T09:37:56.749Z",
               "visibleIf": null,
-              "cardLabel": null
+              "cardLabel": null,
+              "atlasKind": null
             }
           ]
         }
@@ -1335,6 +1384,7 @@
       },
       "photoMax": 7,
       "optionalIf": null,
+      "scope": "place",
       "questions": [
         {
           "id": "91b92804-99ee-405e-94fb-9515ef51a5dd",
@@ -1360,7 +1410,8 @@
               "createdAt": "2026-06-24T09:37:56.749Z",
               "updatedAt": "2026-06-24T09:37:56.749Z",
               "visibleIf": null,
-              "cardLabel": null
+              "cardLabel": null,
+              "atlasKind": null
             },
             {
               "id": "7edc86be-4936-422a-b495-b797271d6df9",
@@ -1376,7 +1427,8 @@
               "createdAt": "2026-06-24T09:37:56.749Z",
               "updatedAt": "2026-06-24T09:37:56.749Z",
               "visibleIf": null,
-              "cardLabel": "Обычная парковка"
+              "cardLabel": "Обычная парковка",
+              "atlasKind": null
             },
             {
               "id": "dddb20e0-46bc-41ba-aeaa-25f07a6fb5be",
@@ -1391,7 +1443,8 @@
               "createdAt": "2026-06-24T09:37:56.749Z",
               "updatedAt": "2026-06-24T09:37:56.749Z",
               "visibleIf": null,
-              "cardLabel": null
+              "cardLabel": null,
+              "atlasKind": null
             }
           ]
         },
@@ -1434,7 +1487,8 @@
               "createdAt": "2026-06-24T09:37:56.749Z",
               "updatedAt": "2026-06-24T09:37:56.749Z",
               "visibleIf": null,
-              "cardLabel": null
+              "cardLabel": null,
+              "atlasKind": null
             },
             {
               "id": "1128baff-5a37-43a0-9ec5-9ff061c710f7",
@@ -1447,7 +1501,8 @@
               "createdAt": "2026-06-24T09:37:56.749Z",
               "updatedAt": "2026-06-24T09:37:56.749Z",
               "visibleIf": null,
-              "cardLabel": null
+              "cardLabel": null,
+              "atlasKind": null
             },
             {
               "id": "6b7ba00f-8297-4e2e-84ef-44fed08fe393",
@@ -1460,7 +1515,8 @@
               "createdAt": "2026-06-24T09:37:56.749Z",
               "updatedAt": "2026-06-24T09:37:56.749Z",
               "visibleIf": null,
-              "cardLabel": null
+              "cardLabel": null,
+              "atlasKind": null
             }
           ]
         },
@@ -1506,7 +1562,8 @@
               "createdAt": "2026-06-24T09:37:56.749Z",
               "updatedAt": "2026-06-24T09:37:56.749Z",
               "visibleIf": null,
-              "cardLabel": null
+              "cardLabel": null,
+              "atlasKind": null
             },
             {
               "id": "1f936e8a-bdad-4396-aefb-3e5b7732f070",
@@ -1522,7 +1579,8 @@
               "createdAt": "2026-06-24T09:37:56.749Z",
               "updatedAt": "2026-06-24T09:37:56.749Z",
               "visibleIf": null,
-              "cardLabel": null
+              "cardLabel": null,
+              "atlasKind": null
             },
             {
               "id": "7ba25c43-1ba0-4795-9aa5-0aadcc8075d3",
@@ -1538,7 +1596,8 @@
               "createdAt": "2026-06-24T09:37:56.749Z",
               "updatedAt": "2026-06-24T09:37:56.749Z",
               "visibleIf": null,
-              "cardLabel": null
+              "cardLabel": null,
+              "atlasKind": null
             }
           ]
         }
@@ -1556,6 +1615,7 @@
       "photoRequiredIf": null,
       "photoMax": 7,
       "optionalIf": null,
+      "scope": "place",
       "questions": [
         {
           "id": "bf80d527-93fc-4cc3-8552-cd3eef36ebcb",
@@ -1581,7 +1641,8 @@
               "createdAt": "2026-06-24T09:37:56.749Z",
               "updatedAt": "2026-06-24T09:37:56.749Z",
               "visibleIf": null,
-              "cardLabel": null
+              "cardLabel": null,
+              "atlasKind": null
             },
             {
               "id": "57535474-3a4e-4d6b-8fb7-1504977ad7fc",
@@ -1597,7 +1658,8 @@
               "createdAt": "2026-06-24T09:37:56.749Z",
               "updatedAt": "2026-06-24T09:37:56.749Z",
               "visibleIf": null,
-              "cardLabel": null
+              "cardLabel": null,
+              "atlasKind": null
             },
             {
               "id": "64a17117-b0d5-43e2-bcd9-c748c8e023b9",
@@ -1610,7 +1672,8 @@
               "createdAt": "2026-11-04T09:14:57.276Z",
               "updatedAt": "2026-11-04T09:14:57.276Z",
               "visibleIf": null,
-              "cardLabel": null
+              "cardLabel": null,
+              "atlasKind": null
             },
             {
               "id": "576d5283-2b96-439b-9ddc-3f7cc57e0b28",
@@ -1627,7 +1690,8 @@
               "createdAt": "2026-10-13T09:06:06.581Z",
               "updatedAt": "2026-10-13T09:06:06.581Z",
               "visibleIf": null,
-              "cardLabel": null
+              "cardLabel": null,
+              "atlasKind": null
             },
             {
               "id": "426d5175-f6cf-4c7b-b80f-01bc73b6d8fd",
@@ -1644,7 +1708,8 @@
               "createdAt": "2026-10-13T09:06:06.581Z",
               "updatedAt": "2026-10-13T09:06:06.581Z",
               "visibleIf": null,
-              "cardLabel": null
+              "cardLabel": null,
+              "atlasKind": null
             }
           ]
         }
